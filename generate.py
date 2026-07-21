@@ -27,6 +27,8 @@ LOGOS = [
 
 # hero product screenshot + featured tooling pieces
 HERO_PRODUCT = "emory-healthcare-email-calendar-tool"
+# Detail pages whose creative breaks out wide (big app screenshots only)
+WIDE_CREATIVES = {"emory-healthcare-email-calendar-tool"}
 FEATURED = ["emory-healthcare-email-kpi-dashboard", "sfmc-query-studio-dedupe-sql", "patient-reengagement-journey-map"]
 N_PIECES = len(items)
 N_BRANDS = len({it["brand"] for it in items if it["brand"]})
@@ -231,6 +233,9 @@ for idx, it in enumerate(items):
               if next_it else '<span></span>')
     pager += '</div>'
 
+    # Only the big SFMC calendar app screenshot breaks out wide; everything else stays normal.
+    wide_cls = " creatives--wide" if it["slug"] in WIDE_CREATIVES else ""
+
     page = head(f'{esc(it["title"])} · David Z.', esc(meta_desc), "index.html",
                 f'<meta property="og:image" content="{it["images"][0]}" />')
     page += f'''  <article class="detail">
@@ -240,7 +245,7 @@ for idx, it in enumerate(items):
         {tag}
         <h1 class="detail-title">{esc(it["title"])}</h1>
       </header>
-{body_block}      <div class="creatives">
+{body_block}      <div class="creatives{wide_cls}">
 {imgs}
       </div>
       {pager}

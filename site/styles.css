@@ -215,9 +215,9 @@ img { max-width: 100%; display: block; }
 .creatives { display: flex; flex-direction: column; gap: 24px; align-items: center; }
 .creative { width: 100%; }
 .creative img { width: 100%; height: auto; border-radius: var(--r-sm); border: 1px solid var(--border); background: #fff; }
-/* Let screenshot creatives break out of the narrow text column so small print is legible. */
-.detail .creatives { width: min(96vw, 2400px); margin-inline: calc(50% - min(48vw, 1200px)); }
-.detail .creative img { width: auto; max-width: 100%; }
+/* Wide opt-in: let a big app screenshot (e.g. the SFMC calendar) break out of the
+   narrow text column so its small print stays legible. Default creatives stay normal. */
+.creatives--wide { width: min(94vw, 1500px); margin-left: 50%; transform: translateX(-50%); }
 .pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 54px; padding-top: 26px; border-top: 1px solid var(--border); }
 .pager-link { font-weight: 600; font-size: .95rem; color: var(--text); max-width: 46%; display: inline-flex; align-items: center; gap: 8px; transition: color .15s; }
 .pager-link:hover { color: var(--primary); }
