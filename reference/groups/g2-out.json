@@ -1,0 +1,107 @@
+[
+  {
+    "old_slug": "nbc",
+    "brand": "DirecTV",
+    "title": "DirecTV Bluff City Law Premiere (NBC)",
+    "new_slug": "directv-bluff-city-law-nbc",
+    "desc": "DirecTV email promoting the premiere of NBC's legal drama Bluff City Law starring Jimmy Smits and Caitlin McGee, airing Mondays."
+  },
+  {
+    "old_slug": "servicemessage2",
+    "brand": "AT&T",
+    "title": "AT&T TV Apps Retiring Account Update",
+    "new_slug": "att-tv-apps-retiring-notice",
+    "desc": "AT&T U-verse account update notifying customers that some TV apps are being retired and pointing them to att.com/tvapp."
+  },
+  {
+    "old_slug": "ncaa",
+    "brand": "DirecTV",
+    "title": "DirecTV NCAA March Madness Coverage",
+    "new_slug": "directv-march-madness-coverage",
+    "desc": "DirecTV email promoting live NCAA March Madness tournament coverage across TBS, CBS, TNT and truTV, with AT&T as a proud partner."
+  },
+  {
+    "old_slug": "directvufc",
+    "brand": "DirecTV",
+    "title": "DirecTV UFC 232 Jones vs Gustafsson Pay-Per-View",
+    "new_slug": "directv-ufc-232-jones-gustafsson-ppv",
+    "desc": "DirecTV pay-per-view order email for UFC 232 (Jones vs. Gustafsson 2, Cyborg vs. Nunes) plus new movie releases."
+  },
+  {
+    "old_slug": "copy-of-502489",
+    "brand": "DirecTV",
+    "title": "DirecTV Win-Back Select Package Offer",
+    "new_slug": "directv-winback-select-package",
+    "desc": "DirecTV win-back email offering a $39.99/mo Select package, AT&T Visa reward card and free premium channels to returning customers."
+  },
+  {
+    "old_slug": "toyota-ngb-figure-skating",
+    "brand": "Toyota",
+    "title": "Toyota U.S. Figure Skating Partnership (Alysa Liu)",
+    "new_slug": "toyota-us-figure-skating-alysa-liu",
+    "desc": "Toyota email spotlighting its U.S. Figure Skating partnership and Team USA athlete Alysa Liu, tied to Olympic sponsorship and Toyotathon."
+  },
+  {
+    "old_slug": "amex-shopsmall2",
+    "brand": "American Express",
+    "title": "Amex Shop Small Accelerator Social Media Tips",
+    "new_slug": "amex-shop-small-social-accelerator",
+    "desc": "American Express merchant email promoting the Shop Small Accelerator with social media strategy tips and free marketing materials."
+  },
+  {
+    "old_slug": "cbssports",
+    "brand": "AT&T",
+    "title": "AT&T U-verse CBS Channels Restored Notice",
+    "new_slug": "att-uverse-cbs-restored-notice",
+    "desc": "AT&T U-verse service message letting customers know CBS, CBS Sports and Smithsonian channels are back after a carriage agreement."
+  },
+  {
+    "old_slug": "atthbomax",
+    "brand": "AT&T",
+    "title": "AT&T Internet HBO Max Included Activation",
+    "new_slug": "att-internet-hbo-max-included",
+    "desc": "AT&T Internet 1000 email announcing HBO Max is now included, with step-by-step activation instructions for the benefit."
+  },
+  {
+    "old_slug": "findaclass",
+    "brand": "Glo",
+    "title": "Glo Find a Class Help & Recommendations",
+    "new_slug": "glo-find-a-class-help",
+    "desc": "Glo (YogaGlo) email offering personalized class suggestions from certified instructors plus a set of recommended yoga classes."
+  },
+  {
+    "old_slug": "copy-of-190pnc",
+    "brand": "PNC",
+    "title": "PNC Capital Advisors Q1 2021 Fixed Income Insights",
+    "new_slug": "pnc-capital-advisors-q1-2021-fixed-income",
+    "desc": "PNC Capital Advisors institutional email sharing first quarter 2021 fixed income market perspectives and thought-leadership articles."
+  },
+  {
+    "old_slug": "gloinstructors",
+    "brand": "Glo",
+    "title": "Glo Meet Our Instructors",
+    "new_slug": "glo-meet-our-instructors",
+    "desc": "Glo (YogaGlo) email introducing featured teachers including Elena Brower, Jason Crandell and Noah Levine."
+  },
+  {
+    "old_slug": "sundayticket",
+    "brand": "DirecTV",
+    "title": "DirecTV NFL Sunday Ticket Big Game Lounge Invite",
+    "new_slug": "directv-nfl-sunday-ticket-lounge-invite",
+    "desc": "DirecTV email inviting NFL Sunday Ticket subscribers to an exclusive Big Game weekend lounge event in Atlanta."
+  },
+  {
+    "old_slug": "gameofthrones",
+    "brand": "DirecTV",
+    "title": "DirecTV HBO & Cinemax Free Preview Weekend",
+    "new_slug": "directv-hbo-cinemax-free-preview",
+    "desc": "DirecTV email promoting a free HBO and Cinemax preview weekend featuring Game of Thrones marathons and blockbuster movies."
+  },
+  {
+    "old_slug": "toyota-mirai",
+    "brand": "Toyota",
+    "title": "Toyota 2018 Mirai Fuel Cell Vehicle",
+    "new_slug": "toyota-2018-mirai-fuel-cell",
+    "desc": "Toyota email showcasing the 2018 Mirai hydrogen fuel cell vehicle, its technology, complimentary fuel offer and new fueling stations."
+  }
+]

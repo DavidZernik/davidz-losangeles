@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emory Healthcare - Custom-Built SFMC Calendar · David Z.</title>
+  <meta name="description" content="Built with: Salesforce Marketing Cloud, custom Cloud Pages, SSJS, AMPscript, SQL (Query Activities), and the SFMC REST and SOAP APIs." />
+  <meta property="og:title" content="Emory Healthcare - Custom-Built SFMC Calendar · David Z." />
+  <meta property="og:description" content="Built with: Salesforce Marketing Cloud, custom Cloud Pages, SSJS, AMPscript, SQL (Query Activities), and the SFMC REST and SOAP APIs." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/work/emory-healthcare-email-calendar-tool/0.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">David Z.</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#brands">Brands</a>
+      <a class="nav-cta" href="mailto:david@blueinboxllc.com">Contact&nbsp;<span class="arw">&rarr;</span></a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <article class="detail">
+    <div class="wrap wrap-narrow">
+      <a class="back-link" href="index.html#work"><span class="arw">&larr;</span>&nbsp;All work</a>
+      <header class="detail-head">
+        <span class="detail-tag">Emory Healthcare</span>
+        <h1 class="detail-title">Emory Healthcare - Custom-Built SFMC Calendar</h1>
+      </header>
+      <div class="detail-body">
+        <p class="built-with">Built with: Salesforce Marketing Cloud, custom Cloud Pages, SSJS, AMPscript, SQL (Query Activities), and the SFMC REST and SOAP APIs.</p>
+        <p>I built an internal calendar app that gives the marketing team a single view of every email and journey going out across the health system. Before this, there was no easy way to see what was scheduled, what overlapped, or which patients were getting hit by multiple campaigns at once. Now it all lives on one screen.</p>
+        <p>It runs entirely inside Salesforce Marketing Cloud as a custom Cloud Page. I designed the whole data pipeline: nightly automations pull journey and campaign data into cached data extensions, and a one click Sync refreshes it on demand. A separate admin page lets the team control how everything displays (service lines, color coding, categories, manual campaigns, exclusions) without touching any code.</p>
+        <p>The most interesting part was the overlap and saturation logic: figuring out, across thousands of sends, which patients were receiving too many messages in a given window, and surfacing that clearly on the calendar. I also wired in campaign metrics, so the team can click any day and see how a campaign actually performed on opens, clicks, and sends.</p>
+      </div>
+      <div class="creatives">
+        <figure class="creative"><img loading="lazy" src="assets/work/emory-healthcare-email-calendar-tool/0.png" alt="Emory Healthcare - Custom-Built SFMC Calendar 1" /></figure>
+      </div>
+      <div class="pager"><a class="pager-link prev" href="att-firstnet-first-responder-credit.html"><span class="arw">&larr;</span>&nbsp;AT&amp;T FirstNet First Responder Email</a><a class="pager-link next" href="toyota-us-figure-skating-alysa-liu.html">Toyota U.S. Figure Skating Partnership (Alysa Liu)&nbsp;<span class="arw">&rarr;</span></a></div>
+    </div>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <p class="footer-lead">Let's build something that <em>sends</em>.</p>
+      <div>
+        <a class="footer-mail" href="mailto:david@blueinboxllc.com">david@blueinboxllc.com&nbsp;<span class="arw">&rarr;</span></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 David Z. &middot; Los Angeles</span>
+      <span>Salesforce Marketing Cloud &middot; Email &middot; MarTech</span>
+    </div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var h = document.getElementById('top');
+    var onScroll = function () { h.classList.toggle('scrolled', window.scrollY > 10); };
+    onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+  })();
+</script>
+</body>
+</html>

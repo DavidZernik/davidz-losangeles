@@ -1,0 +1,107 @@
+[
+  {
+    "old_slug": "attservicemessage1",
+    "brand": "AT&T",
+    "title": "AT&T DirecTV Billing Credit Notice",
+    "new_slug": "att-directv-billing-credit",
+    "desc": "AT&T service email notifying a DirecTV customer of a one-time credit for a DVR service double-charge."
+  },
+  {
+    "old_slug": "copy-of-firstrespond",
+    "brand": "DirecTV",
+    "title": "DirecTV HBO & Cinemax Game of Thrones Upgrade",
+    "new_slug": "directv-hbo-cinemax-got-upgrade",
+    "desc": "DirecTV upsell email to add HBO and Cinemax for $15.99 ahead of the final Game of Thrones season."
+  },
+  {
+    "old_slug": "glowebsite",
+    "brand": "Glo",
+    "title": "Glo App Login Page",
+    "new_slug": "glo-yoga-app-login",
+    "desc": "Login landing page for the Glo yoga and fitness app promoting a new class notes feature."
+  },
+  {
+    "old_slug": "codingschoolemail",
+    "brand": "Code Lab",
+    "title": "Code Lab Coding Lessons Reminder",
+    "new_slug": "code-lab-lessons-reminder",
+    "desc": "Code Lab email reminding a student of upcoming coding lessons to complete before earning certification."
+  },
+  {
+    "old_slug": "ozempic1",
+    "brand": "Novo Nordisk",
+    "title": "Ozempic Cardiovascular Outcomes HCP Email",
+    "new_slug": "ozempic-cvot-hcp",
+    "desc": "Novo Nordisk healthcare-provider email presenting Ozempic CVOT data for patients with T2D and established CVD."
+  },
+  {
+    "old_slug": "brilliantearth",
+    "brand": "Brilliant Earth",
+    "title": "Brilliant Earth Cart Abandonment Email",
+    "new_slug": "brilliant-earth-cart-abandon",
+    "desc": "Brilliant Earth abandoned-cart email showing a saved diamond ring with product recommendations and a free-gift offer."
+  },
+  {
+    "old_slug": "copy-of-195pnc",
+    "brand": "Aimmune Therapeutics",
+    "title": "Palforzia Peanut Allergy HCP Email",
+    "new_slug": "palforzia-peanut-allergy-hcp",
+    "desc": "Aimmune Therapeutics healthcare-provider email introducing Palforzia oral immunotherapy for pediatric peanut allergy."
+  },
+  {
+    "old_slug": "tmo-hint1",
+    "brand": "T-Mobile",
+    "title": "T-Mobile 5G Home Internet Signup",
+    "new_slug": "tmobile-5g-home-internet-signup",
+    "desc": "T-Mobile 5G Home Internet email confirming availability and promoting $50/month service with a $100 back offer."
+  },
+  {
+    "old_slug": "starz-directv",
+    "brand": "DirecTV",
+    "title": "DirecTV Starz Free Preview Weekend",
+    "new_slug": "directv-starz-free-preview",
+    "desc": "DirecTV email promoting a free Starz preview weekend featuring American Gods, Now Apocalypse, and Toy Story 3."
+  },
+  {
+    "old_slug": "blueshield1",
+    "brand": "Blue Shield of California",
+    "title": "Blue Shield Annual Enrollment Period (Spanish)",
+    "new_slug": "blue-shield-aep-spanish",
+    "desc": "Spanish-language Blue Shield of California email reminding members about the Annual Enrollment Period."
+  },
+  {
+    "old_slug": "hbo-max",
+    "brand": "AT&T",
+    "title": "AT&T TV NOW HBO Max Free Access",
+    "new_slug": "att-tv-now-hbo-max",
+    "desc": "AT&T TV NOW email offering three months of HBO Max included and steps to start streaming."
+  },
+  {
+    "old_slug": "emory-healthcare",
+    "brand": "Emory Healthcare",
+    "title": "Emory Winship Cancer Institute Event Registration Confirmation",
+    "new_slug": "emory-winship-event-confirmation",
+    "desc": "Emory Winship Cancer Institute event registration confirmation email with its Journey Builder send flow."
+  },
+  {
+    "old_slug": "acmerealestate",
+    "brand": "ACME Real Estate",
+    "title": "ACME Real Estate Open Houses Page",
+    "new_slug": "acme-real-estate-open-houses",
+    "desc": "ACME Real Estate web page featuring Los Angeles open house listings and brokerage messaging."
+  },
+  {
+    "old_slug": "movie-channel-partnership",
+    "brand": "DirecTV",
+    "title": "DirecTV Movies Extra Pack Free Preview",
+    "new_slug": "directv-movies-extra-pack-preview",
+    "desc": "DirecTV email promoting a free preview of the Movies Extra Pack with nine premium movie channels."
+  },
+  {
+    "old_slug": "showtime",
+    "brand": "DirecTV",
+    "title": "DirecTV Showtime Championship Boxing: Davis vs Nunez",
+    "new_slug": "directv-showtime-boxing-davis-nunez",
+    "desc": "DirecTV email promoting the Showtime Championship Boxing bout Gervonta Davis vs Ricardo Nunez."
+  }
+]

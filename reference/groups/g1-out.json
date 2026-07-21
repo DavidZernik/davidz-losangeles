@@ -1,0 +1,107 @@
+[
+  {
+    "old_slug": "copy-of-aimmune1",
+    "brand": "Palforzia",
+    "title": "Palforzia Peanut Allergy Trial Inspiration Email",
+    "new_slug": "palforzia-treatment-inspiration-video",
+    "desc": "Aimmune Therapeutics email encouraging Palforzia peanut allergy patients to keep going, with a patient family testimonial video."
+  },
+  {
+    "old_slug": "directvtelevisioncontentupsellemail",
+    "brand": "DirecTV",
+    "title": "DirecTV Switch to SELECT Package Savings Email",
+    "new_slug": "directv-select-package-save-140",
+    "desc": "DirecTV email urging subscribers to switch to the SELECT package to save over $140 a year on channels they actually watch."
+  },
+  {
+    "old_slug": "glo-trialextension",
+    "brand": "Glo",
+    "title": "Glo Free Trial Extension Email",
+    "new_slug": "glo-yoga-trial-extension-classes",
+    "desc": "YogaGlo email letting a member know their free trial was extended 7 days, with suggested yoga classes to try."
+  },
+  {
+    "old_slug": "copy-of-140pnc",
+    "brand": "PNC Bank",
+    "title": "PNC First-Time Homebuyer's Guide Email",
+    "new_slug": "pnc-first-time-homebuyer-guide",
+    "desc": "PNC Bank email promoting a downloadable First-Time Homebuyer's Guide plus an employee mortgage rate discount."
+  },
+  {
+    "old_slug": "glo2",
+    "brand": "Glo",
+    "title": "Glo App Features Highlight Email",
+    "new_slug": "glo-yoga-app-features-devices",
+    "desc": "YogaGlo email showcasing app features like offline classes, personalized recommendations, and Apple Watch support."
+  },
+  {
+    "old_slug": "emory-sfmc-calendar",
+    "brand": "Emory Healthcare",
+    "title": "Emory Healthcare SFMC Email Calendar Tool",
+    "new_slug": "emory-healthcare-email-calendar-tool",
+    "desc": "Emory Healthcare Salesforce Marketing Cloud email calendar dashboard showing scheduled sends, categories, and weekly overlaps."
+  },
+  {
+    "old_slug": "copy-of-project-4",
+    "brand": "DirecTV",
+    "title": "DirecTV Premium Channels Upgrade Email",
+    "new_slug": "directv-premium-channels-upgrade",
+    "desc": "DirecTV email inviting subscribers to upgrade to premium channels like HBO, Cinemax, Showtime, and Starz."
+  },
+  {
+    "old_slug": "unitedhealthcarethisisnews",
+    "brand": "UnitedHealthcare",
+    "title": "UnitedHealthcare 'This IS News!' Insurance Solutions Newsletter",
+    "new_slug": "unitedhealthcare-this-is-news-newsletter",
+    "desc": "UnitedHealthcare Insurance Solutions internal newsletter celebrating Service Heroes and Medicare Supplement business wins, shown alongside its Word source copy."
+  },
+  {
+    "old_slug": "blueshield2",
+    "brand": "Blue Shield of California",
+    "title": "Blue Shield of California 2024 Medicare Coverage Email",
+    "new_slug": "blue-shield-2024-medicare-coverage-booklet",
+    "desc": "Blue Shield of California email offering a free Medicare booklet and enlightenment video ahead of the Annual Enrollment Period."
+  },
+  {
+    "old_slug": "savekhaki",
+    "brand": "Save Khaki United",
+    "title": "Save Khaki United Supima Cotton Collection Page",
+    "new_slug": "save-khaki-supima-cotton-collection",
+    "desc": "Save Khaki United web page promoting its Supima cotton tees as America's best cotton with a product grid."
+  },
+  {
+    "old_slug": "amex-creditintel-homeloan",
+    "brand": "American Express",
+    "title": "Amex Credit Intel Home Equity Loan Calculator",
+    "new_slug": "amex-credit-intel-home-equity-calculator",
+    "desc": "American Express Credit Intel interactive home equity loan calculator estimating how much a user may be eligible to borrow."
+  },
+  {
+    "old_slug": "decalthon",
+    "brand": "Decathlon",
+    "title": "Decathlon Inline Skates Product Page",
+    "new_slug": "decathlon-inline-skates-product-page",
+    "desc": "Decathlon ecommerce product page for inline skates with an option selector and add-to-cart at $51.92."
+  },
+  {
+    "old_slug": "directvupsellpromo",
+    "brand": "DirecTV",
+    "title": "DirecTV Win-Back $200 Reward Card Email",
+    "new_slug": "directv-winback-200-reward-card",
+    "desc": "DirecTV win-back email offering up to a $200 Visa reward card and the Entertainment All Included package to returning customers."
+  },
+  {
+    "old_slug": "attsamsung",
+    "brand": "AT&T",
+    "title": "AT&T Samsung Galaxy S10 Launch BOGO Email",
+    "new_slug": "att-samsung-galaxy-s10-bogo",
+    "desc": "AT&T email introducing the Samsung Galaxy S10 lineup with a buy-one-get-one-free offer on eligible devices."
+  },
+  {
+    "old_slug": "copy-of-aimmune2",
+    "brand": "",
+    "title": "SFMC Query Studio Email Deduplication SQL",
+    "new_slug": "sfmc-query-studio-dedupe-sql",
+    "desc": "Salesforce Marketing Cloud Query Studio screenshots of SQL queries counting and deduplicating treatment IDs and email addresses."
+  }
+]

@@ -1,0 +1,1107 @@
+[
+  {
+    "slug": "att-fiber-hbo-max-bundle",
+    "title": "AT&T Fiber, HBO Max Upsell",
+    "alt_title": "AT&T Fiber with HBO Max Included",
+    "brand": "AT&T",
+    "body": [
+      "Developed responsive HTML email template for AT&T Fiber's HBO Max bundle campaign promoting entertainment-grade internet with included streaming benefits. Built promotional email featuring animated GIF hero image with visual motion effects showcasing AT&T Fiber and HBO Max co-branding.",
+      "Implemented multi-section informational layout highlighting 1 GIG internet speeds starting at $39.99/month, 1000Mbps connection capabilities, and unlimited data ($30 value) bundled with HBO Max access. Coded detailed service comparison messaging emphasizing bandwidth advantages over cable providers (Xfinity, Spectrum, Cox) with supporting footnotes and disclaimers. Developed mobile-responsive design with optimized image performance, gradient CTAs, and featured content grid showcasing Westworld and Friends programming to drive fiber upgrade conversions."
+    ],
+    "images": [
+      "assets/work/att-fiber-hbo-max-bundle/0.png"
+    ],
+    "desc": "Promotional email for AT&T Fiber gigabit internet now bundled with HBO Max at $39.99/mo."
+  },
+  {
+    "slug": "palforzia-treatment-inspiration-video",
+    "title": "Aimmune Palforzia Patient Journey Email",
+    "alt_title": "Palforzia Peanut Allergy Trial Inspiration Email",
+    "brand": "Aimmune",
+    "body": [
+      "Developed responsive HTML email template for Aimmune Therapeutics' Palforzia pharmaceutical marketing campaign, targeting families enrolled in peanut allergy treatment programs. Built patient journey email featuring testimonial video content and educational resources including prescribing information, medication guides, and safety documentation links.",
+      "Implemented personalized for patient messaging while ensuring strict pharmaceutical compliance and accessibility standards with comprehensive alt-text attributes. Optimized image-to-text ratios for enhanced deliverability and tested mobile-responsive layout with image swap functionality across all major email clients. Maintained regulatory-compliant footer elements including privacy notices, unsubscribe mechanisms, and required pharmaceutical disclosures for HIPAA-sensitive patient communications."
+    ],
+    "images": [
+      "assets/work/palforzia-treatment-inspiration-video/0.jpg"
+    ],
+    "desc": "Aimmune Therapeutics email encouraging Palforzia peanut allergy patients to keep going, with a patient family testimonial video."
+  },
+  {
+    "slug": "directv-bluff-city-law-nbc",
+    "title": "DIRECTV and NBC partnership",
+    "alt_title": "DirecTV Bluff City Law Premiere (NBC)",
+    "brand": "DirecTV",
+    "body": [
+      "This project was a static promotional email for the DIRECTV and NBC partnership, built to showcase network content with a strong, image forward layout while staying dependable across inboxes. I handled the build end to end, translating the creative into a responsive template that preserved the visual impact on desktop and mobile, while also meeting accessibility requirements through proper alt text and clear reading order.",
+      "The email was tuned for performance and deliverability by optimizing image assets, keeping a healthy image to text balance, and using mobile image swaps where needed. It was tested across major email clients and devices to ensure consistent rendering, resulting in a lightweight, standards compliant template that balanced branding, accessibility, and reliability."
+    ],
+    "images": [
+      "assets/work/directv-bluff-city-law-nbc/0.png"
+    ],
+    "desc": "DirecTV email promoting the premiere of NBC's legal drama Bluff City Law starring Jimmy Smits and Caitlin McGee, airing Mondays."
+  },
+  {
+    "slug": "att-iphone-xs-50-off-upgrade",
+    "title": "AT&T iPhone XS Promotional Email",
+    "alt_title": "AT&T iPhone XS 50% Off Upgrade",
+    "brand": "AT&T",
+    "body": [
+      "Developed responsive HTML email template in Salesforce Marketing Cloud for AT&T's iPhone XS campaign featuring 50% device discount ($450 savings) with personalized targeting. Implemented AMPscript dynamic personalization for customer names and device eligibility criteria. Built multi-section layout showcasing network modernization messaging, 3G phase-out communication, compatibility tools, and trade-in CTAs.",
+      "Coded promotional hierarchy with product imagery, savings calculations, and qualifying legal disclaimers. Optimized mobile-responsive design with gradient buttons, icon-based features, and cross-client compatibility. Ensured accessibility with comprehensive alt-text and CAN-SPAM compliant footer."
+    ],
+    "images": [
+      "assets/work/att-iphone-xs-50-off-upgrade/0.jpg"
+    ],
+    "desc": "AT&T customer email offering 50% off the iPhone XS with no trade-in, tied to the 3G network sunset."
+  },
+  {
+    "slug": "att-directv-billing-credit",
+    "title": "AT&T Service Message",
+    "alt_title": "AT&T DirecTV Billing Credit Notice",
+    "brand": "AT&T",
+    "body": [
+      "Developed responsive HTML email template in Salesforce Marketing Cloud for AT&T's customer service communication addressing billing errors and account credits. Built transactional email with dynamic personalization logic using AMPscript to display customer names, credit amounts, and account-specific billing details while maintaining a clear, empathetic tone for service recovery messaging.",
+      "Implemented clean, accessible layout optimized for readability with prominent contact information and support links. Ensured cross-client compatibility and mobile responsiveness for critical account notifications, following transactional email best practices with CAN-SPAM compliant footer elements and clear customer support pathways to build trust during service issue resolution."
+    ],
+    "images": [
+      "assets/work/att-directv-billing-credit/0.jpg"
+    ],
+    "desc": "AT&T service email notifying a DirecTV customer of a one-time credit for a DVR service double-charge."
+  },
+  {
+    "slug": "directv-titan-games-premiere",
+    "title": "AT&T direct marketing email",
+    "alt_title": "DirecTV The Titan Games Premiere",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template in for AT&T's DirecTV win-back campaign partnering with NBC to promote \"The Titan Games\" premiere. Collaborated with marketing teams to create promotional content targeting lapsed DirecTV subscribers with exclusive programming offers.",
+      "Implemented CAN-SPAM compliant footer with unsubscribe links and mailing address, accessibility-focused alt-text attributes, and optimized image-to-text ratios for deliverability. Built mobile-responsive layout with social media integration and dynamic account linking, testing rendering across major email clients to drive re-engagement and tune-in rates."
+    ],
+    "images": [
+      "assets/work/directv-titan-games-premiere/0.jpg"
+    ],
+    "desc": "DirecTV email promoting the NBC series The Titan Games with Dwayne Johnson premiering on the network."
+  },
+  {
+    "slug": "directv-select-package-save-140",
+    "title": "DirecTV Television Content Upsell Email",
+    "alt_title": "DirecTV Switch to SELECT Package Savings Email",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template for DirecTV's SELECT package upsell campaign promoting $140 annual savings with pay-per-channel model targeting non-sports viewers. Built promotional layout featuring \"YouMeHer\" programming imagery and value proposition messaging encouraging package downgrades to eliminate unused sports network costs like NBC Sports Network.",
+      "Implemented mobile-responsive design with optimized image compression for faster load times and improved deliverability through strategic image-to-text ratio management. Ensured ADA accessibility compliance with comprehensive alt-text attributes for all imagery including hero graphics and product screenshots. Coded clean HTML structure with cross-client compatibility testing across major email platforms and maintained CAN-SPAM compliant footer with subscription management and DirecTV service details."
+    ],
+    "images": [
+      "assets/work/directv-select-package-save-140/0.png"
+    ],
+    "desc": "DirecTV email urging subscribers to switch to the SELECT package to save over $140 a year on channels they actually watch."
+  },
+  {
+    "slug": "att-tv-apps-retiring-notice",
+    "title": "AT&T TV Apps Retiring Account Update",
+    "alt_title": "AT&T TV Apps Retiring Account Update",
+    "brand": "AT&T",
+    "body": [
+      "Dynamic AT&T service message template\n\nThis project was a dynamic AT&T service message template used for account and product updates. I built the layout and personalization logic to support conditional copy, channel specific messaging, and graceful fallbacks when customer data was missing. The goal was a clear, brand consistent system email that stayed readable and trustworthy across devices and inboxes.",
+      "On the technical side, the template was designed for reliability and scale, with lightweight markup, safe dynamic fields, and thorough client testing. It was optimized for fast load times, strong deliverability, and accessibility, making it a reusable foundation for high volume service communications."
+    ],
+    "images": [
+      "assets/work/att-tv-apps-retiring-notice/0.png"
+    ],
+    "desc": "AT&T U-verse account update notifying customers that some TV apps are being retired and pointing them to att.com/tvapp."
+  },
+  {
+    "slug": "pnc-bank-refinance-guide",
+    "title": "PNC Bank Employee Mortgage Email",
+    "alt_title": "PNC Bank Mortgage Refinance Guide",
+    "brand": "PNC",
+    "body": [
+      "Developed responsive HTML email template in Salesforce Marketing Cloud for PNC Bank's employee mortgage benefits campaign promoting first-time homebuyer resources and exclusive employee rate discounts. Collaborated with marketing teams to build promotional layout featuring downloadable guide CTAs, pre-approval tools, and mortgage product information targeting PNC employees.",
+      "Coded mobile-responsive design with AMPscript personalization for employee-specific discount rates and implemented cross-client compatibility testing. Ensured regulatory compliance with detailed mortgage disclosure footnotes, CAN-SPAM requirements, and accessibility standards including proper alt-text and semantic structure for financial services communications."
+    ],
+    "images": [
+      "assets/work/pnc-bank-refinance-guide/0.jpg"
+    ],
+    "desc": "PNC Bank email promoting a mortgage refinance guide plus an employee rate discount."
+  },
+  {
+    "slug": "directv-hbo-cinemax-got-upgrade",
+    "title": "DirecTV HBO & Game of Thrones Email",
+    "alt_title": "DirecTV HBO & Cinemax Game of Thrones Upgrade",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template for DirecTV's HBO premium channel campaign promoting Game of Thrones final season premiere and HBO/Cinemax bundle offers. Implemented LiveClicker video embed technology to deliver interactive video content directly within the email, creating an engaging multimedia experience for DirecTV subscribers.",
+      "Built multi-section promotional layout featuring premiere countdowns, channel upgrade CTAs, and featured programming from Warrior and Justice League. Collaborated with HBO partnership teams to maintain co-branded visual standards while coding mobile-responsive design with optimized image-to-text ratios for deliverability. Ensured cross-client compatibility and accessibility compliance with proper alt-text and CAN-SPAM footer requirements."
+    ],
+    "images": [
+      "assets/work/directv-hbo-cinemax-got-upgrade/0.png"
+    ],
+    "desc": "DirecTV upsell email to add HBO and Cinemax for $15.99 ahead of the final Game of Thrones season."
+  },
+  {
+    "slug": "directv-mbc-every1-channel-removal",
+    "title": "AT&T Service message",
+    "alt_title": "DirecTV MBC Every1 Channel Discontinuation Notice",
+    "brand": "DirecTV",
+    "body": [
+      "- dynamic service message email",
+      "- alt-text for ADA compliance",
+      "- images optimized for decreased load time",
+      "- image-to-text ratio checked to increase deliverability rate",
+      "- Mobile responsive with image swap",
+      "- optimized for all major email clients and device"
+    ],
+    "images": [
+      "assets/work/directv-mbc-every1-channel-removal/0.png"
+    ],
+    "desc": "Personalized AT&T/DirecTV service notice that the Korean channel MBC Every1 (2085) is going off air."
+  },
+  {
+    "slug": "glo-yoga-trial-extension-classes",
+    "title": "Glo -Trial Extension",
+    "alt_title": "Glo Free Trial Extension Email",
+    "brand": "Glo",
+    "body": [
+      "Developed responsive HTML email template in Iterable for YogaGlo's trial extension campaign targeting users approaching the end of their 7-day free trial period. Designed and coded retention-focused messaging to highlight platform benefits and popular class offerings, encouraging trial users to convert to paid subscriptions through extended trial incentive.",
+      "Implemented mobile-responsive layout and conducted comprehensive cross-client rendering tests across major email clients and devices to ensure consistent visual presentation and functionality. Built clean, accessible HTML structure optimized for deliverability while maintaining YogaGlo's brand aesthetic and user-friendly design that emphasizes the value proposition of continued platform access."
+    ],
+    "images": [
+      "assets/work/glo-yoga-trial-extension-classes/0.jpg"
+    ],
+    "desc": "YogaGlo email letting a member know their free trial was extended 7 days, with suggested yoga classes to try."
+  },
+  {
+    "slug": "directv-march-madness-coverage",
+    "title": "DIRECTV NCAA March Madness Up-sell",
+    "alt_title": "DirecTV NCAA March Madness Coverage",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template for DirecTV's NCAA March Madness up-sell campaign promoting live college basketball tournament coverage across TBS, CBS, TNT, and truTV. Collaborated with marketing teams to execute NCAA partnership messaging and championship viewing offers targeting sports fans during peak tournament season.\n\nImplemented CAN-SPAM compliant footer with subscription management and contact information. Conducted comprehensive testing using Email on Acid to ensure rendering consistency across major email clients and devices. Built mobile-responsive layout with dynamic CTAs and social media integration to drive viewership and package upgrades during the March tournament window."
+    ],
+    "images": [
+      "assets/work/directv-march-madness-coverage/0.jpg"
+    ],
+    "desc": "DirecTV email promoting live NCAA March Madness tournament coverage across TBS, CBS, TNT and truTV, with AT&T as a proud partner."
+  },
+  {
+    "slug": "podcast-fellowship-landing-page",
+    "title": "The Podcast Fellowship",
+    "alt_title": "The Podcast Fellowship Landing Page",
+    "brand": "The Podcast Fellowship",
+    "body": [
+      "Product Manager",
+      "I've been the fractional Technical Product Manager for The Podcast Fellowship since 2021. TPF is a non-profit that pays students to listen to educational podcasts, pretty cool mission. I oversee their offshore dev team and manage the web application that runs the whole program.",
+      "My role is different from my usual email marketing and CRM work. I handle technical architecture decisions, prioritize the product roadmap, and translate between the non-technical nonprofit leadership and the development team. I guide frontend development, optimize user experience, and make sure the platform stays reliable as the program grows. It's been a great experience managing a consumer web app outside my typical marketing technology wheelhouse."
+    ],
+    "images": [
+      "assets/work/podcast-fellowship-landing-page/0.png"
+    ],
+    "desc": "Landing page for The Podcast Fellowship, a program that pays participants to complete and share podcasts."
+  },
+  {
+    "slug": "glo-yoga-app-login",
+    "title": "Yogaglo website and application",
+    "alt_title": "Glo App Login Page",
+    "brand": "Glo",
+    "body": [
+      "From 2016 - 2108, I was a front-end developer at Glo, and developed the UI for YogaGlo's web application, a full-stack platform built with Ember.js and Express.",
+      "Back in 2016, streaming exercise classes online was cutting edge!",
+      "I worked on multiple features including the login page highlighting their \"Notes\" feature, user dashboard, and class browsing interface. Built responsive, mobile-first interfaces using HTML, CSS, and JavaScript that performed consistently across all devices and browsers. Focused on creating an intuitive user experience for yoga practitioners to access classes, save personal notes, and filter content by their preferences."
+    ],
+    "images": [
+      "assets/work/glo-yoga-app-login/0.png",
+      "assets/work/glo-yoga-app-login/1.png",
+      "assets/work/glo-yoga-app-login/2.png",
+      "assets/work/glo-yoga-app-login/3.png"
+    ],
+    "desc": "Login landing page for the Glo yoga and fitness app promoting a new class notes feature."
+  },
+  {
+    "slug": "amex-creditintel-home-equity-calculator",
+    "title": "American Express Financial Calculators - Auto Loan",
+    "alt_title": "Amex Credit Intel Home Equity Loan Calculator",
+    "brand": "American Express",
+    "body": [
+      "I was the lead developer across a suite of about seven interactive financial calculators for American Express Credit Intel, including the Auto Loan Calculator. I built these tools with HTML, CSS, and JavaScript, focusing on fast, responsive UI, accessible form controls, and a consistent interaction pattern so users could quickly understand outcomes without friction across desktop and mobile.",
+      "For the Auto Loan Calculator specifically, I implemented the core amortization and payment logic and wired it to a clean input experience with strong validation and guardrails. That included handling common edge cases like zero down payment, short terms, very low or high APRs, and rounding consistency so the monthly payment, total interest, and overall cost stay accurate and stable as users adjust inputs."
+    ],
+    "images": [
+      "assets/work/amex-creditintel-home-equity-calculator/0.png",
+      "assets/work/amex-creditintel-home-equity-calculator/1.png"
+    ],
+    "desc": "Interactive American Express Credit Intel tool estimating how much a homeowner may be eligible to borrow."
+  },
+  {
+    "slug": "pnc-first-time-homebuyer-guide",
+    "title": "PNC Bank Employee Refinancing Email",
+    "alt_title": "PNC First-Time Homebuyer's Guide Email",
+    "brand": "PNC",
+    "body": [
+      "Developed responsive HTML email template in Salesforce Marketing Cloud for PNC Bank's employee mortgage benefits campaign promoting first-time homebuyer resources and exclusive employee rate discounts. Collaborated with marketing teams to build promotional layout featuring downloadable guide CTAs, pre-approval tools, and mortgage product information targeting PNC employees.",
+      "Coded mobile-responsive design with AMPscript personalization for employee-specific discount rates and implemented cross-client compatibility testing. Ensured regulatory compliance with detailed mortgage disclosure footnotes, CAN-SPAM requirements, and accessibility standards including proper alt-text and semantic structure for financial services communications."
+    ],
+    "images": [
+      "assets/work/pnc-first-time-homebuyer-guide/0.jpg"
+    ],
+    "desc": "PNC Bank email promoting a downloadable First-Time Homebuyer's Guide plus an employee mortgage rate discount."
+  },
+  {
+    "slug": "directv-ufc-232-jones-gustafsson-ppv",
+    "title": "DirecTV UFC 232 Jones vs Gustafsson Pay-Per-View",
+    "alt_title": "DirecTV UFC 232 Jones vs Gustafsson Pay-Per-View",
+    "brand": "DirecTV",
+    "body": [
+      "DIRECTV win-back marketing email, promoting upcoming UFC match and new movie releases.",
+      "Developed multi-section responsive HTML email template for DirecTV's win-back campaign promoting UFC pay-per-view events and on-demand movie releases. Built modular content blocks showcasing live sports programming, new theatrical releases, and available rental titles to demonstrate DirecTV's comprehensive entertainment value proposition.",
+      "Implemented dynamic content sections with image grids, CTAs, and personalized messaging to drive re-subscription among lapsed customers. Ensured cross-client compatibility and mobile responsiveness across all content modules, optimizing layout for both promotional hero imagery and browsable content catalogs that effectively communicated DirecTV's sports and entertainment offerings."
+    ],
+    "images": [
+      "assets/work/directv-ufc-232-jones-gustafsson-ppv/0.jpg"
+    ],
+    "desc": "DirecTV pay-per-view order email for UFC 232 (Jones vs. Gustafsson 2, Cyborg vs. Nunes) plus new movie releases."
+  },
+  {
+    "slug": "amex-hilton-honors-card-redesign",
+    "title": "American Express Partnership Landing Page",
+    "alt_title": "Amex Hilton Honors Card Redesign",
+    "brand": "American Express",
+    "body": [
+      "This project was a mobile-first partnership landing page for American Express and Hilton Honors, designed to explain card benefits and guide users through a card design update without disrupting their experience. I built the page as a fully responsive layout, translating a dense set of product details, FAQs, and support content into a clear, scannable flow that worked equally well on desktop and mobile. The goal was to reduce confusion while keeping the messaging aligned with both brands.",
+      "On the technical side, I focused on responsive layout, performance, and cross-browser consistency using modern HTML, CSS, and grid-based layouts. I tested the page across common devices and browsers to make sure typography, spacing, and content stacking behaved predictably. The result was a flexible, maintainable landing page that could support ongoing content updates without breaking the user experience."
+    ],
+    "images": [
+      "assets/work/amex-hilton-honors-card-redesign/0.jpg"
+    ],
+    "desc": "American Express landing page announcing the redesigned Hilton Honors Card and its ongoing benefits."
+  },
+  {
+    "slug": "code-lab-lessons-reminder",
+    "title": "Email for coding school",
+    "alt_title": "Code Lab Coding Lessons Reminder",
+    "brand": "Code Lab",
+    "body": [
+      "This project was a fully custom marketing and progress reminder email for a coding school, designed and built around 2018 to encourage students to complete upcoming lessons. I handled both the visual design and the front end email development, creating all of the assets in Photoshop and translating the layouts into responsive, email-safe HTML and CSS. The content combined personalized messaging with course tiles and clear calls to action, which was a fairly modern pattern for education emails at the time.",
+      "From a technical perspective, the focus was on reliable rendering across the major email clients and devices that were common in that era. I tested and refined the build to account for client limitations, image handling, and layout fallbacks. The result was a cohesive, on-brand template that balanced personalization, usability, and the constraints of email in 2018."
+    ],
+    "images": [
+      "assets/work/code-lab-lessons-reminder/0.jpg"
+    ],
+    "desc": "Code Lab email reminding a student of upcoming coding lessons to complete before earning certification."
+  },
+  {
+    "slug": "petite-n-pretty-gen-glitter-beauty",
+    "title": "Petite-n-Pretty",
+    "alt_title": "Petite 'n Pretty Glitter Beauty Landing Page",
+    "brand": "Petite 'n Pretty",
+    "body": [
+      "Built the initial scaffolding and architecture for Petite-n-Pretty's Shopify e-commerce site using Liquid templating language. Developed the foundational theme structure including global footer components, navigation buttons, CSS color variables, email subscription form integration, and mobile responsive breakpoints that established the design system for the beauty brand's online store.",
+      "Implemented reusable Liquid templates and modular components to enable consistent brand styling across product pages and marketing content. Focused on creating a flexible, maintainable codebase with responsive design patterns that allowed the Petite-n-Pretty team to scale their e-commerce platform while maintaining visual consistency and performance across all devices."
+    ],
+    "images": [
+      "assets/work/petite-n-pretty-gen-glitter-beauty/0.png"
+    ],
+    "desc": "Petite 'n Pretty kids' cosmetics page featuring Gen Glitter, 10K Shine Lip Gloss and 9021-GLOW! palette."
+  },
+  {
+    "slug": "glo-yoga-app-features-devices",
+    "title": "Email up-selling features",
+    "alt_title": "Glo App Features Highlight Email",
+    "brand": "Glo",
+    "body": [
+      "This project focused on building a feature education and upsell email for YogaGlo that highlights cross-device use, offline class downloads, and Apple Watch support. I built the front end email in responsive HTML and CSS and implemented it within Iterable, translating the product and design concepts into a layout that holds up across major email clients while clearly communicating the value of each feature.",
+      "Technically, the work centered on email-safe layout patterns and defensive coding for inconsistent client rendering. I tested and refined the template in clients like Gmail and Outlook to keep spacing, typography, and stacking behavior consistent on mobile and desktop. The result was a lightweight, reusable template the marketing team could rely on for future feature announcements."
+    ],
+    "images": [
+      "assets/work/glo-yoga-app-features-devices/0.jpg"
+    ],
+    "desc": "YogaGlo email showcasing app features like offline classes, personalized recommendations, and Apple Watch support."
+  },
+  {
+    "slug": "directv-winback-select-package",
+    "title": "DIRECTV And Visa Reward Email",
+    "alt_title": "DirecTV Win-Back Select Package Offer",
+    "brand": "DirecTV",
+    "body": [
+      "- static email",
+      "- alt-text for ADA compliance",
+      "- images optimized for decreased load time",
+      "- image-to-text ratio checked to increase deliverability rate",
+      "- Mobile responsive with image swap",
+      "- optimized for all major email clients and device"
+    ],
+    "images": [
+      "assets/work/directv-winback-select-package/0.jpg"
+    ],
+    "desc": "DirecTV win-back email offering a $39.99/mo Select package, AT&T Visa reward card and free premium channels to returning customers."
+  },
+  {
+    "slug": "toyota-team-usa-virtual-triathlon",
+    "title": "Toyota Olympics campaign (Triathlon version)",
+    "alt_title": "Toyota Team USA Virtual Tri Across America",
+    "brand": "Toyota",
+    "body": [
+      "Developed responsive HTML email template for Toyota's Olympic and Paralympic Games partnership campaign, highlighting their role as Official Worldwide Mobility Partner and proud supporter of Team USA athletes. Built multi-section promotional email featuring athlete imagery, triathlon competition highlights, and local dealer offers to connect Toyota's brand values with Olympic excellence and perseverance messaging.",
+      "Collaborated with marketing teams to balance partnership storytelling with conversion-focused dealer CTAs. Implemented mobile-responsive design with bold typography, dynamic content modules, and registration prompts. Ensured cross-client compatibility and maintained co-branded visual standards for both Toyota and Olympic partnership guidelines throughout the campaign execution."
+    ],
+    "images": [
+      "assets/work/toyota-team-usa-virtual-triathlon/0.jpg"
+    ],
+    "desc": "Toyota email celebrating the Virtual Tri Across America and its Team USA Olympic partnership."
+  },
+  {
+    "slug": "ozempic-cvot-hcp",
+    "title": "Ozempic Email",
+    "alt_title": "Ozempic Cardiovascular Outcomes HCP Email",
+    "brand": "Novo Nordisk",
+    "body": [
+      "This project involved building a highly regulated pharmaceutical email for Ozempic focused on presenting CVOT study data and key safety information to a clinical audience. I handled the full front end email build, translating a dense, data-heavy design into responsive, email-safe HTML and CSS that could reliably render across major clients. The layout needed to balance marketing content with mandatory prescribing and safety sections, while keeping the hierarchy clear and the reading experience usable for busy healthcare professionals.",
+      "On the technical side, the work emphasized strict compliance and QA, including CAN-SPAM considerations, accessibility best practices like proper alt text, and defensive coding for inconsistent client behavior. I tested the template using Litmus and Email on Acid to validate rendering, spacing, and typography across devices and inboxes. The final result was a compliant, production-ready template that could support complex medical content without sacrificing reliability or readability."
+    ],
+    "images": [
+      "assets/work/ozempic-cvot-hcp/0.png"
+    ],
+    "desc": "Novo Nordisk healthcare-provider email presenting Ozempic CVOT data for patients with T2D and established CVD."
+  },
+  {
+    "slug": "att-firstnet-first-responder-credit",
+    "title": "AT&T FirstNet First Responder Email",
+    "alt_title": "AT&T FirstNet First Responder Offer",
+    "brand": "AT&T",
+    "body": [
+      "Developed responsive HTML email template for AT&T's FirstNet B2B marketing campaign targeting first responders and public safety entities with dedicated wireless network migration offers. Built promotional email featuring $50 billion credit incentive messaging, service benefit highlights, and eligibility verification CTAs for emergency services personnel.",
+      "Implemented personalized name variables and coded multi-section informational layout showcasing FirstNet's priority access, security, and reliability features with icon-based design elements. Optimized mobile-responsive design with image-to-text ratio management for deliverability and ensured cross-client compatibility. Maintained accessibility compliance with comprehensive alt-text and structured detailed eligibility footnotes for complex B2B government offer terms."
+    ],
+    "images": [
+      "assets/work/att-firstnet-first-responder-credit/0.png"
+    ],
+    "desc": "AT&T email offering a $50 bill credit to first responders who migrate their line to the FirstNet network."
+  },
+  {
+    "slug": "emory-healthcare-email-calendar-tool",
+    "title": "Emory Healthcare - Custom-Built SFMC Calendar",
+    "alt_title": "Emory Healthcare SFMC Email Calendar Tool",
+    "brand": "Emory Healthcare",
+    "body": [
+      "Built with: Salesforce Marketing Cloud, custom Cloud Pages, SSJS, AMPscript, SQL (Query Activities), and the SFMC REST and SOAP APIs.",
+      "I built an internal calendar app that gives the marketing team a single view of every email and journey going out across the health system. Before this, there was no easy way to see what was scheduled, what overlapped, or which patients were getting hit by multiple campaigns at once. Now it all lives on one screen.",
+      "It runs entirely inside Salesforce Marketing Cloud as a custom Cloud Page. I designed the whole data pipeline: nightly automations pull journey and campaign data into cached data extensions, and a one click Sync refreshes it on demand. A separate admin page lets the team control how everything displays (service lines, color coding, categories, manual campaigns, exclusions) without touching any code.",
+      "The most interesting part was the overlap and saturation logic: figuring out, across thousands of sends, which patients were receiving too many messages in a given window, and surfacing that clearly on the calendar. I also wired in campaign metrics, so the team can click any day and see how a campaign actually performed on opens, clicks, and sends."
+    ],
+    "images": [
+      "assets/work/emory-healthcare-email-calendar-tool/0.png"
+    ],
+    "desc": "Emory Healthcare Salesforce Marketing Cloud email calendar dashboard showing scheduled sends, categories, and weekly overlaps."
+  },
+  {
+    "slug": "toyota-us-figure-skating-alysa-liu",
+    "title": "Toyota U.S. Figure Skating Partnership (Alysa Liu)",
+    "alt_title": "Toyota U.S. Figure Skating Partnership (Alysa Liu)",
+    "brand": "Toyota",
+    "body": [
+      "Toyota Olympics campaign (Figure Skating version)\n\nDeveloped responsive HTML email template for Toyota's Olympic partnership campaign highlighting figure skating athlete Alysa Liu, youngest-ever U.S. ladies national champion. Built multi-section promotional email featuring athlete storytelling, Team USA partnership messaging, and local dealer offers connecting Olympic sponsorship with Toyota's mobility mission.\n\nCollaborated with marketing teams to balance inspirational sports content with conversion-focused automotive CTAs including inventory search, trade-in tools, and dealer locators. Implemented mobile-responsive design with bold typography, athlete photography, and icon-based navigation elements. Ensured cross-client compatibility and maintained co-branded visual standards for both Toyota and Olympic partnership guidelines throughout the campaign."
+    ],
+    "images": [
+      "assets/work/toyota-us-figure-skating-alysa-liu/0.jpg"
+    ],
+    "desc": "Toyota email spotlighting its U.S. Figure Skating partnership and Team USA athlete Alysa Liu, tied to Olympic sponsorship and Toyotathon."
+  },
+  {
+    "slug": "amex-shop-small-business-saturday-toolkit",
+    "title": "American Express - Shop Small -Email 1",
+    "alt_title": "Amex Shop Small Business Saturday Toolkit",
+    "brand": "American Express",
+    "body": [
+      "Developed technically complex responsive HTML email template in Salesforce Marketing Cloud for American Express's Shop Small holiday marketing campaign. Implemented advanced VML techniques to create background images behind live text for Outlook compatibility, ensuring visual consistency across email clients with varying CSS support. Built multi-section layout featuring Shop Small Map enrollment CTAs, Door to Shop Small AR experience promotion, and holiday resource content with dynamic merchant personalization using AMPscript.",
+      "Employed sophisticated responsive design with detailed media queries and breakpoints to maintain precise alignment and spacing across devices. Integrated custom conditional logic for cross-client compatibility while managing interactive elements and ensuring accessibility compliance throughout the complex merchant-focused campaign."
+    ],
+    "images": [
+      "assets/work/amex-shop-small-business-saturday-toolkit/0.png"
+    ],
+    "desc": "American Express merchant email with Small Business Saturday tips, Shop Small map listing, and free marketing materials."
+  },
+  {
+    "slug": "brilliant-earth-cart-abandon",
+    "title": "Brilliant Earth - Abandoned Cart Analysis",
+    "alt_title": "Brilliant Earth Cart Abandonment Email",
+    "brand": "Brilliant Earth",
+    "body": [
+      "This project focused on clarifying the business rules behind the entire campaign. I worked through how the system decides who qualifies, what counts as abandonment, how session timing affects triggers, and how purchases or recent messages suppress sends. While the creative supported dynamic products and pricing, the core work was making sure the rules reflected real shopping behavior and matched stakeholder expectations.",
+      "On the technical and strategy side, we pressure tested edge cases like multiple cart events in a day, switching products, and overlaps with other campaigns. We clarified when a series should restart, when a newer cart should replace an older one, and when a customer should be suppressed entirely. The result was a scalable, frequency safe campaign with clear, documented logic for who gets the message, which product appears, and when it should or should not send."
+    ],
+    "images": [
+      "assets/work/brilliant-earth-cart-abandon/0.png",
+      "assets/work/brilliant-earth-cart-abandon/1.png"
+    ],
+    "desc": "Brilliant Earth abandoned-cart email showing a saved diamond ring with product recommendations and a free-gift offer."
+  },
+  {
+    "slug": "directv-winback-reward-card-bonus",
+    "title": "DirecTV Win-Back Offer with $100 Reward Card",
+    "alt_title": "DirecTV Win-Back Offer with $100 Reward Card",
+    "brand": "DirecTV",
+    "body": [
+      "AT&T DirecTV Email Marketing Campaign\n\nDeveloped responsive HTML email template for AT&T's DirecTV win-back campaign promoting HBO Max bundle offers, premium channel packages including Showtime, Starz, Cinemax, and Epix, along with AT&T Visa reward card incentives up to $100. Built multi-section promotional layout with numbered step-by-step offer presentation showcasing package pricing at $39.99/month and first-year HBO Max inclusion.\n\nImplemented mobile-responsive design with optimized imagery, ADA-compliant alt-text, and proper image-to-text ratios for deliverability. Coded extensive legal disclaimer copy and promotional terms in compliant footer structure. Ensured cross-client compatibility testing across major email platforms while maintaining co-branded visual standards for AT&T, DirecTV, and premium network partnerships throughout complex win-back offer messaging."
+    ],
+    "images": [
+      "assets/work/directv-winback-reward-card-bonus/0.jpg"
+    ],
+    "desc": "DirecTV win-back email offering 155+ channels, a $39.99 Select package, HBO Max and a $100 Visa reward card."
+  },
+  {
+    "slug": "directv-premium-channels-upgrade",
+    "title": "AT&T direct marketing email",
+    "alt_title": "DirecTV Premium Channels Upgrade Email",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template for AT&T's DirecTV premium channel upgrade campaign promoting HBO, Cinemax, Showtime, and Starz programming packages. Built multi-section promotional layout featuring flagship series including Game of Thrones, Girls Trip, Shameless, and Counterpart with channel-specific branding and messaging.",
+      "Implemented comprehensive QA testing across modern devices, browsers, and email clients to ensure consistent rendering and user experience. Coded mobile-responsive design with video placeholder elements, social media integration, and clear upgrade CTAs. Maintained accessibility compliance with alt-text attributes and structured detailed network partnership footnotes and subscription management requirements in CAN-SPAM compliant footer."
+    ],
+    "images": [
+      "assets/work/directv-premium-channels-upgrade/0.png"
+    ],
+    "desc": "DirecTV email inviting subscribers to upgrade to premium channels like HBO, Cinemax, Showtime, and Starz."
+  },
+  {
+    "slug": "amex-shop-small-social-accelerator",
+    "title": "AmEx Shop Small Campaign - Email 2",
+    "alt_title": "Amex Shop Small Accelerator Social Media Tips",
+    "brand": "American Express",
+    "body": [
+      "Developed technically complex responsive HTML email template in Salesforce Marketing Cloud for American Express's Shop Small Accelerator program targeting small business merchants. Implemented advanced VML background image techniques to ensure Outlook compatibility while maintaining visual consistency across all email clients.",
+      "Built dynamic personalization using AMPscript to display merchant-specific data including business names and account numbers. Collaborated with designers to translate intricate mockups into pixel-perfect, code-compliant layouts with bold typography and asymmetric design elements. Employed mobile-first responsive development with advanced media queries to optimize content hierarchy and maintain design integrity across all devices while adhering to accessibility and branding standards."
+    ],
+    "images": [
+      "assets/work/amex-shop-small-social-accelerator/0.png"
+    ],
+    "desc": "American Express merchant email promoting the Shop Small Accelerator with social media strategy tips and free marketing materials."
+  },
+  {
+    "slug": "wm-bagster-20-off-spring-cleaning-a",
+    "title": "Waste Management - Hurricane Season",
+    "alt_title": "WM Bagster 20% Off Spring Cleaning",
+    "brand": "Waste Management",
+    "body": [
+      "Designed and developed time-sensitive hurricane preparedness email campaign for Waste Management, educating residential customers on emergency waste disposal services and storm debris management protocols. Collaborated with marketing and operations teams to create urgent, actionable messaging that balanced promotional content with public safety information for customers in hurricane-prone regions.",
+      "Led creative strategy and UI/UX design including copy development, visual layout architecture, and mobile-responsive template build using drag-and-drop email builder. Architected information hierarchy to prioritize service awareness and preparedness guidance while incorporating promotional discount messaging, ensuring clear communication of special collection services and customer support resources during severe weather events."
+    ],
+    "images": [
+      "assets/work/wm-bagster-20-off-spring-cleaning-a/0.png"
+    ],
+    "desc": "WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code."
+  },
+  {
+    "slug": "palforzia-peanut-allergy-hcp",
+    "title": "Aimmune Palforzia Healthcare Provider Email",
+    "alt_title": "Palforzia Peanut Allergy HCP Email",
+    "brand": "Aimmune",
+    "body": [
+      "Developed responsive HTML email template for Aimmune Therapeutics targeting healthcare providers with Palforzia prescribing information and clinical guidance. Built pharmaceutical professional email featuring critical safety warnings, indication details, and dosing protocols for peanut allergy immunotherapy treatment. Implemented strict FDA regulatory compliance including prominent anaphylaxis warnings and Important Safety Information in accessible formats.",
+      "Optimized for HCP segmentation while maintaining pharmaceutical standards for image-to-text ratios and deliverability. Ensured cross-client compatibility across medical professional email systems with mobile-responsive design supporting clinical workflows."
+    ],
+    "images": [
+      "assets/work/palforzia-peanut-allergy-hcp/0.jpg"
+    ],
+    "desc": "Aimmune Therapeutics healthcare-provider email introducing Palforzia oral immunotherapy for pediatric peanut allergy."
+  },
+  {
+    "slug": "patient-reengagement-journey-map",
+    "title": "Emory Healthcare - Patient Reengagement Campaign",
+    "alt_title": "Patient Reengagement Email Journey Map",
+    "brand": "",
+    "body": [
+      "Built with: Salesforce Marketing Cloud, SQL (Query Activities), Journey Builder, SSJS, AMPscript, custom Cloud Pages, and the SFMC REST and SOAP APIs.",
+      "I built an automated campaign to win back lapsed patients, people who had engaged with Emory before but had gone quiet. The goal was to reach them again with something relevant to their care, not just a generic blast.",
+      "The core is a data pipeline I designed in SQL: it looks at engagement history, identifies who has lapsed, and rebuilds a fresh audience on a schedule. Each patient is then routed by service line based on the care area of their last interaction, so someone who last saw orthopedics gets different messaging than someone who saw cardiology. From there they flow into a Journey Builder journey with A/B tested emails, so we could actually learn what brings people back rather than guess.",
+      "I built the whole thing with a full test harness too: every production piece (the audience, the journey, the emails) has a parallel test version, and the entire flow runs end to end in test before anything reaches a real patient. The screenshot is a data flow page I built to map every step of the pipeline and its status on one screen, so the team can see the whole system at a glance."
+    ],
+    "images": [
+      "assets/work/patient-reengagement-journey-map/0.png",
+      "assets/work/patient-reengagement-journey-map/1.png"
+    ],
+    "desc": "A multi-track lifecycle flowchart mapping the trigger logic and send cadence of a patient reengagement email campaign."
+  },
+  {
+    "slug": "unitedhealthcare-this-is-news-newsletter",
+    "title": "United Health Care\nDesign, Development & QA",
+    "alt_title": "UnitedHealthcare 'This IS News!' Insurance Solutions Newsletter",
+    "brand": "UnitedHealthcare",
+    "body": [
+      "This project demonstrates my ability to take a basic Word document brief with brand assets and transform it into a fully designed and then coded email. I handled the process end-to-end: interpreting the brief, applying design principles, and developing a responsive, cross-client-compatible HTML email.",
+      "Interpreting the Brief",
+      "Extracted key messaging and visual hierarchy from the Word document.",
+      "Identified essential content sections like the headline, callouts (e.g., Service Heroes), and closing remarks for emphasis.",
+      "Design Stage",
+      "Visual Layout: Created a clear and engaging layout based on the content, emphasizing headers, quotes, and recognition sections.",
+      "Brand Consistency: Applied UnitedHealthcare's brand guidelines, including typography, colors, and image placement.",
+      "Mobile-First Approach: Designed with responsive layouts to ensure readability and functionality across devices.",
+      "Development Stage",
+      "HTML Coding: Hand-coded the email to reflect the design, ensuring clean, maintainable, and responsive code.",
+      "Cross-Client Compatibility: Addressed quirks in email clients like Outlook using techniques such as inline styles and VML for background images.",
+      "Accessibility Compliance: Added alt text for images and structured the content for screen readers to ensure usability for all audiences.",
+      "Quality Assurance",
+      "Rendering Tests: Used Email on Acid to validate design consistency across 90+ email clients.",
+      "Functionality Tests: Verified all links and interactive elements worked correctly.",
+      "Performance Optimization: Minimized load time by compressing assets and cleaning up code."
+    ],
+    "images": [
+      "assets/work/unitedhealthcare-this-is-news-newsletter/0.png",
+      "assets/work/unitedhealthcare-this-is-news-newsletter/1.png"
+    ],
+    "desc": "UnitedHealthcare Insurance Solutions internal newsletter celebrating Service Heroes and Medicare Supplement business wins, shown alongside its Word source copy."
+  },
+  {
+    "slug": "att-uverse-cbs-restored-notice",
+    "title": "Dynamic Email, AT&T and CBS Sports",
+    "alt_title": "AT&T U-verse CBS Channels Restored Notice",
+    "brand": "AT&T",
+    "body": [
+      "This project focused on building a fully dynamic, production ready marketing email for AT&T announcing the return of CBS Sports and Smithsonian content. I handled the full lifecycle, from layout and responsive behavior to data driven personalization and performance tuning.",
+      "The template supported dynamic body copy, mobile image swaps, and solid fallbacks across major email clients, with accessibility covered through proper alt text and clear content hierarchy while staying aligned to AT&T’s brand.",
+      "On the technical side, the email was optimized for fast load times and reliable inbox placement by managing image size, compression, and image to text balance. It was tested across major clients and devices and structured to plug cleanly into AT&T’s dynamic content pipeline, resulting in a flexible, reusable template that balanced performance, accessibility, and deliverability."
+    ],
+    "images": [
+      "assets/work/att-uverse-cbs-restored-notice/0.jpg"
+    ],
+    "desc": "AT&T U-verse service message letting customers know CBS, CBS Sports and Smithsonian channels are back after a carriage agreement."
+  },
+  {
+    "slug": "directv-oxygen-murder-for-hire-premiere-a",
+    "title": "DirecTV Oxygen Murder For Hire Premiere",
+    "alt_title": "DirecTV Oxygen Murder For Hire Premiere",
+    "brand": "DirecTV",
+    "body": [
+      "DIRECTV True Crime Network Up-sell\n\nDeveloped responsive HTML email template for DirecTV's True Crime Network up-sell campaign promoting the \"Murder For Hire\" series premiere on Oxygen from the creators of \"Law & Order.\" Built promotional email featuring series artwork, premiere timing details, and channel upgrade CTAs targeting true crime audience segments. Implemented mobile-responsive design with optimized image compression for faster load times and improved deliverability performance.\n\nEnsured ADA accessibility compliance with comprehensive alt-text attributes for all imagery and maintained proper image-to-text ratios. Coded CAN-SPAM compliant footer with required unsubscribe links, physical mailing address, and subscription management options while testing cross-client compatibility across major email platforms."
+    ],
+    "images": [
+      "assets/work/directv-oxygen-murder-for-hire-premiere-a/0.png"
+    ],
+    "desc": "DirecTV email promoting the series premiere of Murder For Hire on the Oxygen true crime network."
+  },
+  {
+    "slug": "tmobile-5g-home-internet-signup",
+    "title": "T-Mobile HINT Campaign",
+    "alt_title": "T-Mobile 5G Home Internet Signup",
+    "brand": "T-Mobile",
+    "body": [
+      "I was a campaign manager for T-Mobile’s 5G Home Internet offering - a coordinated six-touch sequence across email and SMS. The campaign was sent to over a million recipients nationwide and was designed to move prospects through awareness, eligibility confirmation, and activation messaging over several weeks.",
+      "I acted as the liaison between business stakeholders, marketing, and technical teams, helping translate business requirements into executable campaign logic and keeping timelines, dependencies, and scope aligned across groups.",
+      "Beyond coordination, I was closely involved in shaping the overall flow of the program, including message sequencing, timing between touches, and how different channels were orchestrated together.",
+      "Email Journeys and Cadence:",
+      "Designed structured email journeys (e.g., T1 to T6), balancing engagement frequency with customer experience.",
+      "Aligned messaging and timing with customer lifecycle stages to maximize impact.",
+      "Campaign Strategy:",
+      "Contributed to crafting strategic messaging for email and SMS touchpoints to drive engagement and conversions.",
+      "Collaborated with cross-functional teams to ensure campaigns met broader marketing objectives.",
+      "Data Pipelines:",
+      "Oversaw data flow from multiple sources into SFMC, ensuring accurate segmentation and personalization.",
+      "Managed tools like Control-M to monitor and maintain pipeline integrity for seamless campaign execution.",
+      "KPI Tracking and Optimization:",
+      "Monitored key metrics like delivery rate, bounce rate, and engagement to measure campaign success.",
+      "Used performance data to refine future strategies and improve ROI."
+    ],
+    "images": [
+      "assets/work/tmobile-5g-home-internet-signup/0.png",
+      "assets/work/tmobile-5g-home-internet-signup/1.png",
+      "assets/work/tmobile-5g-home-internet-signup/2.png",
+      "assets/work/tmobile-5g-home-internet-signup/3.png"
+    ],
+    "desc": "T-Mobile 5G Home Internet email confirming availability and promoting $50/month service with a $100 back offer."
+  },
+  {
+    "slug": "att-unlimited-data-live-tv-spanish",
+    "title": "AT&T Unlimited Data & Live TV (Spanish)",
+    "alt_title": "AT&T Unlimited Data & Live TV (Spanish)",
+    "brand": "AT&T",
+    "body": [
+      "AT&T marketing email, targeting the Spanish-speaking market, in partnership with different cable networks.",
+      "Developed responsive HTML email template for AT&T's Spanish-language marketing campaign targeting Hispanic audiences with bundled TV and unlimited data offers. Collaborated with marketing teams to localize content and promotional messaging for cable network partnerships including TNT, AMC, and other premium channels, ensuring culturally relevant communication and appropriate translation.",
+      "Built mobile-responsive layout featuring multiple content modules showcasing popular Spanish-language programming like \"El Bordo y la Flaca\" and \"The Last Ship.\" Implemented dynamic CTAs, multi-tier offer presentation, and cross-client compatibility testing to ensure consistent rendering across devices while maintaining AT&T's brand standards for the Hispanic market segment."
+    ],
+    "images": [
+      "assets/work/att-unlimited-data-live-tv-spanish/0.jpg"
+    ],
+    "desc": "Spanish-language AT&T email promoting unlimited data plus 30+ live TV channels via WatchTV."
+  },
+  {
+    "slug": "blue-shield-2024-medicare-coverage-booklet",
+    "title": "Blue Shield of California",
+    "alt_title": "Blue Shield of California 2024 Medicare Coverage Email",
+    "brand": "Blue Shield of California",
+    "body": [
+      "This project was part of Blue Shield of California’s 2023 Medicare Educational Series, built in Salesforce Marketing Cloud to guide members through coverage options and enrollment timing. I developed the template using SFMC content blocks and reusable components, making it easy for the team to swap in different educational assets like booklets and videos while keeping layout and branding consistent. Because this was a regulated healthcare campaign, the build was designed to remain fully CAN-SPAM and HIPAA compliant while still feeling clear and approachable for a broad audience.",
+      "On the technical side, I focused on accessibility and reliability, including proper alt text, email-safe layouts, and defensive HTML and CSS for inconsistent client rendering. The template was tested across major clients using Litmus and Email on Acid to catch spacing, typography, and stacking issues before launch. The result was a compliant, reusable framework the team could rely on for ongoing educational sends."
+    ],
+    "images": [
+      "assets/work/blue-shield-2024-medicare-coverage-booklet/0.png"
+    ],
+    "desc": "Blue Shield of California email offering a free Medicare booklet and enlightenment video ahead of the Annual Enrollment Period."
+  },
+  {
+    "slug": "att-internet-hbo-max-included",
+    "title": "AT&T Internet HBO Max Included Activation",
+    "alt_title": "AT&T Internet HBO Max Included Activation",
+    "brand": "AT&T",
+    "body": [
+      "AT&T HBO Max Partnership Email\n\nDeveloped responsive HTML email template for AT&T Internet's HBO Max partnership promotion announcing included streaming benefits for Internet 1000 subscribers. Built step-by-step activation flow with numbered instructional design guiding customers through account setup process via att.com portal integration.\n\nImplemented clean informational hierarchy showcasing HBO Max Originals including Game of Thrones, Joker, Aquaman, and Love Life with grid-based content layout. Coded mobile-responsive design with gradient CTAs, social media integration, and cross-client compatibility. Ensured accessibility compliance and maintained co-branded visual standards for AT&T and HBO Max partnership messaging."
+    ],
+    "images": [
+      "assets/work/att-internet-hbo-max-included/0.jpg"
+    ],
+    "desc": "AT&T Internet 1000 email announcing HBO Max is now included, with step-by-step activation instructions for the benefit."
+  },
+  {
+    "slug": "wm-bagster-20-off-spring-cleaning-b",
+    "title": "Waste Management - Bagster",
+    "alt_title": "WM Bagster 20% Off Spring Cleaning",
+    "brand": "Waste Management",
+    "body": [
+      "Designed promotional email campaign for Waste Management's Bagster product, a portable dumpster bag solution for home cleanout projects with scheduled curbside pickup. Collaborated with marketing teams to develop campaign copy, seasonal discount messaging, and visual design targeting residential DIY and spring cleaning customers.",
+      "Led creative execution including UI/UX design, color palette selection, and mobile-responsive layout development using drag-and-drop email builder. Implemented dynamic coupon code and expiration date variables for personalized offer distribution, while optimizing conversion-focused elements like prominent CTAs and clear value proposition to drive product purchases."
+    ],
+    "images": [
+      "assets/work/wm-bagster-20-off-spring-cleaning-b/0.png"
+    ],
+    "desc": "WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code."
+  },
+  {
+    "slug": "directv-starz-free-preview",
+    "title": "Starz and DIRECTV",
+    "alt_title": "DirecTV Starz Free Preview Weekend",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template for DirecTV's Starz partnership campaign promoting free weekend preview access to premium content including American Gods, Now Apocalypse, Spider-Man: Homecoming, and Toy Story 3. Built multi-section promotional layout with hero imagery, content grid showcasing featured programming, and channel information targeting subscription upgrade conversions.",
+      "Implemented mobile-responsive design with optimized image compression for faster load times and improved deliverability through strategic image-to-text ratio management. Ensured ADA accessibility compliance with comprehensive alt-text attributes for all imagery. Coded CAN-SPAM compliant footer with detailed network partnership disclaimers, subscription management links, and social media integration while maintaining cross-client compatibility across major email platforms."
+    ],
+    "images": [
+      "assets/work/directv-starz-free-preview/0.jpg"
+    ],
+    "desc": "DirecTV email promoting a free Starz preview weekend featuring American Gods, Now Apocalypse, and Toy Story 3."
+  },
+  {
+    "slug": "att-installation-appointment-reminder",
+    "title": "Service message email",
+    "alt_title": "AT&T Installation Appointment Reminder",
+    "brand": "AT&T",
+    "body": [
+      "This project was a service message email for AT&T, where I handled the build and CRM integration using HTML, CSS, and Salesforce Marketing Cloud with AMPscript for personalization. I worked with marketers and data partners to make sure variable content like names, dates, and time windows rendered correctly and stayed readable across devices, with a strong focus on accessibility and real-world inbox behavior.",
+      "Technically, I built a responsive layout with image swaps for mobile, added alt text for ADA compliance, and tuned image weight and text balance to protect deliverability. I tested across Outlook, Gmail, and mobile clients, wired in dynamic fields from the sendable data, and delivered a stable, reusable template that could support high-volume, time-sensitive sends without breaking."
+    ],
+    "images": [
+      "assets/work/att-installation-appointment-reminder/0.jpg"
+    ],
+    "desc": "Transactional AT&T email confirming an upcoming service installation with prep tips and reschedule link."
+  },
+  {
+    "slug": "save-khaki-supima-cotton-collection",
+    "title": "Save Khaki website - collection page",
+    "alt_title": "Save Khaki United Supima Cotton Collection Page",
+    "brand": "Save Khaki",
+    "body": [
+      "This project was part of the Save Khaki e-commerce site, where I worked on a team maintaining and evolving the storefront. I personally built the Supima collection page to showcase a premium product line with a strong emphasis on photography, merchandising, and clear navigation. The site ran on Shopify, and my role was to translate design and merchandising requirements into a responsive, production-ready page that worked across the browsers and devices common at the time.",
+      "From a technical standpoint, the work focused on Shopify’s theming system, Liquid templates, and front end HTML and CSS. I implemented the collection layout, handled responsive behavior, and tested the page to ensure consistent rendering and performance. The result was a polished, maintainable collection page that fit cleanly into the existing e-commerce experience.",
+      "Live site:",
+      "www.savekhaki.com"
+    ],
+    "images": [
+      "assets/work/save-khaki-supima-cotton-collection/0.png"
+    ],
+    "desc": "Save Khaki United web page promoting its Supima cotton tees as America's best cotton with a product grid."
+  },
+  {
+    "slug": "glo-find-a-class-help",
+    "title": "Email to help users find a class",
+    "alt_title": "Glo Find a Class Help & Recommendations",
+    "brand": "Glo",
+    "body": [
+      "This project focused on building a personalized “find a class” email for YogaGlo, designed to help users quickly discover content that matched their interests and experience level. I worked with a machine learning engineer who owned the recommendation logic, and my role was to integrate those results into a dynamic email template that could render different class cards per user. The front end was built with responsive, email-safe HTML and CSS to keep the layout clean and scannable across devices.",
+      "On the implementation side, the template pulled recommendations from an internal endpoint and mapped them into reusable content blocks. I tested the build across major email clients to make sure images, spacing, and stacking behavior held up. The result was a scalable, personalized email that turned raw recommendation data into a usable product experience inside the inbox."
+    ],
+    "images": [
+      "assets/work/glo-find-a-class-help/0.jpg"
+    ],
+    "desc": "Glo (YogaGlo) email offering personalized class suggestions from certified instructors plus a set of recommended yoga classes."
+  },
+  {
+    "slug": "att-internet-spotify-premium-free",
+    "title": "AT&T and Spotify partnership",
+    "alt_title": "AT&T Internet Free Spotify Premium Offer",
+    "brand": "AT&T",
+    "body": [
+      "This project was a static promotional email announcing the AT&T and Spotify Premium partnership, designed to highlight the offer with a clean, typography driven layout and strong brand presence from both partners. I translated the creative into a responsive email that held up across desktop and mobile, while making sure the message stayed clear, readable, and accessible through proper alt text and structured content flow.",
+      "The build focused on efficiency and inbox reliability, with optimized image assets, careful image to text balance, and mobile specific image swaps where needed. The template was tested across major email clients and devices to ensure consistent rendering, resulting in a lightweight, deliverable friendly email that balanced performance, accessibility, and visual impact."
+    ],
+    "images": [
+      "assets/work/att-internet-spotify-premium-free/0.jpg"
+    ],
+    "desc": "AT&T Internet email giving new customers six free months of Spotify Premium with redemption steps."
+  },
+  {
+    "slug": "blue-shield-aep-spanish",
+    "title": "Blue Shield of California",
+    "alt_title": "Blue Shield Annual Enrollment Period (Spanish)",
+    "brand": "Blue Shield of California",
+    "body": [
+      "This project covered the 2023 AEP campaign for Blue Shield of California, built in Salesforce Marketing Cloud with multiple versions in both English and Spanish. I implemented the emails using SFMC content blocks and AMPscript, structuring the templates to support dynamic messaging while keeping the layouts consistent across languages and audiences. The work focused on making the campaign flexible for marketing while still maintaining strict control over branding and layout.",
+      "On the technical side, I designed the templates to handle conditional content, language switching, and reusable components without duplicating code. I tested the builds across major email clients to ensure reliable rendering and predictable fallbacks, especially for image and text-heavy sections. The final result was a scalable campaign setup that made it easy to manage variations while keeping production and QA overhead low."
+    ],
+    "images": [
+      "assets/work/blue-shield-aep-spanish/0.png"
+    ],
+    "desc": "Spanish-language Blue Shield of California email reminding members about the Annual Enrollment Period."
+  },
+  {
+    "slug": "att-samsung-galaxy-s10-bogo-spanish",
+    "title": "AT&T Samsung Galaxy S10 Buy One Get One (Spanish)",
+    "alt_title": "AT&T Samsung Galaxy S10 Buy One Get One (Spanish)",
+    "brand": "AT&T",
+    "body": [
+      "Spanish version of AT&T Samsung Galaxy partnership email\n\n\nDeveloped responsive HTML email template for AT&T's Spanish-language marketing campaign promoting the Samsung Galaxy S10 product launch to Hispanic audiences. Collaborated with marketing teams to localize product messaging and partnership content, showcasing flagship device features including professional-grade camera, ultrasonic fingerprint sensor, intelligent battery, and wireless PowerShare capabilities.\n\nBuilt modular content blocks with product photography, feature highlights, and CTAs optimized for mobile devices. Ensured cross-client compatibility and maintained co-branded visual standards for both AT&T and Samsung, delivering culturally relevant communication that drove pre-orders and device upgrades within the Hispanic market segment."
+    ],
+    "images": [
+      "assets/work/att-samsung-galaxy-s10-bogo-spanish/0.jpg"
+    ],
+    "desc": "Spanish-language AT&T email promoting the Samsung Galaxy S10 with a buy-one-get-one-free trade-in offer."
+  },
+  {
+    "slug": "amex-credit-intel-home-equity-calculator",
+    "title": "American Express Financial Calculators - Home Loan",
+    "alt_title": "Amex Credit Intel Home Equity Loan Calculator",
+    "brand": "American Express",
+    "body": [
+      "I was the lead developer across a suite of about seven financial calculators for American Express Credit Intel, including the Home Equity Calculator. Each tool was built with HTML, CSS, and JavaScript, with a shared focus on clear UX, responsive layout, and accessibility so the experiences worked consistently across devices and input methods.",
+      "For the Home Equity Calculator specifically, I implemented the UI and calculation logic that estimates available equity from home value and mortgage balance, with strong input validation and edge case handling for scenarios like low or negative equity. More broadly, I helped design a reusable pattern for these tools so calculations, formatting, and error handling stayed consistent across the entire calculator suite as requirements and compliance reviews evolved."
+    ],
+    "images": [
+      "assets/work/amex-credit-intel-home-equity-calculator/0.png",
+      "assets/work/amex-credit-intel-home-equity-calculator/1.png"
+    ],
+    "desc": "American Express Credit Intel interactive home equity loan calculator estimating how much a user may be eligible to borrow."
+  },
+  {
+    "slug": "pnc-capital-advisors-q1-2021-fixed-income",
+    "title": "PNC Bank Quarterly Newsletter",
+    "alt_title": "PNC Capital Advisors Q1 2021 Fixed Income Insights",
+    "brand": "PNC",
+    "body": [
+      "Developed responsive HTML email template in Salesforce Marketing Cloud for PNC Capital Advisors' quarterly institutional newsletter. Collaborated with content strategists and designers to build modular editorial layout featuring multiple article sections, thought leadership content, and investment insights.",
+      "Coded reusable content blocks with AMPscript personalization and implemented mobile-responsive design with advanced media queries for optimal readability across devices. Ensured cross-client compatibility through extensive testing and maintained strict accessibility standards with proper alt-text and semantic HTML structure for professional financial services audience."
+    ],
+    "images": [
+      "assets/work/pnc-capital-advisors-q1-2021-fixed-income/0.jpg"
+    ],
+    "desc": "PNC Capital Advisors institutional email sharing first quarter 2021 fixed income market perspectives and thought-leadership articles."
+  },
+  {
+    "slug": "emory-healthcare-email-kpi-dashboard",
+    "title": "Emory Healthcare - KPI Dashboard",
+    "alt_title": "Emory Healthcare Email KPI Dashboard",
+    "brand": "Emory Healthcare",
+    "body": [
+      "Built with: Salesforce Marketing Cloud, custom Cloud Pages, SSJS, AMPscript, SQL (Query Activities), and the SFMC REST and SOAP APIs.",
+      "Salesforce Marketing Cloud does have built in reporting, but it's clunky and not something the team wanted to open every day. So I built a clean, simple dashboard on top of the same data: one screen that shows how their email is actually performing (sends, opens, clicks, bounces, and unsubscribes), rolled up by campaign, category, and service line. Instead of digging through native reports, they get one always current view of the whole program.",
+      "It runs entirely inside Salesforce Marketing Cloud as a custom Cloud Page. I built the data pipeline behind it: nightly automations aggregate raw send and tracking data into a summary data extension, and a Sync button refreshes the most recent activity on demand. A separate admin page lets the team map campaigns to categories and service lines and manage exclusions, so the rollups stay accurate even as campaign naming changes over time.",
+      "The hardest part was making the numbers trustworthy at scale. I reworked the nightly refresh to process data in weekly chunks and switched it to an upsert model, which stopped it from double counting and from failing on high volume days. The frontend is a single Cloud Page I designed for a clean, focused UI, rendered with AMPscript and SSJS, with the interactive metrics, filters, and drilldowns built in vanilla JavaScript, CSS, and HTML.\n\n(Image below has sensitive info redacted)"
+    ],
+    "images": [
+      "assets/work/emory-healthcare-email-kpi-dashboard/0.png"
+    ],
+    "desc": "Interactive email marketing KPI dashboard for Emory Healthcare with filters and journey performance breakdowns."
+  },
+  {
+    "slug": "att-tv-now-hbo-max",
+    "title": "AT&TTV NOW/HBOMAX",
+    "alt_title": "AT&T TV NOW HBO Max Free Access",
+    "brand": "AT&T",
+    "body": [
+      "This project was a static promotional email for the AT&T TV Now and HBO Max partnership, built to showcase a content grid of featured shows while keeping the message clear and visually punchy. I translated the creative into a responsive email layout that held its structure across desktop and mobile, and ensured accessibility through proper alt text, readable typography, and a logical content order.",
+      "On the technical side, the template was optimized for performance and deliverability by compressing and balancing image assets, keeping a healthy image to text ratio, and supporting mobile specific image swaps. It was tested across major email clients and devices, resulting in a reliable, lightweight campaign email that balanced strong branding with accessibility and inbox friendly performance."
+    ],
+    "images": [
+      "assets/work/att-tv-now-hbo-max/0.jpg"
+    ],
+    "desc": "AT&T TV NOW email offering three months of HBO Max included and steps to start streaming."
+  },
+  {
+    "slug": "blue-shield-medicare-retirement-guide",
+    "title": "Blue Shield Medicare Informational email",
+    "alt_title": "Blue Shield Medicare Retirement Benefits Guide",
+    "brand": "Blue Shield of California",
+    "body": [
+      "This project was an informational follow-up email for Blue Shield Medicare, sent after a user requested educational materials about Medicare and retirement benefits. The goal was to confirm the request, deliver the promised content, and guide recipients to next steps without feeling salesy or overwhelming. I built the template in Salesforce Marketing Cloud using reusable content blocks so the team could easily adapt it for similar post-request or confirmation scenarios.",
+      "Because this was a regulated healthcare communication, the build emphasized compliance and clarity alongside visual polish. The template accounted for CAN-SPAM and accessibility requirements, included clear contact and opt-out sections, and was tested across major email clients using tools like Litmus and Email on Acid. The end result was a reliable, compliant transactional-style email that balanced trust, usability, and maintainability."
+    ],
+    "images": [
+      "assets/work/blue-shield-medicare-retirement-guide/0.jpg"
+    ],
+    "desc": "Blue Shield of California email offering a free Social Security retirement benefits guide for Medicare prospects."
+  },
+  {
+    "slug": "decathlon-inline-skates-product-page",
+    "title": "Decathlon website - feature development",
+    "alt_title": "Decathlon Inline Skates Product Page",
+    "brand": "Decathlon",
+    "body": [
+      "and bug fixes",
+      "I worked as a front-end developer on Decathlon's Shopify e-commerce site back in 2018. Fixed critical bugs in the add-to-cart checkout flow that were impacting conversion rates, and developed several new pages and features for the apparel website. Used Shopify Liquid templating language along with HTML, CSS, and JavaScript to build responsive product pages and optimize the user experience across devices."
+    ],
+    "images": [
+      "assets/work/decathlon-inline-skates-product-page/0.png"
+    ],
+    "desc": "Decathlon ecommerce product page for inline skates with an option selector and add-to-cart at $51.92."
+  },
+  {
+    "slug": "glo-meet-our-instructors",
+    "title": "Instructor up-sell email",
+    "alt_title": "Glo Meet Our Instructors",
+    "brand": "Glo",
+    "body": [
+      "This project was an instructor-focused upsell email for YogaGlo, designed to introduce users to teachers they were most likely to enjoy. The first section featured an animated module that rotated through instructor profiles, while the rest of the template supported highlighting individual teachers with clear calls to action. I worked alongside a machine learning engineer who handled the recommendation logic, and my role was to turn those outputs into a dynamic, production-ready email experience.",
+      "On the technical side, I built the template with responsive, email-safe HTML and CSS and wired it to consume instructor recommendations from an internal endpoint. I tested the build across major email clients to ensure the animation, layout, and fallbacks behaved predictably on both desktop and mobile."
+    ],
+    "images": [
+      "assets/work/glo-meet-our-instructors/0.jpg"
+    ],
+    "desc": "Glo (YogaGlo) email introducing featured teachers including Elena Brower, Jason Crandell and Noah Levine."
+  },
+  {
+    "slug": "dr-ken-hanson-speaker-website",
+    "title": "Dr. Ken Hanson website",
+    "alt_title": "Dr. Ken Hanson Speaker Website",
+    "brand": "Dr. Ken Hanson",
+    "body": [
+      "Designed and developed complete website for Dr. Ken Hanson, distinguished history professor at The University of Central Florida specializing in bringing history to life through engaging presentations. Created comprehensive brand identity including custom logo design and established visual design system with branded color palette, typography, and style guidelines applied consistently across all site content.",
+      "Built responsive website architecture with navigation structure including home, about, media, booking/contact, store, and events sections. Edited hero video content to incorporate branded signature animation at beginning and end, reinforcing professional speaker brand. Developed mobile-responsive layout ensuring optimal viewing experience across all devices while maintaining brand consistency throughout the user journey."
+    ],
+    "images": [
+      "assets/work/dr-ken-hanson-speaker-website/0.png"
+    ],
+    "desc": "Personal website for author and historian Dr. Ken Hanson, promoting his books, media, and speaking engagements."
+  },
+  {
+    "slug": "emory-winship-event-confirmation",
+    "title": "Emory Healthcare",
+    "alt_title": "Emory Winship Cancer Institute Event Registration Confirmation",
+    "brand": "Emory Healthcare",
+    "body": [
+      "As a Salesforce Marketing Cloud Architect for Emory Healthcare, I coded sql automations, created journeys, and coded emails. The email below is an event communications for Emory Healthcare's Winship Cancer Institute events. Designed and coded dynamic responsive registration and reminder emails in Salesforce Marketing Cloud, and built the supporting Journey Builder logic for confirmations and timed reminders.",
+      "I implemented dynamic header imagery that automatically switches between Winship Cancer Institute and standard Emory Healthcare branding based on event type, along with data-driven personalization to ensure attendees received accurate session details and consistent, correct branding across all sends."
+    ],
+    "images": [
+      "assets/work/emory-winship-event-confirmation/0.png",
+      "assets/work/emory-winship-event-confirmation/1.png"
+    ],
+    "desc": "Emory Winship Cancer Institute event registration confirmation email with its Journey Builder send flow."
+  },
+  {
+    "slug": "amex-creditintel-debt-consolidation-calculator",
+    "title": "American Express Financial Calculators - Debt Consolidation",
+    "alt_title": "Amex Credit Intel Debt Consolidation Calculator",
+    "brand": "American Express",
+    "body": [
+      "I was the lead developer across a suite of about seven interactive financial calculators for American Express Credit Intel, including the credit card debt consolidation calculator, a Credit Intel interactive that helps users compare payoff scenarios and understand tradeoffs like interest cost, monthly payment, and timeline. I built the experience end to end with HTML, CSS, and JavaScript, focusing on a clean UI, responsive layout, and accessibility so it worked smoothly across devices and was usable with keyboards and screen readers.",
+      "The harder part was the math: implementing and validating the financial calculations with careful handling for rounding, input constraints, edge cases, and realistic output formatting that stays consistent as inputs change. I also added guardrails and clear error states to prevent bad inputs, and structured the code to be maintainable as requirements evolved, since these tools tend to get iterative updates once stakeholders see real user behavior."
+    ],
+    "images": [
+      "assets/work/amex-creditintel-debt-consolidation-calculator/0.png",
+      "assets/work/amex-creditintel-debt-consolidation-calculator/1.png",
+      "assets/work/amex-creditintel-debt-consolidation-calculator/2.png"
+    ],
+    "desc": "Three-step American Express Credit Intel tool comparing debt before and after consolidation."
+  },
+  {
+    "slug": "directv-winback-200-reward-card",
+    "title": "DirecTV Upsell Credit Card Email",
+    "alt_title": "DirecTV Win-Back $200 Reward Card Email",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template for AT&T Fiber's HBO Max bundle campaign promoting entertainment-grade internet with included streaming benefits. Built promotional email featuring animated GIF hero image with visual motion effects showcasing AT&T Fiber and HBO Max co-branding.",
+      "Implemented multi-section informational layout highlighting 1 GIG internet speeds starting at $39.99/month, 1000Mbps connection capabilities, and unlimited data ($30 value) bundled with HBO Max access. Coded detailed service comparison messaging emphasizing bandwidth advantages over cable providers (Xfinity, Spectrum, Cox) with supporting footnotes and disclaimers. Developed mobile-responsive design with optimized image performance, gradient CTAs, and featured content grid showcasing Westworld and Friends programming to drive fiber upgrade conversions."
+    ],
+    "images": [
+      "assets/work/directv-winback-200-reward-card/0.png"
+    ],
+    "desc": "DirecTV win-back email offering up to a $200 Visa reward card and the Entertainment All Included package to returning customers."
+  },
+  {
+    "slug": "directv-nfl-sunday-ticket-lounge-invite",
+    "title": "DIRECTV marketing email, promoting NFL Sunday Ticket.",
+    "alt_title": "DirecTV NFL Sunday Ticket Big Game Lounge Invite",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template for DirecTV's NFL Sunday Ticket campaign promoting an exclusive subscriber event at the Big Game. Collaborated with project and account managers to execute event invitation strategy targeting premium subscribers with VIP lounge access and athlete meet-and-greet opportunities.",
+      "Built mobile-responsive layout with event details, RSVP functionality, and social media integration. Implemented dynamic personalization for subscriber targeting and ensured cross-client compatibility. Worked within NFL partnership brand guidelines while maintaining DirecTV's visual identity and driving event registration through clear CTAs."
+    ],
+    "images": [
+      "assets/work/directv-nfl-sunday-ticket-lounge-invite/0.jpg"
+    ],
+    "desc": "DirecTV email inviting NFL Sunday Ticket subscribers to an exclusive Big Game weekend lounge event in Atlanta."
+  },
+  {
+    "slug": "amex-member-week-business-offers",
+    "title": "AmEx Member Week Email",
+    "alt_title": "Amex Member Week Business Offers",
+    "brand": "American Express",
+    "body": [
+      "Developed responsive HTML email templates in Salesforce Marketing Cloud for American Express's annual Member Week campaign, which delivers exclusive merchant offers to small business cardmembers. Collaborated with data teams to implement AMPscript personalization logic and dynamic content blocks for targeted offer delivery based on cardholder segments.",
+      "Built mobile-responsive layouts optimized for cross-client rendering while maintaining AmEx brand standards. Integrated SFMC data extensions to dynamically populate cardholder names, unique access codes, and segmented offer catalogs, enabling accurate 1:1 personalization for multi-million recipient deployments supporting merchant partnerships and cardmember engagement."
+    ],
+    "images": [
+      "assets/work/amex-member-week-business-offers/0.png"
+    ],
+    "desc": "American Express merchant email for Member Week featuring Homebase and Snapchat offers plus payment insights."
+  },
+  {
+    "slug": "acme-real-estate-open-houses",
+    "title": "Marketing email for real estate firm",
+    "alt_title": "ACME Real Estate Open Houses Page",
+    "brand": "ACME",
+    "body": [
+      "This project was a marketing email for ACME Real Estate, built to showcase current listings and promote upcoming open houses in a clean, image-forward layout. The marketing team had an existing template direction but needed help turning it into something flexible and reliable for real campaigns. I stepped in to debug the build, finish the front end development, and adapt the template so it could handle changing property data without breaking the layout or visual hierarchy.",
+      "From an implementation standpoint, the work focused on responsive, email-safe HTML and CSS and careful handling of image-heavy sections. I tested the template across major email clients to make sure spacing, typography, and grid behavior held up on both desktop and mobile. The end result was a polished, reusable template the team could use for ongoing property and open house announcements."
+    ],
+    "images": [
+      "assets/work/acme-real-estate-open-houses/0.jpg"
+    ],
+    "desc": "ACME Real Estate web page featuring Los Angeles open house listings and brokerage messaging."
+  },
+  {
+    "slug": "toyota-usa-hockey-team-usa-sponsorship",
+    "title": "Toyota USA Hockey & Team USA Sponsorship",
+    "alt_title": "Toyota USA Hockey & Team USA Sponsorship",
+    "brand": "Toyota",
+    "body": [
+      "Toyota Olympics campaign (Hockey version)\n\nDeveloped responsive HTML email template for Toyota's Olympic partnership campaign highlighting figure skating athlete Alysa Liu, youngest-ever U.S. ladies national champion. Built multi-section promotional email featuring athlete storytelling, Team USA partnership messaging, and local dealer offers connecting Olympic sponsorship with automotive CTAs.\n\n Implemented mobile-responsive design with optimized images for faster load times and ADA-compliant alt-text attributes for accessibility. Ensured cross-client compatibility testing and maintained image-to-text ratio standards for deliverability performance. Coded CAN-SPAM compliant footer with required unsubscribe mechanisms and physical mailing address while maintaining co-branded visual standards for Toyota and Olympic partnership guidelines."
+    ],
+    "images": [
+      "assets/work/toyota-usa-hockey-team-usa-sponsorship/0.jpg"
+    ],
+    "desc": "Toyota email spotlighting its USA Hockey and Team USA Olympic/Paralympic sponsorship alongside Tacoma offers."
+  },
+  {
+    "slug": "att-samsung-galaxy-s10-bogo",
+    "title": "AT&T Samsung Galaxy S10 Launch BOGO Email",
+    "alt_title": "AT&T Samsung Galaxy S10 Launch BOGO Email",
+    "brand": "AT&T",
+    "body": [
+      "AT&T & Samsung Galaxy Partnership offer\n\nDeveloped responsive HTML email template for AT&T's Samsung Galaxy S10 product launch campaign targeting English-speaking audiences. Built promotional email showcasing the S10 family lineup with hero product imagery, pre-order CTAs, and feature highlights including near bezel-less Cinematic Infinity Display, ultrasonic fingerprint sensor, and pro-grade camera capabilities.\n\nCollaborated with marketing teams to implement co-branded messaging that positioned AT&T's network advantages alongside Samsung's flagship device innovations. Ensured cross-client compatibility and mobile responsiveness while maintaining visual consistency with both AT&T and Samsung brand guidelines to drive pre-order conversions"
+    ],
+    "images": [
+      "assets/work/att-samsung-galaxy-s10-bogo/0.jpg"
+    ],
+    "desc": "AT&T email introducing the Samsung Galaxy S10 lineup with a buy-one-get-one-free offer on eligible devices."
+  },
+  {
+    "slug": "directv-hbo-cinemax-free-preview",
+    "title": "AT&T direct marketing email",
+    "alt_title": "DirecTV HBO & Cinemax Free Preview Weekend",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template in for AT&T's DirecTV marketing campaign promoting premium channel free preview weekends for Cinemax and HBO. Collaborated with project managers and designers to translate creative mockups into production-ready email code.",
+      "Implemented dynamic content blocks and personalization to display customer account information and targeted channel offerings. Focused on cross-client compatibility and mobile responsiveness to ensure the promotional messaging rendered correctly across all major email clients and devices."
+    ],
+    "images": [
+      "assets/work/directv-hbo-cinemax-free-preview/0.jpg"
+    ],
+    "desc": "DirecTV email promoting a free HBO and Cinemax preview weekend featuring Game of Thrones marathons and blockbuster movies."
+  },
+  {
+    "slug": "directv-oxygen-murder-for-hire-premiere-b",
+    "title": "DIRECTV True Crime Network Up-sell",
+    "alt_title": "DirecTV Oxygen Murder For Hire Premiere",
+    "brand": "DirecTV",
+    "body": [
+      "Developed responsive HTML email template for DirecTV's True Crime Network up-sell campaign promoting the \"Murder For Hire\" series premiere on Oxygen. Collaborated with network partnership teams to execute promotional messaging targeting true crime audiences with exclusive content from the creators of \"Law & Order.\"",
+      "Built compelling layout featuring series artwork, premiere timing, and channel information to drive viewership and package upgrades. Implemented mobile-responsive design with social media integration and clear CTAs. Conducted cross-client testing to ensure consistent rendering and applied CAN-SPAM compliance standards for subscription management and sender identification across all deliverability requirements."
+    ],
+    "images": [
+      "assets/work/directv-oxygen-murder-for-hire-premiere-b/0.png"
+    ],
+    "desc": "DirecTV email promoting the series premiere of Murder For Hire on the Oxygen true crime network."
+  },
+  {
+    "slug": "directv-movies-extra-pack-preview",
+    "title": "DIRECTV and movie channel partnership",
+    "alt_title": "DirecTV Movies Extra Pack Free Preview",
+    "brand": "DirecTV",
+    "body": [
+      "This project was a static promotional email for a DIRECTV content partnership, centered on promoting a limited time free preview across multiple premium channels. I built the template to balance a content heavy layout with clear hierarchy, making sure the offer, channel lineup, and supporting visuals stayed readable and on brand across desktop and mobile, while meeting accessibility needs through proper alt text and structured content flow.",
+      "From a technical perspective, the email was optimized for speed and inbox reliability by compressing image assets, maintaining a healthy image to text ratio, and using mobile image swaps where appropriate. The template was tested across major email clients and devices to ensure consistent rendering, resulting in a dependable, high performance campaign email that combined strong visuals with solid deliverability and accessibility."
+    ],
+    "images": [
+      "assets/work/directv-movies-extra-pack-preview/0.jpg"
+    ],
+    "desc": "DirecTV email promoting a free preview of the Movies Extra Pack with nine premium movie channels."
+  },
+  {
+    "slug": "employer-tax-credits-refunds-landing-page",
+    "title": "Tax Opportunities America",
+    "alt_title": "Employer Tax Credits & Refunds Landing Page",
+    "brand": "",
+    "body": [
+      "Designed and developed complete website for Tax Opportunities America (T.O.A.), a financial services company specializing in tax credit savings and refund processing. Built mobile-responsive site architecture with navigation including about, eligibility, partnerships, locations, contact, and FAQ sections while establishing consistent brand identity through color palette, typography, and visual design system.",
+      "Collaborated iteratively with client stakeholders to refine messaging, user experience, and content strategy throughout the development process. Wrote, produced, and managed development of explainer video showcasing T.O.A.'s tax credit services including 100% compliance guarantee and CPA support features. Ensured all site content aligned with brand guidelines and delivered professional, trust-building design for financial services audience."
+    ],
+    "images": [
+      "assets/work/employer-tax-credits-refunds-landing-page/0.png"
+    ],
+    "desc": "Marketing landing page for a service that helps businesses claim federal and state employee tax credits and refunds."
+  },
+  {
+    "slug": "sfmc-query-studio-dedupe-sql",
+    "title": "T-Mobile Campaign Management & Tracking",
+    "alt_title": "SFMC Query Studio Email Deduplication SQL",
+    "brand": "",
+    "body": [
+      "Provided SQL-driven campaign operations support for T-Mobile's email marketing programs in Salesforce Marketing Cloud. Developed custom SQL queries in Query Studio to analyze and track multi-day treatment campaigns, enabling marketers to verify audience counts, identify duplicate sends, and validate segmentation logic before deployment.",
+      "Built queries to count distinct treatment audiences across day-of, 30-day, and 90-day follow-up journeys, helping marketing teams make data-informed decisions on campaign timing and audience targeting. Performed QA through SQL analysis to prevent duplicate sends and ensure proper customer journey assignment, directly supporting marketers with actionable data insights that improved campaign accuracy and protected deliverability performance across T-Mobile's customer communication programs."
+    ],
+    "images": [
+      "assets/work/sfmc-query-studio-dedupe-sql/0.png",
+      "assets/work/sfmc-query-studio-dedupe-sql/1.png"
+    ],
+    "desc": "Salesforce Marketing Cloud Query Studio screenshots of SQL queries counting and deduplicating treatment IDs and email addresses."
+  },
+  {
+    "slug": "toyota-2018-mirai-fuel-cell",
+    "title": "Toyota Mirai Email Campaign",
+    "alt_title": "Toyota 2018 Mirai Fuel Cell Vehicle",
+    "brand": "Toyota",
+    "body": [
+      "Developed responsive HTML email template for Toyota's Mirai hydrogen fuel cell vehicle campaign promoting zero-emission mobility technology. Collaborated iteratively with design team to address critical accessibility and cross-client compatibility issues including converting text-embedded images to live HTML for screen reader support, replacing gradient backgrounds causing Outlook rendering failures with solid colors, and implementing mobile-responsive stacking for side-by-side layouts.",
+      "Built bulletproof CSS buttons replacing image-based CTAs for universal client compatibility. Added comprehensive alt-text attributes for all imagery to ensure ADA compliance. Implemented feature callouts showcasing $15,000 fuel credit, CA HOV carpool sticker eligibility, and extended driving range with icon-based design elements and social media integration."
+    ],
+    "images": [
+      "assets/work/toyota-2018-mirai-fuel-cell/0.png"
+    ],
+    "desc": "Toyota email showcasing the 2018 Mirai hydrogen fuel cell vehicle, its technology, complimentary fuel offer and new fueling stations."
+  },
+  {
+    "slug": "att-iphone-xs-50-off-se-upsell",
+    "title": "AT&T iPhone Upsell",
+    "alt_title": "AT&T iPhone XS 50% Off With iPhone SE Upsell",
+    "brand": "AT&T",
+    "body": [
+      "This project was a personalized AT&T upsell email focused on driving device upgrades through dynamic, data driven content. I built the template to swap in customer specific details like first name and offer messaging, with guardrails and fallbacks to keep the experience polished even when data was incomplete. The layout was designed to keep the offer front and center on both desktop and mobile, while meeting accessibility standards with clear structure and meaningful alt text.",
+      "Under the hood, the build prioritized scale and inbox safety. Image assets were tuned for fast loads, the image to text balance was kept in check for deliverability, and mobile image swaps were used where it improved clarity. The template was tested across major clients and devices, resulting in a flexible, performance minded campaign that paired personalization with reliable rendering."
+    ],
+    "images": [
+      "assets/work/att-iphone-xs-50-off-se-upsell/0.jpg"
+    ],
+    "desc": "AT&T customer email offering 50% off the iPhone XS with an iPhone SE $10/mo option tied to the 3G phase-out."
+  },
+  {
+    "slug": "directv-showtime-boxing-davis-nunez",
+    "title": "DIRECTV and Showtime partnership email",
+    "alt_title": "DirecTV Showtime Championship Boxing: Davis vs Nunez",
+    "brand": "DirecTV",
+    "body": [
+      "This project was a static promotional email for the DIRECTV and Showtime partnership, focused on delivering a bold, image led announcement while staying reliable across inboxes. I handled the layout, responsive behavior, and accessibility details, including proper alt text and a clear content hierarchy, while keeping the design aligned with brand guidelines and readable on mobile and desktop.",
+      "On the technical side, the build was optimized for faster load times and deliverability by compressing images and keeping a healthy image to text balance. The template was tested across major email clients and devices, with mobile image swapping in place to ensure consistent rendering and performance."
+    ],
+    "images": [
+      "assets/work/directv-showtime-boxing-davis-nunez/0.jpg"
+    ],
+    "desc": "DirecTV email promoting the Showtime Championship Boxing bout Gervonta Davis vs Ricardo Nunez."
+  }
+]

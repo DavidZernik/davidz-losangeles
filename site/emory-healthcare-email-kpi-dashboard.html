@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emory Healthcare - KPI Dashboard · David Z.</title>
+  <meta name="description" content="Built with: Salesforce Marketing Cloud, custom Cloud Pages, SSJS, AMPscript, SQL (Query Activities), and the SFMC REST and SOAP APIs." />
+  <meta property="og:title" content="Emory Healthcare - KPI Dashboard · David Z." />
+  <meta property="og:description" content="Built with: Salesforce Marketing Cloud, custom Cloud Pages, SSJS, AMPscript, SQL (Query Activities), and the SFMC REST and SOAP APIs." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/work/emory-healthcare-email-kpi-dashboard/0.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">David Z.</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#brands">Brands</a>
+      <a class="nav-cta" href="mailto:david@blueinboxllc.com">Contact&nbsp;<span class="arw">&rarr;</span></a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <article class="detail">
+    <div class="wrap wrap-narrow">
+      <a class="back-link" href="index.html#work"><span class="arw">&larr;</span>&nbsp;All work</a>
+      <header class="detail-head">
+        <span class="detail-tag">Emory Healthcare</span>
+        <h1 class="detail-title">Emory Healthcare - KPI Dashboard</h1>
+      </header>
+      <div class="detail-body">
+        <p class="built-with">Built with: Salesforce Marketing Cloud, custom Cloud Pages, SSJS, AMPscript, SQL (Query Activities), and the SFMC REST and SOAP APIs.</p>
+        <p>Salesforce Marketing Cloud does have built in reporting, but it&#x27;s clunky and not something the team wanted to open every day. So I built a clean, simple dashboard on top of the same data: one screen that shows how their email is actually performing (sends, opens, clicks, bounces, and unsubscribes), rolled up by campaign, category, and service line. Instead of digging through native reports, they get one always current view of the whole program.</p>
+        <p>It runs entirely inside Salesforce Marketing Cloud as a custom Cloud Page. I built the data pipeline behind it: nightly automations aggregate raw send and tracking data into a summary data extension, and a Sync button refreshes the most recent activity on demand. A separate admin page lets the team map campaigns to categories and service lines and manage exclusions, so the rollups stay accurate even as campaign naming changes over time.</p>
+        <p>The hardest part was making the numbers trustworthy at scale. I reworked the nightly refresh to process data in weekly chunks and switched it to an upsert model, which stopped it from double counting and from failing on high volume days. The frontend is a single Cloud Page I designed for a clean, focused UI, rendered with AMPscript and SSJS, with the interactive metrics, filters, and drilldowns built in vanilla JavaScript, CSS, and HTML.
+
+(Image below has sensitive info redacted)</p>
+      </div>
+      <div class="creatives">
+        <figure class="creative"><img loading="lazy" src="assets/work/emory-healthcare-email-kpi-dashboard/0.png" alt="Emory Healthcare - KPI Dashboard 1" /></figure>
+      </div>
+      <div class="pager"><a class="pager-link prev" href="pnc-capital-advisors-q1-2021-fixed-income.html"><span class="arw">&larr;</span>&nbsp;PNC Bank Quarterly Newsletter</a><a class="pager-link next" href="att-tv-now-hbo-max.html">AT&amp;TTV NOW/HBOMAX&nbsp;<span class="arw">&rarr;</span></a></div>
+    </div>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <p class="footer-lead">Let's build something that <em>sends</em>.</p>
+      <div>
+        <a class="footer-mail" href="mailto:david@blueinboxllc.com">david@blueinboxllc.com&nbsp;<span class="arw">&rarr;</span></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 David Z. &middot; Los Angeles</span>
+      <span>Salesforce Marketing Cloud &middot; Email &middot; MarTech</span>
+    </div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var h = document.getElementById('top');
+    var onScroll = function () { h.classList.toggle('scrolled', window.scrollY > 10); };
+    onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+[
+  {
+    "old_slug": "attiphone",
+    "brand": "AT&T",
+    "title": "AT&T iPhone XS 50% Off Upgrade",
+    "new_slug": "att-iphone-xs-50-off-upgrade",
+    "desc": "AT&T customer email offering 50% off the iPhone XS with no trade-in, tied to the 3G network sunset."
+  },
+  {
+    "old_slug": "pnc-refi",
+    "brand": "PNC Bank",
+    "title": "PNC Bank Mortgage Refinance Guide",
+    "new_slug": "pnc-bank-refinance-guide",
+    "desc": "PNC Bank email promoting a mortgage refinance guide plus an employee rate discount."
+  },
+  {
+    "old_slug": "tpf1",
+    "brand": "The Podcast Fellowship",
+    "title": "The Podcast Fellowship Landing Page",
+    "new_slug": "podcast-fellowship-landing-page",
+    "desc": "Landing page for The Podcast Fellowship, a program that pays participants to complete and share podcasts."
+  },
+  {
+    "old_slug": "amexhilton",
+    "brand": "American Express",
+    "title": "Amex Hilton Honors Card Redesign",
+    "new_slug": "amex-hilton-honors-card-redesign",
+    "desc": "American Express landing page announcing the redesigned Hilton Honors Card and its ongoing benefits."
+  },
+  {
+    "old_slug": "toyota-ngb-triathlon",
+    "brand": "Toyota",
+    "title": "Toyota Team USA Virtual Tri Across America",
+    "new_slug": "toyota-team-usa-virtual-triathlon",
+    "desc": "Toyota email celebrating the Virtual Tri Across America and its Team USA Olympic partnership."
+  },
+  {
+    "old_slug": "amex-shopsmall1",
+    "brand": "American Express",
+    "title": "Amex Shop Small Business Saturday Toolkit",
+    "new_slug": "amex-shop-small-business-saturday-toolkit",
+    "desc": "American Express merchant email with Small Business Saturday tips, Shop Small map listing, and free marketing materials."
+  },
+  {
+    "old_slug": "waste-management-hurricane",
+    "brand": "WM (Waste Management)",
+    "title": "WM Bagster 20% Off Spring Cleaning",
+    "new_slug": "wm-bagster-20-off-spring-cleaning-a",
+    "desc": "WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code."
+  },
+  {
+    "old_slug": "true-crime",
+    "brand": "DirecTV",
+    "title": "DirecTV Oxygen Murder For Hire Premiere",
+    "new_slug": "directv-oxygen-murder-for-hire-premiere-a",
+    "desc": "DirecTV email promoting the series premiere of Murder For Hire on the Oxygen true crime network."
+  },
+  {
+    "old_slug": "waste-management1",
+    "brand": "WM (Waste Management)",
+    "title": "WM Bagster 20% Off Spring Cleaning",
+    "new_slug": "wm-bagster-20-off-spring-cleaning-b",
+    "desc": "WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code."
+  },
+  {
+    "old_slug": "spotify",
+    "brand": "AT&T",
+    "title": "AT&T Internet Free Spotify Premium Offer",
+    "new_slug": "att-internet-spotify-premium-free",
+    "desc": "AT&T Internet email giving new customers six free months of Spotify Premium with redemption steps."
+  },
+  {
+    "old_slug": "emory-kpi-dash",
+    "brand": "Emory Healthcare",
+    "title": "Emory Healthcare Email KPI Dashboard",
+    "new_slug": "emory-healthcare-email-kpi-dashboard",
+    "desc": "Interactive email marketing KPI dashboard for Emory Healthcare with filters and journey performance breakdowns."
+  },
+  {
+    "old_slug": "hanson",
+    "brand": "Dr. Ken Hanson",
+    "title": "Dr. Ken Hanson Speaker Website",
+    "new_slug": "dr-ken-hanson-speaker-website",
+    "desc": "Personal website for author and historian Dr. Ken Hanson, promoting his books, media, and speaking engagements."
+  },
+  {
+    "old_slug": "amex-memberweek",
+    "brand": "American Express",
+    "title": "Amex Member Week Business Offers",
+    "new_slug": "amex-member-week-business-offers",
+    "desc": "American Express merchant email for Member Week featuring Homebase and Snapchat offers plus payment insights."
+  },
+  {
+    "old_slug": "truecrime",
+    "brand": "DirecTV",
+    "title": "DirecTV Oxygen Murder For Hire Premiere",
+    "new_slug": "directv-oxygen-murder-for-hire-premiere-b",
+    "desc": "DirecTV email promoting the series premiere of Murder For Hire on the Oxygen true crime network."
+  },
+  {
+    "old_slug": "att-iphone-upsell",
+    "brand": "AT&T",
+    "title": "AT&T iPhone XS 50% Off With iPhone SE Upsell",
+    "new_slug": "att-iphone-xs-50-off-se-upsell",
+    "desc": "AT&T customer email offering 50% off the iPhone XS with an iPhone SE $10/mo option tied to the 3G phase-out."
+  }
+]

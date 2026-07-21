@@ -1,0 +1,107 @@
+[
+  {
+    "old_slug": "fiber",
+    "brand": "AT&T",
+    "title": "AT&T Fiber with HBO Max Included",
+    "new_slug": "att-fiber-hbo-max-bundle",
+    "desc": "Promotional email for AT&T Fiber gigabit internet now bundled with HBO Max at $39.99/mo."
+  },
+  {
+    "old_slug": "titangames",
+    "brand": "DirecTV",
+    "title": "DirecTV The Titan Games Premiere",
+    "new_slug": "directv-titan-games-premiere",
+    "desc": "DirecTV email promoting the NBC series The Titan Games with Dwayne Johnson premiering on the network."
+  },
+  {
+    "old_slug": "directv-personalization",
+    "brand": "AT&T / DirecTV",
+    "title": "DirecTV MBC Every1 Channel Discontinuation Notice",
+    "new_slug": "directv-mbc-every1-channel-removal",
+    "desc": "Personalized AT&T/DirecTV service notice that the Korean channel MBC Every1 (2085) is going off air."
+  },
+  {
+    "old_slug": "copy-of-amex-creditintel-auto-loan",
+    "brand": "American Express",
+    "title": "Amex Credit Intel Home Equity Loan Calculator",
+    "new_slug": "amex-creditintel-home-equity-calculator",
+    "desc": "Interactive American Express Credit Intel tool estimating how much a homeowner may be eligible to borrow."
+  },
+  {
+    "old_slug": "petitenpretty",
+    "brand": "Petite 'n Pretty",
+    "title": "Petite 'n Pretty Glitter Beauty Landing Page",
+    "new_slug": "petite-n-pretty-gen-glitter-beauty",
+    "desc": "Petite 'n Pretty kids' cosmetics page featuring Gen Glitter, 10K Shine Lip Gloss and 9021-GLOW! palette."
+  },
+  {
+    "old_slug": "copy-of-familytime",
+    "brand": "AT&T",
+    "title": "AT&T FirstNet First Responder Offer",
+    "new_slug": "att-firstnet-first-responder-credit",
+    "desc": "AT&T email offering a $50 bill credit to first responders who migrate their line to the FirstNet network."
+  },
+  {
+    "old_slug": "attbonus",
+    "brand": "DirecTV",
+    "title": "DirecTV Win-Back Offer with $100 Reward Card",
+    "new_slug": "directv-winback-reward-card-bonus",
+    "desc": "DirecTV win-back email offering 155+ channels, a $39.99 Select package, HBO Max and a $100 Visa reward card."
+  },
+  {
+    "old_slug": "patient-reengagement-campaign",
+    "brand": "",
+    "title": "Patient Reengagement Email Journey Map",
+    "new_slug": "patient-reengagement-journey-map",
+    "desc": "A multi-track lifecycle flowchart mapping the trigger logic and send cadence of a patient reengagement email campaign."
+  },
+  {
+    "old_slug": "directvspanish",
+    "brand": "AT&T",
+    "title": "AT&T Unlimited Data & Live TV (Spanish)",
+    "new_slug": "att-unlimited-data-live-tv-spanish",
+    "desc": "Spanish-language AT&T email promoting unlimited data plus 30+ live TV channels via WatchTV."
+  },
+  {
+    "old_slug": "att-service-message",
+    "brand": "AT&T",
+    "title": "AT&T Installation Appointment Reminder",
+    "new_slug": "att-installation-appointment-reminder",
+    "desc": "Transactional AT&T email confirming an upcoming service installation with prep tips and reschedule link."
+  },
+  {
+    "old_slug": "attsamsungspanish",
+    "brand": "AT&T",
+    "title": "AT&T Samsung Galaxy S10 Buy One Get One (Spanish)",
+    "new_slug": "att-samsung-galaxy-s10-bogo-spanish",
+    "desc": "Spanish-language AT&T email promoting the Samsung Galaxy S10 with a buy-one-get-one-free trade-in offer."
+  },
+  {
+    "old_slug": "blueshield3",
+    "brand": "Blue Shield of California",
+    "title": "Blue Shield Medicare Retirement Benefits Guide",
+    "new_slug": "blue-shield-medicare-retirement-guide",
+    "desc": "Blue Shield of California email offering a free Social Security retirement benefits guide for Medicare prospects."
+  },
+  {
+    "old_slug": "amex-creditintel-debtconsol",
+    "brand": "American Express",
+    "title": "Amex Credit Intel Debt Consolidation Calculator",
+    "new_slug": "amex-creditintel-debt-consolidation-calculator",
+    "desc": "Three-step American Express Credit Intel tool comparing debt before and after consolidation."
+  },
+  {
+    "old_slug": "toyota-ngb-hockey",
+    "brand": "Toyota",
+    "title": "Toyota USA Hockey & Team USA Sponsorship",
+    "new_slug": "toyota-usa-hockey-team-usa-sponsorship",
+    "desc": "Toyota email spotlighting its USA Hockey and Team USA Olympic/Paralympic sponsorship alongside Tacoma offers."
+  },
+  {
+    "old_slug": "toa",
+    "brand": "",
+    "title": "Employer Tax Credits & Refunds Landing Page",
+    "new_slug": "employer-tax-credits-refunds-landing-page",
+    "desc": "Marketing landing page for a service that helps businesses claim federal and state employee tax credits and refunds."
+  }
+]

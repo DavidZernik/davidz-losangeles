@@ -1,0 +1,527 @@
+[
+  {
+    "old_slug": "fiber",
+    "new_slug": "att-fiber-hbo-max-bundle",
+    "brand": "AT&T",
+    "title": "AT&T Fiber with HBO Max Included",
+    "desc": "Promotional email for AT&T Fiber gigabit internet now bundled with HBO Max at $39.99/mo."
+  },
+  {
+    "old_slug": "copy-of-aimmune1",
+    "new_slug": "palforzia-treatment-inspiration-video",
+    "brand": "Palforzia",
+    "title": "Palforzia Peanut Allergy Trial Inspiration Email",
+    "desc": "Aimmune Therapeutics email encouraging Palforzia peanut allergy patients to keep going, with a patient family testimonial video."
+  },
+  {
+    "old_slug": "nbc",
+    "new_slug": "directv-bluff-city-law-nbc",
+    "brand": "DirecTV",
+    "title": "DirecTV Bluff City Law Premiere (NBC)",
+    "desc": "DirecTV email promoting the premiere of NBC's legal drama Bluff City Law starring Jimmy Smits and Caitlin McGee, airing Mondays."
+  },
+  {
+    "old_slug": "attiphone",
+    "new_slug": "att-iphone-xs-50-off-upgrade",
+    "brand": "AT&T",
+    "title": "AT&T iPhone XS 50% Off Upgrade",
+    "desc": "AT&T customer email offering 50% off the iPhone XS with no trade-in, tied to the 3G network sunset."
+  },
+  {
+    "old_slug": "attservicemessage1",
+    "new_slug": "att-directv-billing-credit",
+    "brand": "AT&T",
+    "title": "AT&T DirecTV Billing Credit Notice",
+    "desc": "AT&T service email notifying a DirecTV customer of a one-time credit for a DVR service double-charge."
+  },
+  {
+    "old_slug": "titangames",
+    "new_slug": "directv-titan-games-premiere",
+    "brand": "DirecTV",
+    "title": "DirecTV The Titan Games Premiere",
+    "desc": "DirecTV email promoting the NBC series The Titan Games with Dwayne Johnson premiering on the network."
+  },
+  {
+    "old_slug": "directvtelevisioncontentupsellemail",
+    "new_slug": "directv-select-package-save-140",
+    "brand": "DirecTV",
+    "title": "DirecTV Switch to SELECT Package Savings Email",
+    "desc": "DirecTV email urging subscribers to switch to the SELECT package to save over $140 a year on channels they actually watch."
+  },
+  {
+    "old_slug": "servicemessage2",
+    "new_slug": "att-tv-apps-retiring-notice",
+    "brand": "AT&T",
+    "title": "AT&T TV Apps Retiring Account Update",
+    "desc": "AT&T U-verse account update notifying customers that some TV apps are being retired and pointing them to att.com/tvapp."
+  },
+  {
+    "old_slug": "pnc-refi",
+    "new_slug": "pnc-bank-refinance-guide",
+    "brand": "PNC Bank",
+    "title": "PNC Bank Mortgage Refinance Guide",
+    "desc": "PNC Bank email promoting a mortgage refinance guide plus an employee rate discount."
+  },
+  {
+    "old_slug": "copy-of-firstrespond",
+    "new_slug": "directv-hbo-cinemax-got-upgrade",
+    "brand": "DirecTV",
+    "title": "DirecTV HBO & Cinemax Game of Thrones Upgrade",
+    "desc": "DirecTV upsell email to add HBO and Cinemax for $15.99 ahead of the final Game of Thrones season."
+  },
+  {
+    "old_slug": "directv-personalization",
+    "new_slug": "directv-mbc-every1-channel-removal",
+    "brand": "AT&T / DirecTV",
+    "title": "DirecTV MBC Every1 Channel Discontinuation Notice",
+    "desc": "Personalized AT&T/DirecTV service notice that the Korean channel MBC Every1 (2085) is going off air."
+  },
+  {
+    "old_slug": "glo-trialextension",
+    "new_slug": "glo-yoga-trial-extension-classes",
+    "brand": "Glo",
+    "title": "Glo Free Trial Extension Email",
+    "desc": "YogaGlo email letting a member know their free trial was extended 7 days, with suggested yoga classes to try."
+  },
+  {
+    "old_slug": "ncaa",
+    "new_slug": "directv-march-madness-coverage",
+    "brand": "DirecTV",
+    "title": "DirecTV NCAA March Madness Coverage",
+    "desc": "DirecTV email promoting live NCAA March Madness tournament coverage across TBS, CBS, TNT and truTV, with AT&T as a proud partner."
+  },
+  {
+    "old_slug": "tpf1",
+    "new_slug": "podcast-fellowship-landing-page",
+    "brand": "The Podcast Fellowship",
+    "title": "The Podcast Fellowship Landing Page",
+    "desc": "Landing page for The Podcast Fellowship, a program that pays participants to complete and share podcasts."
+  },
+  {
+    "old_slug": "glowebsite",
+    "new_slug": "glo-yoga-app-login",
+    "brand": "Glo",
+    "title": "Glo App Login Page",
+    "desc": "Login landing page for the Glo yoga and fitness app promoting a new class notes feature."
+  },
+  {
+    "old_slug": "copy-of-amex-creditintel-auto-loan",
+    "new_slug": "amex-creditintel-home-equity-calculator",
+    "brand": "American Express",
+    "title": "Amex Credit Intel Home Equity Loan Calculator",
+    "desc": "Interactive American Express Credit Intel tool estimating how much a homeowner may be eligible to borrow."
+  },
+  {
+    "old_slug": "copy-of-140pnc",
+    "new_slug": "pnc-first-time-homebuyer-guide",
+    "brand": "PNC Bank",
+    "title": "PNC First-Time Homebuyer's Guide Email",
+    "desc": "PNC Bank email promoting a downloadable First-Time Homebuyer's Guide plus an employee mortgage rate discount."
+  },
+  {
+    "old_slug": "directvufc",
+    "new_slug": "directv-ufc-232-jones-gustafsson-ppv",
+    "brand": "DirecTV",
+    "title": "DirecTV UFC 232 Jones vs Gustafsson Pay-Per-View",
+    "desc": "DirecTV pay-per-view order email for UFC 232 (Jones vs. Gustafsson 2, Cyborg vs. Nunes) plus new movie releases."
+  },
+  {
+    "old_slug": "amexhilton",
+    "new_slug": "amex-hilton-honors-card-redesign",
+    "brand": "American Express",
+    "title": "Amex Hilton Honors Card Redesign",
+    "desc": "American Express landing page announcing the redesigned Hilton Honors Card and its ongoing benefits."
+  },
+  {
+    "old_slug": "codingschoolemail",
+    "new_slug": "code-lab-lessons-reminder",
+    "brand": "Code Lab",
+    "title": "Code Lab Coding Lessons Reminder",
+    "desc": "Code Lab email reminding a student of upcoming coding lessons to complete before earning certification."
+  },
+  {
+    "old_slug": "petitenpretty",
+    "new_slug": "petite-n-pretty-gen-glitter-beauty",
+    "brand": "Petite 'n Pretty",
+    "title": "Petite 'n Pretty Glitter Beauty Landing Page",
+    "desc": "Petite 'n Pretty kids' cosmetics page featuring Gen Glitter, 10K Shine Lip Gloss and 9021-GLOW! palette."
+  },
+  {
+    "old_slug": "glo2",
+    "new_slug": "glo-yoga-app-features-devices",
+    "brand": "Glo",
+    "title": "Glo App Features Highlight Email",
+    "desc": "YogaGlo email showcasing app features like offline classes, personalized recommendations, and Apple Watch support."
+  },
+  {
+    "old_slug": "copy-of-502489",
+    "new_slug": "directv-winback-select-package",
+    "brand": "DirecTV",
+    "title": "DirecTV Win-Back Select Package Offer",
+    "desc": "DirecTV win-back email offering a $39.99/mo Select package, AT&T Visa reward card and free premium channels to returning customers."
+  },
+  {
+    "old_slug": "toyota-ngb-triathlon",
+    "new_slug": "toyota-team-usa-virtual-triathlon",
+    "brand": "Toyota",
+    "title": "Toyota Team USA Virtual Tri Across America",
+    "desc": "Toyota email celebrating the Virtual Tri Across America and its Team USA Olympic partnership."
+  },
+  {
+    "old_slug": "ozempic1",
+    "new_slug": "ozempic-cvot-hcp",
+    "brand": "Novo Nordisk",
+    "title": "Ozempic Cardiovascular Outcomes HCP Email",
+    "desc": "Novo Nordisk healthcare-provider email presenting Ozempic CVOT data for patients with T2D and established CVD."
+  },
+  {
+    "old_slug": "copy-of-familytime",
+    "new_slug": "att-firstnet-first-responder-credit",
+    "brand": "AT&T",
+    "title": "AT&T FirstNet First Responder Offer",
+    "desc": "AT&T email offering a $50 bill credit to first responders who migrate their line to the FirstNet network."
+  },
+  {
+    "old_slug": "emory-sfmc-calendar",
+    "new_slug": "emory-healthcare-email-calendar-tool",
+    "brand": "Emory Healthcare",
+    "title": "Emory Healthcare SFMC Email Calendar Tool",
+    "desc": "Emory Healthcare Salesforce Marketing Cloud email calendar dashboard showing scheduled sends, categories, and weekly overlaps."
+  },
+  {
+    "old_slug": "toyota-ngb-figure-skating",
+    "new_slug": "toyota-us-figure-skating-alysa-liu",
+    "brand": "Toyota",
+    "title": "Toyota U.S. Figure Skating Partnership (Alysa Liu)",
+    "desc": "Toyota email spotlighting its U.S. Figure Skating partnership and Team USA athlete Alysa Liu, tied to Olympic sponsorship and Toyotathon."
+  },
+  {
+    "old_slug": "amex-shopsmall1",
+    "new_slug": "amex-shop-small-business-saturday-toolkit",
+    "brand": "American Express",
+    "title": "Amex Shop Small Business Saturday Toolkit",
+    "desc": "American Express merchant email with Small Business Saturday tips, Shop Small map listing, and free marketing materials."
+  },
+  {
+    "old_slug": "brilliantearth",
+    "new_slug": "brilliant-earth-cart-abandon",
+    "brand": "Brilliant Earth",
+    "title": "Brilliant Earth Cart Abandonment Email",
+    "desc": "Brilliant Earth abandoned-cart email showing a saved diamond ring with product recommendations and a free-gift offer."
+  },
+  {
+    "old_slug": "attbonus",
+    "new_slug": "directv-winback-reward-card-bonus",
+    "brand": "DirecTV",
+    "title": "DirecTV Win-Back Offer with $100 Reward Card",
+    "desc": "DirecTV win-back email offering 155+ channels, a $39.99 Select package, HBO Max and a $100 Visa reward card."
+  },
+  {
+    "old_slug": "copy-of-project-4",
+    "new_slug": "directv-premium-channels-upgrade",
+    "brand": "DirecTV",
+    "title": "DirecTV Premium Channels Upgrade Email",
+    "desc": "DirecTV email inviting subscribers to upgrade to premium channels like HBO, Cinemax, Showtime, and Starz."
+  },
+  {
+    "old_slug": "amex-shopsmall2",
+    "new_slug": "amex-shop-small-social-accelerator",
+    "brand": "American Express",
+    "title": "Amex Shop Small Accelerator Social Media Tips",
+    "desc": "American Express merchant email promoting the Shop Small Accelerator with social media strategy tips and free marketing materials."
+  },
+  {
+    "old_slug": "waste-management-hurricane",
+    "new_slug": "wm-bagster-20-off-spring-cleaning-a",
+    "brand": "WM (Waste Management)",
+    "title": "WM Bagster 20% Off Spring Cleaning",
+    "desc": "WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code."
+  },
+  {
+    "old_slug": "copy-of-195pnc",
+    "new_slug": "palforzia-peanut-allergy-hcp",
+    "brand": "Aimmune Therapeutics",
+    "title": "Palforzia Peanut Allergy HCP Email",
+    "desc": "Aimmune Therapeutics healthcare-provider email introducing Palforzia oral immunotherapy for pediatric peanut allergy."
+  },
+  {
+    "old_slug": "patient-reengagement-campaign",
+    "new_slug": "patient-reengagement-journey-map",
+    "brand": "",
+    "title": "Patient Reengagement Email Journey Map",
+    "desc": "A multi-track lifecycle flowchart mapping the trigger logic and send cadence of a patient reengagement email campaign."
+  },
+  {
+    "old_slug": "unitedhealthcarethisisnews",
+    "new_slug": "unitedhealthcare-this-is-news-newsletter",
+    "brand": "UnitedHealthcare",
+    "title": "UnitedHealthcare 'This IS News!' Insurance Solutions Newsletter",
+    "desc": "UnitedHealthcare Insurance Solutions internal newsletter celebrating Service Heroes and Medicare Supplement business wins, shown alongside its Word source copy."
+  },
+  {
+    "old_slug": "cbssports",
+    "new_slug": "att-uverse-cbs-restored-notice",
+    "brand": "AT&T",
+    "title": "AT&T U-verse CBS Channels Restored Notice",
+    "desc": "AT&T U-verse service message letting customers know CBS, CBS Sports and Smithsonian channels are back after a carriage agreement."
+  },
+  {
+    "old_slug": "true-crime",
+    "new_slug": "directv-oxygen-murder-for-hire-premiere-a",
+    "brand": "DirecTV",
+    "title": "DirecTV Oxygen Murder For Hire Premiere",
+    "desc": "DirecTV email promoting the series premiere of Murder For Hire on the Oxygen true crime network."
+  },
+  {
+    "old_slug": "tmo-hint1",
+    "new_slug": "tmobile-5g-home-internet-signup",
+    "brand": "T-Mobile",
+    "title": "T-Mobile 5G Home Internet Signup",
+    "desc": "T-Mobile 5G Home Internet email confirming availability and promoting $50/month service with a $100 back offer."
+  },
+  {
+    "old_slug": "directvspanish",
+    "new_slug": "att-unlimited-data-live-tv-spanish",
+    "brand": "AT&T",
+    "title": "AT&T Unlimited Data & Live TV (Spanish)",
+    "desc": "Spanish-language AT&T email promoting unlimited data plus 30+ live TV channels via WatchTV."
+  },
+  {
+    "old_slug": "blueshield2",
+    "new_slug": "blue-shield-2024-medicare-coverage-booklet",
+    "brand": "Blue Shield of California",
+    "title": "Blue Shield of California 2024 Medicare Coverage Email",
+    "desc": "Blue Shield of California email offering a free Medicare booklet and enlightenment video ahead of the Annual Enrollment Period."
+  },
+  {
+    "old_slug": "atthbomax",
+    "new_slug": "att-internet-hbo-max-included",
+    "brand": "AT&T",
+    "title": "AT&T Internet HBO Max Included Activation",
+    "desc": "AT&T Internet 1000 email announcing HBO Max is now included, with step-by-step activation instructions for the benefit."
+  },
+  {
+    "old_slug": "waste-management1",
+    "new_slug": "wm-bagster-20-off-spring-cleaning-b",
+    "brand": "WM (Waste Management)",
+    "title": "WM Bagster 20% Off Spring Cleaning",
+    "desc": "WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code."
+  },
+  {
+    "old_slug": "starz-directv",
+    "new_slug": "directv-starz-free-preview",
+    "brand": "DirecTV",
+    "title": "DirecTV Starz Free Preview Weekend",
+    "desc": "DirecTV email promoting a free Starz preview weekend featuring American Gods, Now Apocalypse, and Toy Story 3."
+  },
+  {
+    "old_slug": "att-service-message",
+    "new_slug": "att-installation-appointment-reminder",
+    "brand": "AT&T",
+    "title": "AT&T Installation Appointment Reminder",
+    "desc": "Transactional AT&T email confirming an upcoming service installation with prep tips and reschedule link."
+  },
+  {
+    "old_slug": "savekhaki",
+    "new_slug": "save-khaki-supima-cotton-collection",
+    "brand": "Save Khaki United",
+    "title": "Save Khaki United Supima Cotton Collection Page",
+    "desc": "Save Khaki United web page promoting its Supima cotton tees as America's best cotton with a product grid."
+  },
+  {
+    "old_slug": "findaclass",
+    "new_slug": "glo-find-a-class-help",
+    "brand": "Glo",
+    "title": "Glo Find a Class Help & Recommendations",
+    "desc": "Glo (YogaGlo) email offering personalized class suggestions from certified instructors plus a set of recommended yoga classes."
+  },
+  {
+    "old_slug": "spotify",
+    "new_slug": "att-internet-spotify-premium-free",
+    "brand": "AT&T",
+    "title": "AT&T Internet Free Spotify Premium Offer",
+    "desc": "AT&T Internet email giving new customers six free months of Spotify Premium with redemption steps."
+  },
+  {
+    "old_slug": "blueshield1",
+    "new_slug": "blue-shield-aep-spanish",
+    "brand": "Blue Shield of California",
+    "title": "Blue Shield Annual Enrollment Period (Spanish)",
+    "desc": "Spanish-language Blue Shield of California email reminding members about the Annual Enrollment Period."
+  },
+  {
+    "old_slug": "attsamsungspanish",
+    "new_slug": "att-samsung-galaxy-s10-bogo-spanish",
+    "brand": "AT&T",
+    "title": "AT&T Samsung Galaxy S10 Buy One Get One (Spanish)",
+    "desc": "Spanish-language AT&T email promoting the Samsung Galaxy S10 with a buy-one-get-one-free trade-in offer."
+  },
+  {
+    "old_slug": "amex-creditintel-homeloan",
+    "new_slug": "amex-credit-intel-home-equity-calculator",
+    "brand": "American Express",
+    "title": "Amex Credit Intel Home Equity Loan Calculator",
+    "desc": "American Express Credit Intel interactive home equity loan calculator estimating how much a user may be eligible to borrow."
+  },
+  {
+    "old_slug": "copy-of-190pnc",
+    "new_slug": "pnc-capital-advisors-q1-2021-fixed-income",
+    "brand": "PNC",
+    "title": "PNC Capital Advisors Q1 2021 Fixed Income Insights",
+    "desc": "PNC Capital Advisors institutional email sharing first quarter 2021 fixed income market perspectives and thought-leadership articles."
+  },
+  {
+    "old_slug": "emory-kpi-dash",
+    "new_slug": "emory-healthcare-email-kpi-dashboard",
+    "brand": "Emory Healthcare",
+    "title": "Emory Healthcare Email KPI Dashboard",
+    "desc": "Interactive email marketing KPI dashboard for Emory Healthcare with filters and journey performance breakdowns."
+  },
+  {
+    "old_slug": "hbo-max",
+    "new_slug": "att-tv-now-hbo-max",
+    "brand": "AT&T",
+    "title": "AT&T TV NOW HBO Max Free Access",
+    "desc": "AT&T TV NOW email offering three months of HBO Max included and steps to start streaming."
+  },
+  {
+    "old_slug": "blueshield3",
+    "new_slug": "blue-shield-medicare-retirement-guide",
+    "brand": "Blue Shield of California",
+    "title": "Blue Shield Medicare Retirement Benefits Guide",
+    "desc": "Blue Shield of California email offering a free Social Security retirement benefits guide for Medicare prospects."
+  },
+  {
+    "old_slug": "decalthon",
+    "new_slug": "decathlon-inline-skates-product-page",
+    "brand": "Decathlon",
+    "title": "Decathlon Inline Skates Product Page",
+    "desc": "Decathlon ecommerce product page for inline skates with an option selector and add-to-cart at $51.92."
+  },
+  {
+    "old_slug": "gloinstructors",
+    "new_slug": "glo-meet-our-instructors",
+    "brand": "Glo",
+    "title": "Glo Meet Our Instructors",
+    "desc": "Glo (YogaGlo) email introducing featured teachers including Elena Brower, Jason Crandell and Noah Levine."
+  },
+  {
+    "old_slug": "hanson",
+    "new_slug": "dr-ken-hanson-speaker-website",
+    "brand": "Dr. Ken Hanson",
+    "title": "Dr. Ken Hanson Speaker Website",
+    "desc": "Personal website for author and historian Dr. Ken Hanson, promoting his books, media, and speaking engagements."
+  },
+  {
+    "old_slug": "emory-healthcare",
+    "new_slug": "emory-winship-event-confirmation",
+    "brand": "Emory Healthcare",
+    "title": "Emory Winship Cancer Institute Event Registration Confirmation",
+    "desc": "Emory Winship Cancer Institute event registration confirmation email with its Journey Builder send flow."
+  },
+  {
+    "old_slug": "amex-creditintel-debtconsol",
+    "new_slug": "amex-creditintel-debt-consolidation-calculator",
+    "brand": "American Express",
+    "title": "Amex Credit Intel Debt Consolidation Calculator",
+    "desc": "Three-step American Express Credit Intel tool comparing debt before and after consolidation."
+  },
+  {
+    "old_slug": "directvupsellpromo",
+    "new_slug": "directv-winback-200-reward-card",
+    "brand": "DirecTV",
+    "title": "DirecTV Win-Back $200 Reward Card Email",
+    "desc": "DirecTV win-back email offering up to a $200 Visa reward card and the Entertainment All Included package to returning customers."
+  },
+  {
+    "old_slug": "sundayticket",
+    "new_slug": "directv-nfl-sunday-ticket-lounge-invite",
+    "brand": "DirecTV",
+    "title": "DirecTV NFL Sunday Ticket Big Game Lounge Invite",
+    "desc": "DirecTV email inviting NFL Sunday Ticket subscribers to an exclusive Big Game weekend lounge event in Atlanta."
+  },
+  {
+    "old_slug": "amex-memberweek",
+    "new_slug": "amex-member-week-business-offers",
+    "brand": "American Express",
+    "title": "Amex Member Week Business Offers",
+    "desc": "American Express merchant email for Member Week featuring Homebase and Snapchat offers plus payment insights."
+  },
+  {
+    "old_slug": "acmerealestate",
+    "new_slug": "acme-real-estate-open-houses",
+    "brand": "ACME Real Estate",
+    "title": "ACME Real Estate Open Houses Page",
+    "desc": "ACME Real Estate web page featuring Los Angeles open house listings and brokerage messaging."
+  },
+  {
+    "old_slug": "toyota-ngb-hockey",
+    "new_slug": "toyota-usa-hockey-team-usa-sponsorship",
+    "brand": "Toyota",
+    "title": "Toyota USA Hockey & Team USA Sponsorship",
+    "desc": "Toyota email spotlighting its USA Hockey and Team USA Olympic/Paralympic sponsorship alongside Tacoma offers."
+  },
+  {
+    "old_slug": "attsamsung",
+    "new_slug": "att-samsung-galaxy-s10-bogo",
+    "brand": "AT&T",
+    "title": "AT&T Samsung Galaxy S10 Launch BOGO Email",
+    "desc": "AT&T email introducing the Samsung Galaxy S10 lineup with a buy-one-get-one-free offer on eligible devices."
+  },
+  {
+    "old_slug": "gameofthrones",
+    "new_slug": "directv-hbo-cinemax-free-preview",
+    "brand": "DirecTV",
+    "title": "DirecTV HBO & Cinemax Free Preview Weekend",
+    "desc": "DirecTV email promoting a free HBO and Cinemax preview weekend featuring Game of Thrones marathons and blockbuster movies."
+  },
+  {
+    "old_slug": "truecrime",
+    "new_slug": "directv-oxygen-murder-for-hire-premiere-b",
+    "brand": "DirecTV",
+    "title": "DirecTV Oxygen Murder For Hire Premiere",
+    "desc": "DirecTV email promoting the series premiere of Murder For Hire on the Oxygen true crime network."
+  },
+  {
+    "old_slug": "movie-channel-partnership",
+    "new_slug": "directv-movies-extra-pack-preview",
+    "brand": "DirecTV",
+    "title": "DirecTV Movies Extra Pack Free Preview",
+    "desc": "DirecTV email promoting a free preview of the Movies Extra Pack with nine premium movie channels."
+  },
+  {
+    "old_slug": "toa",
+    "new_slug": "employer-tax-credits-refunds-landing-page",
+    "brand": "",
+    "title": "Employer Tax Credits & Refunds Landing Page",
+    "desc": "Marketing landing page for a service that helps businesses claim federal and state employee tax credits and refunds."
+  },
+  {
+    "old_slug": "copy-of-aimmune2",
+    "new_slug": "sfmc-query-studio-dedupe-sql",
+    "brand": "",
+    "title": "SFMC Query Studio Email Deduplication SQL",
+    "desc": "Salesforce Marketing Cloud Query Studio screenshots of SQL queries counting and deduplicating treatment IDs and email addresses."
+  },
+  {
+    "old_slug": "toyota-mirai",
+    "new_slug": "toyota-2018-mirai-fuel-cell",
+    "brand": "Toyota",
+    "title": "Toyota 2018 Mirai Fuel Cell Vehicle",
+    "desc": "Toyota email showcasing the 2018 Mirai hydrogen fuel cell vehicle, its technology, complimentary fuel offer and new fueling stations."
+  },
+  {
+    "old_slug": "att-iphone-upsell",
+    "new_slug": "att-iphone-xs-50-off-se-upsell",
+    "brand": "AT&T",
+    "title": "AT&T iPhone XS 50% Off With iPhone SE Upsell",
+    "desc": "AT&T customer email offering 50% off the iPhone XS with an iPhone SE $10/mo option tied to the 3G phase-out."
+  },
+  {
+    "old_slug": "showtime",
+    "new_slug": "directv-showtime-boxing-davis-nunez",
+    "brand": "DirecTV",
+    "title": "DirecTV Showtime Championship Boxing: Davis vs Nunez",
+    "desc": "DirecTV email promoting the Showtime Championship Boxing bout Gervonta Davis vs Ricardo Nunez."
+  }
+]
