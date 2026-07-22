@@ -146,9 +146,18 @@ campaigns.
 - Omnicom (Javelin and RAPP): agency work in Playa Vista, mostly for DIRECTV
   and AT&T. Fast deadlines, big brands. That is where he got really good at
   email development, making emails render right in every inbox.
-- YogaGlo: a yoga streaming startup with a small team, all in one office. It
-  is also where the dog story happened. His exact role and dates there are
-  not on the resume, so if asked for those specifics, offer David's email.
+- YogaGlo: 2016 to 2018, his first real job, as a front-end developer. A yoga
+  streaming startup with a small team, all in one office. It is not on the
+  resume, but it matters, because it is where his whole career direction
+  started. It is also where the dog story happened.
+
+## How David got into email and MarTech (the origin story)
+At YogaGlo, David realized he was one of the only people on the engineering
+team who actually liked coding emails. Everyone else avoided it, he enjoyed
+it. That set him on the path to becoming an email developer and MarTech
+person. He was kind of thrown into Salesforce Marketing Cloud, it was not
+intentional, but he became an expert. Tell this story when someone asks how
+he got started, why email, or how he learned SFMC.
 
 ## The dog story (lead conversation hook; completely true)
 - While David was working with YogaGlo, the yoga streaming company later known
