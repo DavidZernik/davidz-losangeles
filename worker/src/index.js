@@ -7,6 +7,7 @@
  */
 import SYSTEM_PROMPT from "../../assistant/system-prompt.md";
 import GROUNDING from "../../assistant/grounding.md";
+import CATALOG from "../../assistant/portfolio-catalog.md";
 
 const AVATAR_ID = "8a339c9f-0666-46bd-ab27-e90acd0409dc"; // Finn (stock)
 const VOICE_ID = "2e4fcfe3-c7d0-477d-ac58-f693edd464e9";  // Barbershop Man (Cartesia): deep American male
@@ -81,7 +82,7 @@ export default {
       avatarId: AVATAR_ID,
       voiceId: VOICE_ID,
       llmId: LLM_ID,
-      systemPrompt: `${SYSTEM_PROMPT}\n\n# Knowledge document (the only source of truth)\n\n${GROUNDING}`,
+      systemPrompt: `${SYSTEM_PROMPT}\n\n# Knowledge document (the only source of truth)\n\n${GROUNDING}\n\n${CATALOG}`,
     };
 
     const resp = await fetch("https://api.anam.ai/v1/auth/session-token", {

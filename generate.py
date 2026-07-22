@@ -70,6 +70,36 @@ def head(title, desc, home, og_image, css="styles.css"):
 <main id="main">
 """
 
+# AI David widget: collapsed bubble on the homepage (open-by-default lives on resume.html)
+WIDGET = """
+<!-- AI David widget (collapsed by default on this page) -->
+<div id="aiDavid" class="aid">
+  <button id="aidBubble" class="aid-bubble" aria-label="Open AI David">
+    <img src="assets/ai-david.webp" alt="" />
+    <span class="aid-pill">Ask AI David</span>
+  </button>
+  <div id="aidCard" class="aid-card" hidden>
+    <div class="aid-video-wrap">
+      <video id="aidVideo" autoplay playsinline></video>
+      <button id="aidStart" class="aid-preview" aria-label="Start talking to AI David">
+        <img src="assets/ai-david.webp" alt="" />
+        <span class="aid-play">&#9658;</span>
+        <span class="aid-start-label">Start conversation</span>
+      </button>
+      <div id="aidStatus" class="aid-status" hidden>Connecting to AI David&hellip;</div>
+      <span id="aidTimer" class="aid-timer" hidden>3:00</span>
+      <span id="aidMic" class="aid-mic" hidden>Intro playing&hellip;</span>
+      <button id="aidClose" class="aid-close" aria-label="Close AI David">&times;</button>
+    </div>
+    <div class="aid-foot">
+      <span class="aid-disclaimer">AI twin with a stock face. The real David looks different.</span>
+      <a href="mailto:dzernik@gmail.com">Email the real one</a>
+    </div>
+  </div>
+</div>
+<script type="module" src="ai-david.js"></script>
+"""
+
 FOOT = """</main>
 <footer class="site-footer">
   <div class="wrap">
@@ -207,7 +237,7 @@ home += f'''      </div>
     </div>
   </section>
 '''
-home += FOOT
+home += FOOT.replace("</footer>", "</footer>" + WIDGET, 1)
 (SITE / "index.html").write_text(home)
 
 # ==================== DETAIL PAGES ====================
