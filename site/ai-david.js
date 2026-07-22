@@ -2,7 +2,7 @@
 const SESSION_ENDPOINT = "https://ai-david.david-f5f.workers.dev/session";
 const MAX_SECONDS = 180; // matches Anam free-tier conversation cap
 
-const GREETING = "Hey, I'm AI David. Well, David's AI twin. Ask me anything about his experience. I have all the details, honestly more than live David can remember. Happy to walk you through a project he recently worked on at Emory Healthcare, where he's the Marketing Cloud Architect. Want to hear it?";
+const GREETING = "I've been trained to know the ins and outs of everything on David's resume, including his projects, his experience, and his skills. Ask me anything. Happy to walk you through a project he recently worked on at Emory Healthcare, where he's the Marketing Cloud Architect. Want to hear it?";
 
 const bubble = document.getElementById("aidBubble");
 const card = document.getElementById("aidCard");
@@ -49,7 +49,7 @@ async function startSession() {
     }
     const { sessionToken } = await resp.json();
 
-    const sdk = await import("https://esm.sh/@anam-ai/js-sdk@latest");
+    const sdk = await import("https://esm.sh/@anam-ai/js-sdk@4.22.0");
     const createClient = sdk.createClient || (sdk.default && sdk.default.createClient);
     client = createClient(sessionToken);
 
@@ -68,6 +68,20 @@ async function startSession() {
     } else {
       throw new Error("SDK stream method not found");
     }
+
+    // Some SDK builds append their own <video> instead of using ours, which
+    // showed up as a second screen. Adopt any stray stream into our element.
+    const adoptStray = () => {
+      document.querySelectorAll("#aiDavid video").forEach((v) => {
+        if (v !== video && v.srcObject) {
+          if (!video.srcObject) video.srcObject = v.srcObject;
+          v.remove();
+        }
+      });
+      if (video.srcObject) setStatus("");
+    };
+    const adoptPoll = setInterval(adoptStray, 500);
+    setTimeout(() => clearInterval(adoptPoll), 8000);
 
     setStatus("");
     startTimer();

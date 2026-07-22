@@ -254,6 +254,8 @@ img { max-width: 100%; display: block; }
 /* ---------------- AI David widget ---------------- */
 .aid { position: fixed; right: 20px; bottom: 20px; z-index: 90; }
 .aid [hidden] { display: none !important; }
+/* Guard: if the SDK injects its own video element, never render it as a second screen */
+.aid video:not(#aidVideo) { display: none !important; }
 .aid-bubble {
   display: flex; align-items: center; gap: 10px; cursor: pointer;
   background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
