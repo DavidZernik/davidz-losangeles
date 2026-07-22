@@ -2,7 +2,7 @@
 const SESSION_ENDPOINT = "https://ai-david.david-f5f.workers.dev/session";
 const MAX_SECONDS = 180; // matches Anam free-tier conversation cap
 
-const GREETING = "True story. A coworker once brought her dog to the office at the yoga startup where David worked, and the day took a very dark turn. Want to hear the whole thing? It really happened. I also know the ins and outs of everything on David's resume, his projects, his experience, and his skills, so ask me anything, including his recent Marketing Cloud work at Emory Healthcare.";
+const GREETING = "I've been trained on everything about David. His resume, his projects, his experience, and his skills. Ask me anything. I've also got some true stories from his career, including the time a coworker brought her dog to the office and the dog ate chocolate. Kinda morbid ending, but funny and true story.";
 
 const bubble = document.getElementById("aidBubble");
 const card = document.getElementById("aidCard");
