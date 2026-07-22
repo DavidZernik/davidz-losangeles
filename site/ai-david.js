@@ -11,6 +11,7 @@ const statusEl = document.getElementById("aidStatus");
 const timerEl = document.getElementById("aidTimer");
 const closeBtn = document.getElementById("aidClose");
 const startBtn = document.getElementById("aidStart");
+const micEl = document.getElementById("aidMic");
 
 let client = null;
 let timerId = null;
@@ -52,6 +53,28 @@ async function startSession() {
     const sdk = await import("https://esm.sh/@anam-ai/js-sdk@4.22.0");
     const createClient = sdk.createClient || (sdk.default && sdk.default.createClient);
     client = createClient(sessionToken);
+
+    // Mic stays muted during the intro so nothing can interrupt it.
+    // Unmute the moment his opening speech ends (endOfSpeech marker), or
+    // after 30s as a failsafe.
+    let listening = false;
+    const enableListening = () => {
+      if (listening || !client) return;
+      listening = true;
+      try { client.unmuteInputAudio(); } catch (e) { /* noop */ }
+      micEl.textContent = "Listening. Ask away";
+      micEl.classList.add("live");
+    };
+    try { client.muteInputAudio(); } catch (e) { /* noop */ }
+    micEl.hidden = false;
+    try {
+      const evName = (sdk.AnamEvent && sdk.AnamEvent.MESSAGE_STREAM_EVENT_RECEIVED) || "MESSAGE_STREAM_EVENT_RECEIVED";
+      client.addListener(evName, (msg) => {
+        const m = Array.isArray(msg) ? msg[msg.length - 1] : msg;
+        if (m && m.endOfSpeech && m.role !== "user") enableListening();
+      });
+    } catch (e) { console.log("stream listener unavailable", e); }
+    setTimeout(enableListening, 30000);
 
     // Stream avatar video+audio into our elements (SDK naming has varied across versions)
     if (typeof client.streamToVideoElement === "function") {
@@ -113,6 +136,9 @@ function collapse() {
   bubble.hidden = false;
   startBtn.hidden = false; // reset preview for next open
   try { video.srcObject = null; } catch (e) { /* noop */ }
+  micEl.hidden = true;
+  micEl.textContent = "Intro playing…";
+  micEl.classList.remove("live");
   setStatus("");
 }
 

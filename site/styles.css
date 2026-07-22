@@ -299,6 +299,11 @@ img { max-width: 100%; display: block; }
   position: absolute; left: 12px; top: 12px; background: rgba(25,25,23,.7); color: #fff;
   font-size: .78rem; font-weight: 600; padding: 4px 10px; border-radius: 999px;
 }
+.aid-mic {
+  position: absolute; left: 12px; bottom: 12px; background: rgba(25,25,23,.7); color: #fff;
+  font-size: .78rem; font-weight: 600; padding: 4px 12px; border-radius: 999px;
+}
+.aid-mic.live { background: var(--secondary); color: #16412a; }
 .aid-close {
   position: absolute; right: 10px; top: 10px; width: 34px; height: 34px; border: none; cursor: pointer;
   border-radius: 50%; background: rgba(25,25,23,.7); color: #fff; font-size: 1.2rem; line-height: 1;
