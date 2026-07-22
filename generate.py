@@ -70,15 +70,15 @@ def head(title, desc, home, og_image, css="styles.css"):
 <main id="main">
 """
 
-# AI David widget: collapsed bubble on the homepage (open-by-default lives on resume.html)
+# AI David widget: open on page load (same as resume.html); session still starts on click
 WIDGET = """
-<!-- AI David widget (collapsed by default on this page) -->
+<!-- AI David widget (open by default, click to start) -->
 <div id="aiDavid" class="aid">
-  <button id="aidBubble" class="aid-bubble" aria-label="Open AI David">
+  <button id="aidBubble" class="aid-bubble" aria-label="Open AI David" hidden>
     <img src="assets/ai-david.webp" alt="" />
     <span class="aid-pill">Ask AI David</span>
   </button>
-  <div id="aidCard" class="aid-card" hidden>
+  <div id="aidCard" class="aid-card">
     <div class="aid-video-wrap">
       <video id="aidVideo" autoplay playsinline></video>
       <button id="aidStart" class="aid-preview" aria-label="Start talking to AI David">
