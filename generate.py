@@ -61,6 +61,7 @@ def head(title, desc, home, og_image, css="styles.css"):
     <nav class="nav" aria-label="Primary">
       <a href="{home}#work">Work</a>
       <a href="{home}#about">About</a>
+      <a href="resume.html">Resume</a>
       <a href="{home}#brands">Brands</a>
       <a class="nav-cta" href="mailto:david@blueinboxllc.com">Contact&nbsp;<span class="arw">&rarr;</span></a>
     </nav>

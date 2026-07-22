@@ -1,0 +1,10 @@
+name = "ai-david"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+# Bundle the assistant markdown files as text modules (single source of truth)
+rules = [
+  { type = "Text", globs = ["**/*.md"], fallthrough = true }
+]
+
+# Secret (set once): npx wrangler secret put ANAM_API_KEY

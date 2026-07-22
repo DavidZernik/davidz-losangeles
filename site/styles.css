@@ -227,6 +227,73 @@ img { max-width: 100%; display: block; }
 .pager-link.prev:hover .arw { transform: translateX(-4px); }
 .pager-link.next:hover .arw { transform: translateX(4px); }
 
+/* ---------------- Resume page ---------------- */
+.resume { padding: clamp(36px, 6vw, 68px) 0 clamp(56px, 9vw, 96px); }
+.resume-head { margin-bottom: 44px; }
+.resume-name { font-family: var(--serif); font-weight: 400; font-size: clamp(2.6rem, 6vw, 4.2rem); line-height: 1.02; letter-spacing: -.01em; margin-top: 6px; }
+.resume-role { margin-top: 10px; font-size: 1.15rem; font-weight: 600; color: var(--ink-soft, #46536b); }
+.resume-meta { margin-top: 6px; color: var(--muted); font-size: .98rem; }
+.resume-actions { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 12px; }
+.resume-section { margin-top: 44px; padding-top: 34px; border-top: 1px solid var(--border); }
+.resume-h2 { font-family: var(--serif); font-weight: 400; font-size: 1.9rem; margin-bottom: 20px; }
+.resume-section > p { color: #2c2924; font-size: 1.05rem; margin-bottom: 14px; max-width: 46em; }
+.resume-projects a { color: var(--primary); font-weight: 600; }
+.resume-projects a:hover { text-decoration: underline; }
+.resume-job { margin-bottom: 30px; }
+.resume-job-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; margin-bottom: 8px; }
+.resume-job-head h3 { font-size: 1.08rem; font-weight: 600; }
+.resume-dates { font-size: .85rem; color: var(--muted); white-space: nowrap; }
+.resume-note { font-size: .92rem; font-style: italic; color: var(--muted); margin-bottom: 8px; }
+.resume-job ul { margin: 0; padding-left: 20px; }
+.resume-job li { color: #2c2924; font-size: .99rem; margin-bottom: 7px; }
+.resume-skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.skill-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-sm); padding: 20px 22px; }
+.skill-card h3 { font-size: .95rem; font-weight: 700; margin-bottom: 8px; color: var(--primary); }
+.skill-card p { font-size: .93rem; color: #2c2924; }
+
+/* ---------------- AI David widget ---------------- */
+.aid { position: fixed; right: 20px; bottom: 20px; z-index: 90; }
+.aid [hidden] { display: none !important; }
+.aid-bubble {
+  display: flex; align-items: center; gap: 10px; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+  padding: 8px 18px 8px 8px; box-shadow: 0 10px 30px -12px rgba(25,25,23,.35);
+  transition: transform .16s, border-color .16s;
+  font-family: var(--sans);
+}
+.aid-bubble:hover { transform: translateY(-3px); border-color: var(--primary); }
+.aid-bubble img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; }
+.aid-pill { font-weight: 700; font-size: .95rem; color: var(--text); }
+.aid-card {
+  width: min(92vw, 340px); background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--r); overflow: hidden;
+  box-shadow: 0 24px 60px -20px rgba(25,25,23,.45);
+}
+.aid-video-wrap { position: relative; aspect-ratio: 3 / 4; background: #191917; }
+.aid-video-wrap video { width: 100%; height: 100%; object-fit: cover; }
+.aid-status {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  color: #F4F0E8; font-size: .95rem; text-align: center; padding: 24px; background: rgba(25,25,23,.55);
+}
+.aid-timer {
+  position: absolute; left: 12px; top: 12px; background: rgba(25,25,23,.7); color: #fff;
+  font-size: .78rem; font-weight: 600; padding: 4px 10px; border-radius: 999px;
+}
+.aid-close {
+  position: absolute; right: 10px; top: 10px; width: 34px; height: 34px; border: none; cursor: pointer;
+  border-radius: 50%; background: rgba(25,25,23,.7); color: #fff; font-size: 1.2rem; line-height: 1;
+}
+.aid-close:hover { background: var(--primary); }
+.aid-foot {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  padding: 10px 14px; font-size: .74rem; color: var(--muted);
+}
+.aid-foot a { color: var(--primary); font-weight: 600; white-space: nowrap; }
+@media (max-width: 560px) {
+  .aid { right: 12px; bottom: 12px; }
+  .aid-card { width: calc(100vw - 24px); }
+}
+
 /* ---------------- Footer ---------------- */
 .site-footer { background: var(--ink); color: var(--background); padding: clamp(48px, 7vw, 84px) 0 40px; margin-top: 40px; }
 .footer-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 28px; }
