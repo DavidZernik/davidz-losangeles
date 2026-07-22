@@ -170,18 +170,23 @@
   </div>
 </footer>
 
-<!-- AI David widget -->
+<!-- AI David widget: card is open on load, session starts only on click -->
 <div id="aiDavid" class="aid">
-  <button id="aidBubble" class="aid-bubble" aria-label="Talk to AI David">
+  <button id="aidBubble" class="aid-bubble" aria-label="Open AI David" hidden>
     <img src="assets/ai-david.webp" alt="" />
     <span class="aid-pill">Ask AI David</span>
   </button>
-  <div id="aidCard" class="aid-card" hidden>
+  <div id="aidCard" class="aid-card">
     <div class="aid-video-wrap">
       <video id="aidVideo" autoplay playsinline></video>
-      <div id="aidStatus" class="aid-status">Connecting to AI David&hellip;</div>
+      <button id="aidStart" class="aid-preview" aria-label="Start talking to AI David">
+        <img src="assets/ai-david.webp" alt="" />
+        <span class="aid-play">&#9658;</span>
+        <span class="aid-start-label">Click to talk to AI David</span>
+      </button>
+      <div id="aidStatus" class="aid-status" hidden>Connecting to AI David&hellip;</div>
       <span id="aidTimer" class="aid-timer" hidden>3:00</span>
-      <button id="aidClose" class="aid-close" aria-label="End conversation">&times;</button>
+      <button id="aidClose" class="aid-close" aria-label="Close AI David">&times;</button>
     </div>
     <div class="aid-foot">
       <span class="aid-disclaimer">AI twin with a stock face. The real David looks different.</span>

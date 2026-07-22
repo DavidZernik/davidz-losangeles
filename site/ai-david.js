@@ -10,6 +10,7 @@ const video = document.getElementById("aidVideo");
 const statusEl = document.getElementById("aidStatus");
 const timerEl = document.getElementById("aidTimer");
 const closeBtn = document.getElementById("aidClose");
+const startBtn = document.getElementById("aidStart");
 
 let client = null;
 let timerId = null;
@@ -38,6 +39,7 @@ function startTimer() {
 async function startSession() {
   bubble.hidden = true;
   card.hidden = false;
+  startBtn.hidden = true;
   setStatus("Connecting to AI David…");
   try {
     const resp = await fetch(SESSION_ENDPOINT, { method: "POST" });
@@ -92,6 +94,14 @@ async function startSession() {
   }
 }
 
+function collapse() {
+  card.hidden = true;
+  bubble.hidden = false;
+  startBtn.hidden = false; // reset preview for next open
+  try { video.srcObject = null; } catch (e) { /* noop */ }
+  setStatus("");
+}
+
 function endSession(message) {
   if (timerId) { clearInterval(timerId); timerId = null; }
   if (client) {
@@ -100,15 +110,16 @@ function endSession(message) {
   }
   if (message) {
     setStatus(message);
-    setTimeout(() => { card.hidden = true; bubble.hidden = false; setStatus(""); }, 4000);
+    setTimeout(collapse, 4000);
   } else {
-    card.hidden = true;
-    bubble.hidden = false;
-    setStatus("");
+    collapse();
   }
   timerEl.hidden = true;
 }
 
-bubble.addEventListener("click", startSession);
+// Card is open on page load in preview state. Session starts only on click.
+startBtn.addEventListener("click", startSession);
+// Reopening from the bubble returns to the preview, still requiring a click to start.
+bubble.addEventListener("click", () => { bubble.hidden = true; card.hidden = false; });
 closeBtn.addEventListener("click", () => endSession());
 window.addEventListener("beforeunload", () => { if (client) { try { client.stopStreaming(); } catch (e) {} } });
