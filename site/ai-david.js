@@ -26,8 +26,13 @@ function fmt(s) {
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 }
 
+let sessionStartedAt = 0;
+
 function startTimer() {
-  secondsLeft = MAX_SECONDS;
+  // Show only the time actually left for Q&A (Anam's 3-minute cap runs from
+  // session start, so subtract however long the intro took).
+  const elapsed = sessionStartedAt ? Math.floor((Date.now() - sessionStartedAt) / 1000) : 0;
+  secondsLeft = Math.max(30, MAX_SECONDS - elapsed);
   timerEl.hidden = false;
   timerEl.textContent = fmt(secondsLeft);
   timerId = setInterval(() => {
@@ -64,6 +69,7 @@ async function startSession() {
       try { client.unmuteInputAudio(); } catch (e) { /* noop */ }
       micEl.textContent = "Listening. Ask away";
       micEl.classList.add("live");
+      startTimer(); // countdown appears only once Q&A actually begins
     };
     try { client.muteInputAudio(); } catch (e) { /* noop */ }
     micEl.hidden = false;
@@ -107,7 +113,7 @@ async function startSession() {
     setTimeout(() => clearInterval(adoptPoll), 8000);
 
     setStatus("");
-    startTimer();
+    sessionStartedAt = Date.now();
 
     // Belt and braces: clear the overlay the moment frames actually render,
     // and have the twin speak its greeting once.
