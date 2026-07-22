@@ -257,15 +257,20 @@ img { max-width: 100%; display: block; }
 /* Guard: if the SDK injects its own video element, never render it as a second screen */
 .aid video:not(#aidVideo) { display: none !important; }
 .aid-bubble {
-  display: flex; align-items: center; gap: 10px; cursor: pointer;
+  display: flex; align-items: center; gap: 16px; cursor: pointer;
   background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
-  padding: 8px 18px 8px 8px; box-shadow: 0 10px 30px -12px rgba(25,25,23,.35);
+  padding: 12px 30px 12px 12px; box-shadow: 0 16px 44px -14px rgba(25,25,23,.45);
   transition: transform .16s, border-color .16s;
   font-family: var(--sans);
 }
 .aid-bubble:hover { transform: translateY(-3px); border-color: var(--primary); }
-.aid-bubble img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; }
-.aid-pill { font-weight: 700; font-size: .95rem; color: var(--text); }
+.aid-bubble img { width: 92px; height: 92px; border-radius: 50%; object-fit: cover; }
+.aid-pill { font-weight: 700; font-size: 1.25rem; color: var(--text); }
+@media (max-width: 560px) {
+  .aid-bubble img { width: 68px; height: 68px; }
+  .aid-pill { font-size: 1.05rem; }
+  .aid-bubble { padding: 10px 22px 10px 10px; gap: 12px; }
+}
 .aid-card {
   width: min(92vw, 340px); background: var(--surface);
   border: 1px solid var(--border); border-radius: var(--r); overflow: hidden;
