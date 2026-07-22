@@ -2,7 +2,7 @@
 const SESSION_ENDPOINT = "https://ai-david.david-f5f.workers.dev/session";
 const MAX_SECONDS = 180; // matches Anam free-tier conversation cap
 
-const GREETING = "Hey, I'm AI David. Well, David's AI twin. Ask me anything about his experience. I have all the details, honestly more than live David can remember.";
+const GREETING = "Hey, I'm AI David. Well, David's AI twin. Ask me anything about his experience. I have all the details, honestly more than live David can remember. Happy to walk you through a project he recently worked on at Emory Healthcare, where he's the Marketing Cloud Architect. Want to hear it?";
 
 const bubble = document.getElementById("aidBubble");
 const card = document.getElementById("aidCard");

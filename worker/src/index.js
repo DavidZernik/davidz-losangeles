@@ -9,7 +9,7 @@ import SYSTEM_PROMPT from "../../assistant/system-prompt.md";
 import GROUNDING from "../../assistant/grounding.md";
 
 const AVATAR_ID = "8a339c9f-0666-46bd-ab27-e90acd0409dc"; // Finn (stock)
-const VOICE_ID = "90c1fb05-4fc0-11f1-84b0-52bacf74fa75";  // Cooper, warm US male
+const VOICE_ID = "91a47e5a-4fc0-11f1-84b0-52bacf74fa75";  // Corey, American English male
 const LLM_ID = "89649f1a-feb2-4fea-be43-56baec997a93";    // GPT 5 Chat (Anam built-in)
 
 const ALLOWED_ORIGINS = new Set([
