@@ -2,7 +2,7 @@
 const SESSION_ENDPOINT = "https://ai-david.david-f5f.workers.dev/session";
 const MAX_SECONDS = 180; // matches Anam free-tier conversation cap
 
-const GREETING = "I've been trained on everything about David. His resume, his projects, his experience, and his skills. Ask me anything. I've also got some true stories from his career, including the time a coworker brought her dog to the office and the dog ate chocolate. Kinda morbid ending, but funny and true story.";
+const GREETING = "I know everything on David's resume. Projects, experience, skills, all of it. I also know the stories, like when he was working at YogaGlo, a coworker brought her dog to the office. The dog ate chocolate and literally keeled over and died right there on the office floor in the middle of the workday. True story. And really awkward for everyone in the office who witnessed it.";
 
 const bubble = document.getElementById("aidBubble");
 const card = document.getElementById("aidCard");
