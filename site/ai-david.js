@@ -2,7 +2,7 @@
 const SESSION_ENDPOINT = "https://ai-david.david-f5f.workers.dev/session";
 const MAX_SECONDS = 180; // matches Anam free-tier conversation cap
 
-const GREETING = "I've been trained to know the ins and outs of everything on David's resume, including his projects, his experience, and his skills. Ask me anything. Happy to walk you through a project he recently worked on at Emory Healthcare, where he's the Marketing Cloud Architect. Want to hear it?";
+const GREETING = "I've been trained to know the ins and outs of everything on David's resume, including his projects, his experience, and his skills. I even have some funny stories spanning his entire work career, like the time a coworker brought their dog to the office at a yoga startup and the day took a turn. Ask me anything, or let me walk you through his recent Marketing Cloud work at Emory Healthcare.";
 
 const bubble = document.getElementById("aidBubble");
 const card = document.getElementById("aidCard");
