@@ -63,6 +63,7 @@ img { max-width: 100%; display: block; }
   border-bottom-color: var(--border);
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+.header-inner--end { justify-content: flex-end; }
 .brand { font-family: var(--serif); font-size: 1.5rem; line-height: 1; letter-spacing: 0; }
 .nav { display: flex; align-items: center; gap: 26px; }
 .nav a { font-size: .92rem; font-weight: 500; color: var(--text); opacity: .78; transition: opacity .15s; }
@@ -117,9 +118,14 @@ img { max-width: 100%; display: block; }
   padding: 6px 14px; font-size: .74rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
   margin-bottom: 22px;
 }
+.hero-name {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(4rem, 9.5vw, 7.5rem); line-height: .9; letter-spacing: -.02em;
+  margin-bottom: 18px;
+}
 .hero-title {
   font-family: var(--serif); font-weight: 400;
-  font-size: clamp(3rem, 7.2vw, 6rem); line-height: .98; letter-spacing: -.01em;
+  font-size: clamp(1.6rem, 3.4vw, 2.75rem); line-height: 1.08; letter-spacing: -.01em;
 }
 .hero-title em { font-style: italic; color: var(--primary); }
 .hero-sub { margin-top: 24px; max-width: 30em; font-size: 1.12rem; color: #423e36; }

@@ -36,7 +36,7 @@ N_BRANDS = len({it["brand"] for it in items if it["brand"]})
 ARW = '<span class="arw">&rarr;</span>'
 def esc(s): return html.escape(s, quote=True)
 
-def head(title, desc, home, og_image, css="styles.css"):
+def head(title, desc, home, og_image, css="styles.css", brand=True):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,8 +56,8 @@ def head(title, desc, home, og_image, css="styles.css"):
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header" id="top">
-  <div class="wrap header-inner">
-    <a class="brand" href="{home}">David Z.</a>
+  <div class="wrap header-inner{'' if brand else ' header-inner--end'}">
+    {'<a class="brand" href="' + home + '">David Z.</a>' if brand else ''}
     <nav class="nav" aria-label="Primary">
       <a href="{home}#work">Work</a>
       <a href="{home}#about">About</a>
@@ -84,7 +84,7 @@ WIDGET = """
       <button id="aidStart" class="aid-preview" aria-label="Start talking to AI David">
         <img src="assets/ai-david.webp" alt="" />
         <span class="aid-play">&#9658;</span>
-        <span class="aid-start-label">Start conversation</span>
+        <span class="aid-start-label">Discuss David's career with his A.I.</span>
       </button>
       <div id="aidStatus" class="aid-status" hidden>Connecting to AI David&hellip;</div>
       <span id="aidTimer" class="aid-timer" hidden>3:00</span>
@@ -132,12 +132,14 @@ home = head(
     "David Z. · MarTech Architect specializing in Salesforce Marketing Cloud",
     "David Z. is a MarTech architect in Los Angeles specializing in Salesforce Marketing Cloud. Building CloudPages, automations, SQL, journeys, and internal tools.",
     "index.html",
-    f'<meta property="og:image" content="{hp["images"][0]}" />')
+    f'<meta property="og:image" content="{hp["images"][0]}" />',
+    brand=False)
 
 home += f'''  <section class="hero">
     <div class="wrap">
       <div class="bento">
         <div class="cell cell--headline reveal">
+          <p class="hero-name">David Z.</p>
           <span class="hero-eyebrow">Los Angeles &middot; MarTech Architect</span>
           <h1 class="hero-title">Marketing technology, <em>architected</em> end&#8209;to&#8209;end.</h1>
           <p class="hero-sub">I'm David, a MarTech architect. I build and automate the systems, tools, and pipelines behind marketing at scale, with a specialty in Salesforce Marketing Cloud.</p>
