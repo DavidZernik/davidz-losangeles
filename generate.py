@@ -154,8 +154,7 @@ home += f'''  <section class="hero">
           <img class="product-shot" src="{hp['images'][0]}" alt="{esc(hp['title'])}" />
         </a>
         <div class="cell cell--mint reveal d3">
-          <div class="stat-num">{N_PIECES}</div>
-          <div class="stat-label">campaigns, tools &amp; pages shipped</div>
+          <p class="cell-copy">Nine plus years in marketing technology, from a first email dev role in 2016 to SFMC architect work today. Mostly Salesforce Marketing Cloud, plus AMPscript, SQL, SSJS, and JavaScript.</p>
         </div>
         <div class="cell cell--ink reveal d4">
           <div class="stat-num">{N_BRANDS}+</div>
