@@ -149,12 +149,8 @@ home += f'''  <section class="hero">
             <a class="btn btn-ghost" href="mailto:david@blueinboxllc.com">Get in touch</a>
           </div>
         </div>
-        <a class="cell cell--product reveal d2" href="{HERO_PRODUCT}.html" aria-label="{esc(hp['title'])}">
-          <span class="product-cap"><span class="dot"></span>SFMC-powered &middot; built by David</span>
-          <img class="product-shot" src="{hp['images'][0]}" alt="{esc(hp['title'])}" />
-        </a>
         <div class="cell cell--mint reveal d3">
-          <p class="cell-copy">Nine plus years in marketing technology, from a first email dev role in 2016 to SFMC architect work today. Mostly Salesforce Marketing Cloud, plus AMPscript, SQL, SSJS, and JavaScript.</p>
+          <p class="cell-copy">Nine plus years in marketing technology, from a first email dev role in 2016 to SFMC architect work today. MarTech developer/architect.</p>
         </div>
         <div class="cell cell--ink reveal d4">
           <div class="stat-num">{N_BRANDS}+</div>
