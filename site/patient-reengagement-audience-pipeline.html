@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emory Healthcare - Reengagement Audience &amp; Routing Engine · David Z.</title>
+  <meta name="description" content="Built with: Salesforce Marketing Cloud, SQL Query Activities, Journey Builder, AMPscript, Einstein Send Time Optimization, and a custom CloudPage." />
+  <meta property="og:title" content="Emory Healthcare - Reengagement Audience &amp; Routing Engine · David Z." />
+  <meta property="og:description" content="Built with: Salesforce Marketing Cloud, SQL Query Activities, Journey Builder, AMPscript, Einstein Send Time Optimization, and a custom CloudPage." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/work/patient-reengagement-audience-pipeline/0.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">David Z.</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="index.html#brands">Brands</a>
+      <a class="nav-cta" href="mailto:david@blueinboxllc.com">Contact&nbsp;<span class="arw">&rarr;</span></a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <article class="detail">
+    <div class="wrap wrap-narrow">
+      <a class="back-link" href="index.html#work"><span class="arw">&larr;</span>&nbsp;All work</a>
+      <header class="detail-head">
+        
+        <h1 class="detail-title">Emory Healthcare - Reengagement Audience &amp; Routing Engine</h1>
+      </header>
+      <div class="detail-body">
+        <p class="built-with">Built with: Salesforce Marketing Cloud, SQL Query Activities, Journey Builder, AMPscript, Einstein Send Time Optimization, and a custom CloudPage.</p>
+        <p>Emory has a large pool of opted in patients who have quietly stopped opening emails. I designed and built the engine that wins them back: a daily SQL pipeline that flags lapsed patients, resolves each one to a single health track, and feeds them into a three email Journey Builder series that stops the moment someone reopens.</p>
+        <p>Routing runs on two Salesforce signals: what topic a patient has shown interest in, and whether they had a recent appointment in that same area. I built the logic that resolves those two signals down to one of four tracks, Heart &amp; Vascular, MSK, Women&#x27;s, or General, including matching messy real world department names like CLIFTON B1 UROLOGY back to a clean topic.</p>
+        <p>Every patient gets an A/B tested email sent at their own best time of day, and opening any email in the series exits them right away, since the open itself is the win. I also built a full parallel test track with its own seeded patients, including deliberate edge cases like a minor and a deceased patient, so the whole pipeline could be proven safe before a real patient ever received an email.</p>
+        <p>The screenshot is a CloudPage I built that documents the entire system end to end, so the team can see how a patient moves from lapsed, to routed, to sent, on one screen.</p>
+      </div>
+      <div class="creatives">
+        <figure class="creative"><img loading="lazy" src="assets/work/patient-reengagement-audience-pipeline/0.png" alt="Emory Healthcare - Reengagement Audience &amp; Routing Engine 1" /></figure>
+      </div>
+      <div class="pager"><a class="pager-link prev" href="patient-reengagement-journey-map.html"><span class="arw">&larr;</span>&nbsp;Emory Healthcare - Patient Reengagement Campaign</a><a class="pager-link next" href="unitedhealthcare-this-is-news-newsletter.html">United Health Care
+Design, Development &amp; QA&nbsp;<span class="arw">&rarr;</span></a></div>
+    </div>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <p class="footer-lead">Let's build something that <em>sends</em>.</p>
+      <div>
+        <a class="footer-mail" href="mailto:david@blueinboxllc.com">david@blueinboxllc.com&nbsp;<span class="arw">&rarr;</span></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 David Z. &middot; Los Angeles</span>
+      <span>Salesforce Marketing Cloud &middot; Email &middot; MarTech</span>
+    </div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var h = document.getElementById('top');
+    var onScroll = function () { h.classList.toggle('scrolled', window.scrollY > 10); };
+    onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+  })();
+</script>
+</body>
+</html>

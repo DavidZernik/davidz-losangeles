@@ -1,4 +1,4 @@
-# Portfolio catalog (75 pieces on davidz-losangeles.com)
+# Portfolio catalog (76 pieces on davidz-losangeles.com)
 
 Every piece below is live on the site. When one comes up, mention it by name
 and say it is on the portfolio (for example, "the Toyota Mirai page on the
@@ -43,6 +43,7 @@ guess where or when it was made.
 - Waste Management - Hurricane Season | brand: Waste Management | page: /wm-bagster-20-off-spring-cleaning-a | WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code.
 - Aimmune Palforzia Healthcare Provider Email | brand: Aimmune | page: /palforzia-peanut-allergy-hcp | Aimmune Therapeutics healthcare-provider email introducing Palforzia oral immunotherapy for pediatric peanut allergy.
 - Emory Healthcare - Patient Reengagement Campaign | brand: n/a | page: /patient-reengagement-journey-map | era: Emory Healthcare (current) | A multi-track lifecycle flowchart mapping the trigger logic and send cadence of a patient reengagement email campaign.
+- Emory Healthcare - Reengagement Audience & Routing Engine | brand: n/a | page: /patient-reengagement-audience-pipeline | era: Emory Healthcare (current) | A CloudPage mapping the SQL audience pipeline, service line routing logic, and A/B tested email journey that wins back lapsed Emory Healthca
 - United Health Care
 Design, Development & QA | brand: UnitedHealthcare | page: /unitedhealthcare-this-is-news-newsletter | era: his independent year | UnitedHealthcare Insurance Solutions internal newsletter celebrating Service Heroes and Medicare Supplement business wins, shown alongside i
 - Dynamic Email, AT&T and CBS Sports | brand: AT&T | page: /att-uverse-cbs-restored-notice | era: the agency years (Omnicom) | AT&T U-verse service message letting customers know CBS, CBS Sports and Smithsonian channels are back after a carriage agreement.

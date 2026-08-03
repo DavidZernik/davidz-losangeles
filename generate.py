@@ -29,7 +29,7 @@ LOGOS = [
 HERO_PRODUCT = "emory-healthcare-email-calendar-tool"
 # Detail pages whose creative breaks out wide (big app screenshots only)
 WIDE_CREATIVES = {"emory-healthcare-email-calendar-tool"}
-FEATURED = ["emory-healthcare-email-kpi-dashboard", "sfmc-query-studio-dedupe-sql", "patient-reengagement-journey-map"]
+FEATURED = ["emory-healthcare-email-kpi-dashboard", "patient-reengagement-audience-pipeline", "patient-reengagement-journey-map"]
 N_PIECES = len(items)
 N_BRANDS = len({it["brand"] for it in items if it["brand"]})
 

@@ -522,6 +522,23 @@
     "desc": "A multi-track lifecycle flowchart mapping the trigger logic and send cadence of a patient reengagement email campaign."
   },
   {
+    "slug": "patient-reengagement-audience-pipeline",
+    "title": "Emory Healthcare - Reengagement Audience & Routing Engine",
+    "alt_title": "Patient Reengagement Data Flow & Test Harness",
+    "brand": "",
+    "body": [
+      "Built with: Salesforce Marketing Cloud, SQL Query Activities, Journey Builder, AMPscript, Einstein Send Time Optimization, and a custom CloudPage.",
+      "Emory has a large pool of opted in patients who have quietly stopped opening emails. I designed and built the engine that wins them back: a daily SQL pipeline that flags lapsed patients, resolves each one to a single health track, and feeds them into a three email Journey Builder series that stops the moment someone reopens.",
+      "Routing runs on two Salesforce signals: what topic a patient has shown interest in, and whether they had a recent appointment in that same area. I built the logic that resolves those two signals down to one of four tracks, Heart & Vascular, MSK, Women's, or General, including matching messy real world department names like CLIFTON B1 UROLOGY back to a clean topic.",
+      "Every patient gets an A/B tested email sent at their own best time of day, and opening any email in the series exits them right away, since the open itself is the win. I also built a full parallel test track with its own seeded patients, including deliberate edge cases like a minor and a deceased patient, so the whole pipeline could be proven safe before a real patient ever received an email.",
+      "The screenshot is a CloudPage I built that documents the entire system end to end, so the team can see how a patient moves from lapsed, to routed, to sent, on one screen."
+    ],
+    "images": [
+      "assets/work/patient-reengagement-audience-pipeline/0.png"
+    ],
+    "desc": "A CloudPage mapping the SQL audience pipeline, service line routing logic, and A/B tested email journey that wins back lapsed Emory Healthcare patients."
+  },
+  {
     "slug": "unitedhealthcare-this-is-news-newsletter",
     "title": "United Health Care\nDesign, Development & QA",
     "alt_title": "UnitedHealthcare 'This IS News!' Insurance Solutions Newsletter",
@@ -557,8 +574,8 @@
     "brand": "AT&T",
     "body": [
       "This project focused on building a fully dynamic, production ready marketing email for AT&T announcing the return of CBS Sports and Smithsonian content. I handled the full lifecycle, from layout and responsive behavior to data driven personalization and performance tuning.",
-      "The template supported dynamic body copy, mobile image swaps, and solid fallbacks across major email clients, with accessibility covered through proper alt text and clear content hierarchy while staying aligned to AT&T’s brand.",
-      "On the technical side, the email was optimized for fast load times and reliable inbox placement by managing image size, compression, and image to text balance. It was tested across major clients and devices and structured to plug cleanly into AT&T’s dynamic content pipeline, resulting in a flexible, reusable template that balanced performance, accessibility, and deliverability."
+      "The template supported dynamic body copy, mobile image swaps, and solid fallbacks across major email clients, with accessibility covered through proper alt text and clear content hierarchy while staying aligned to AT&T\u2019s brand.",
+      "On the technical side, the email was optimized for fast load times and reliable inbox placement by managing image size, compression, and image to text balance. It was tested across major clients and devices and structured to plug cleanly into AT&T\u2019s dynamic content pipeline, resulting in a flexible, reusable template that balanced performance, accessibility, and deliverability."
     ],
     "images": [
       "assets/work/att-uverse-cbs-restored-notice/0.jpg"
@@ -584,7 +601,7 @@
     "alt_title": "T-Mobile 5G Home Internet Signup",
     "brand": "T-Mobile",
     "body": [
-      "I was a campaign manager for T-Mobile’s 5G Home Internet offering - a coordinated six-touch sequence across email and SMS. The campaign was sent to over a million recipients nationwide and was designed to move prospects through awareness, eligibility confirmation, and activation messaging over several weeks.",
+      "I was a campaign manager for T-Mobile\u2019s 5G Home Internet offering - a coordinated six-touch sequence across email and SMS. The campaign was sent to over a million recipients nationwide and was designed to move prospects through awareness, eligibility confirmation, and activation messaging over several weeks.",
       "I acted as the liaison between business stakeholders, marketing, and technical teams, helping translate business requirements into executable campaign logic and keeping timelines, dependencies, and scope aligned across groups.",
       "Beyond coordination, I was closely involved in shaping the overall flow of the program, including message sequencing, timing between touches, and how different channels were orchestrated together.",
       "Email Journeys and Cadence:",
@@ -629,7 +646,7 @@
     "alt_title": "Blue Shield of California 2024 Medicare Coverage Email",
     "brand": "Blue Shield of California",
     "body": [
-      "This project was part of Blue Shield of California’s 2023 Medicare Educational Series, built in Salesforce Marketing Cloud to guide members through coverage options and enrollment timing. I developed the template using SFMC content blocks and reusable components, making it easy for the team to swap in different educational assets like booklets and videos while keeping layout and branding consistent. Because this was a regulated healthcare campaign, the build was designed to remain fully CAN-SPAM and HIPAA compliant while still feeling clear and approachable for a broad audience.",
+      "This project was part of Blue Shield of California\u2019s 2023 Medicare Educational Series, built in Salesforce Marketing Cloud to guide members through coverage options and enrollment timing. I developed the template using SFMC content blocks and reusable components, making it easy for the team to swap in different educational assets like booklets and videos while keeping layout and branding consistent. Because this was a regulated healthcare campaign, the build was designed to remain fully CAN-SPAM and HIPAA compliant while still feeling clear and approachable for a broad audience.",
       "On the technical side, I focused on accessibility and reliability, including proper alt text, email-safe layouts, and defensive HTML and CSS for inconsistent client rendering. The template was tested across major clients using Litmus and Email on Acid to catch spacing, typography, and stacking issues before launch. The result was a compliant, reusable framework the team could rely on for ongoing educational sends."
     ],
     "images": [
@@ -699,7 +716,7 @@
     "brand": "Save Khaki",
     "body": [
       "This project was part of the Save Khaki e-commerce site, where I worked on a team maintaining and evolving the storefront. I personally built the Supima collection page to showcase a premium product line with a strong emphasis on photography, merchandising, and clear navigation. The site ran on Shopify, and my role was to translate design and merchandising requirements into a responsive, production-ready page that worked across the browsers and devices common at the time.",
-      "From a technical standpoint, the work focused on Shopify’s theming system, Liquid templates, and front end HTML and CSS. I implemented the collection layout, handled responsive behavior, and tested the page to ensure consistent rendering and performance. The result was a polished, maintainable collection page that fit cleanly into the existing e-commerce experience.",
+      "From a technical standpoint, the work focused on Shopify\u2019s theming system, Liquid templates, and front end HTML and CSS. I implemented the collection layout, handled responsive behavior, and tested the page to ensure consistent rendering and performance. The result was a polished, maintainable collection page that fit cleanly into the existing e-commerce experience.",
       "Live site:",
       "www.savekhaki.com"
     ],
@@ -714,7 +731,7 @@
     "alt_title": "Glo Find a Class Help & Recommendations",
     "brand": "Glo",
     "body": [
-      "This project focused on building a personalized “find a class” email for YogaGlo, designed to help users quickly discover content that matched their interests and experience level. I worked with a machine learning engineer who owned the recommendation logic, and my role was to integrate those results into a dynamic email template that could render different class cards per user. The front end was built with responsive, email-safe HTML and CSS to keep the layout clean and scannable across devices.",
+      "This project focused on building a personalized \u201cfind a class\u201d email for YogaGlo, designed to help users quickly discover content that matched their interests and experience level. I worked with a machine learning engineer who owned the recommendation logic, and my role was to integrate those results into a dynamic email template that could render different class cards per user. The front end was built with responsive, email-safe HTML and CSS to keep the layout clean and scannable across devices.",
       "On the implementation side, the template pulled recommendations from an internal endpoint and mapped them into reusable content blocks. I tested the build across major email clients to make sure images, spacing, and stacking behavior held up. The result was a scalable, personalized email that turned raw recommendation data into a usable product experience inside the inbox."
     ],
     "images": [
@@ -1007,7 +1024,7 @@
   },
   {
     "slug": "directv-oxygen-murder-for-hire-premiere-b",
-    "title": "DIRECTV True Crime Network Up-sell",
+    "title": "DIRECTV True Crime Network\u00a0Up-sell",
     "alt_title": "DirecTV Oxygen Murder For Hire Premiere",
     "brand": "DirecTV",
     "body": [
