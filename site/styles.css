@@ -280,22 +280,17 @@ img { max-width: 100%; display: block; }
 /* Guard: if the SDK injects its own video element, never render it as a second screen */
 .aid video:not(#aidVideo) { display: none !important; }
 .aid-bubble {
-  display: flex; align-items: center; gap: 16px; cursor: pointer;
+  display: flex; align-items: center; gap: 10px; cursor: pointer;
   background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
-  padding: 12px 30px 12px 12px; box-shadow: 0 16px 44px -14px rgba(25,25,23,.45);
+  padding: 8px 20px 8px 8px; box-shadow: 0 16px 44px -14px rgba(25,25,23,.45);
   transition: transform .16s, border-color .16s;
   font-family: var(--sans);
 }
 .aid-bubble:hover { transform: translateY(-3px); border-color: var(--primary); }
-.aid-bubble img { width: 92px; height: 92px; border-radius: 50%; object-fit: cover; }
-.aid-pill { font-weight: 700; font-size: 1.25rem; color: var(--text); }
-@media (max-width: 560px) {
-  .aid-bubble img { width: 68px; height: 68px; }
-  .aid-pill { font-size: 1.05rem; }
-  .aid-bubble { padding: 10px 22px 10px 10px; gap: 12px; }
-}
+.aid-bubble img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; }
+.aid-pill { font-weight: 700; font-size: .95rem; color: var(--text); }
 .aid-card {
-  width: min(92vw, 340px); background: var(--surface);
+  width: min(85vw, 260px); background: var(--surface);
   border: 1px solid var(--border); border-radius: var(--r); overflow: hidden;
   box-shadow: 0 24px 60px -20px rgba(25,25,23,.45);
 }
@@ -309,42 +304,42 @@ img { max-width: 100%; display: block; }
 .aid-preview:hover img { opacity: .75; }
 .aid-play {
   position: absolute; left: 50%; top: 44%; transform: translate(-50%, -50%);
-  width: 64px; height: 64px; border-radius: 50%; background: var(--primary); color: #fff;
-  display: flex; align-items: center; justify-content: center; font-size: 1.5rem; padding-left: 5px;
+  width: 48px; height: 48px; border-radius: 50%; background: var(--primary); color: #fff;
+  display: flex; align-items: center; justify-content: center; font-size: 1.15rem; padding-left: 4px;
   box-shadow: 0 12px 30px -8px rgba(255,91,69,.65); transition: transform .16s;
 }
 .aid-preview:hover .aid-play { transform: translate(-50%, -50%) scale(1.08); }
 .aid-start-label {
-  position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); white-space: nowrap;
-  background: rgba(25,25,23,.75); color: #fff; font-size: .85rem; font-weight: 600;
-  padding: 7px 16px; border-radius: 999px;
+  position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); white-space: nowrap;
+  background: rgba(25,25,23,.75); color: #fff; font-size: .74rem; font-weight: 600;
+  padding: 6px 13px; border-radius: 999px;
 }
 .aid-status {
   position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
-  color: #F4F0E8; font-size: .95rem; text-align: center; padding: 24px; background: rgba(25,25,23,.55);
+  color: #F4F0E8; font-size: .82rem; text-align: center; padding: 18px; background: rgba(25,25,23,.55);
 }
 .aid-timer {
-  position: absolute; left: 12px; top: 12px; background: rgba(25,25,23,.7); color: #fff;
-  font-size: .78rem; font-weight: 600; padding: 4px 10px; border-radius: 999px;
+  position: absolute; left: 10px; top: 10px; background: rgba(25,25,23,.7); color: #fff;
+  font-size: .7rem; font-weight: 600; padding: 3px 9px; border-radius: 999px;
 }
 .aid-mic {
-  position: absolute; left: 12px; bottom: 12px; background: rgba(25,25,23,.7); color: #fff;
-  font-size: .78rem; font-weight: 600; padding: 4px 12px; border-radius: 999px;
+  position: absolute; left: 10px; bottom: 10px; background: rgba(25,25,23,.7); color: #fff;
+  font-size: .7rem; font-weight: 600; padding: 3px 10px; border-radius: 999px;
 }
 .aid-mic.live { background: var(--secondary); color: #16412a; }
 .aid-close {
-  position: absolute; right: 10px; top: 10px; width: 34px; height: 34px; border: none; cursor: pointer;
-  border-radius: 50%; background: rgba(25,25,23,.7); color: #fff; font-size: 1.2rem; line-height: 1;
+  position: absolute; right: 8px; top: 8px; width: 28px; height: 28px; border: none; cursor: pointer;
+  border-radius: 50%; background: rgba(25,25,23,.7); color: #fff; font-size: 1.05rem; line-height: 1;
 }
 .aid-close:hover { background: var(--primary); }
 .aid-foot {
   display: flex; justify-content: space-between; align-items: center; gap: 10px;
-  padding: 10px 14px; font-size: .74rem; color: var(--muted);
+  padding: 8px 12px; font-size: .68rem; color: var(--muted);
 }
 .aid-foot a { color: var(--primary); font-weight: 600; white-space: nowrap; }
-@media (max-width: 560px) {
-  .aid { right: 12px; bottom: 12px; }
-  .aid-card { width: calc(100vw - 24px); }
+/* Widget is desktop/tablet only: too cramped to be worth the screen real estate on mobile. */
+@media (max-width: 620px) {
+  .aid { display: none !important; }
 }
 
 /* ---------------- Footer ---------------- */
