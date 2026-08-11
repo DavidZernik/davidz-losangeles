@@ -337,9 +337,21 @@ img { max-width: 100%; display: block; }
   padding: 8px 12px; font-size: .68rem; color: var(--muted);
 }
 .aid-foot a { color: var(--primary); font-weight: 600; white-space: nowrap; }
-/* Widget is desktop/tablet only: too cramped to be worth the screen real estate on mobile. */
+/* Smaller and tucked in the corner on mobile, not hidden, just out of the way. */
 @media (max-width: 620px) {
-  .aid { display: none !important; }
+  .aid { right: 10px; bottom: 10px; }
+  .aid-card { width: min(52vw, 168px); }
+  .aid-bubble { gap: 8px; padding: 6px 14px 6px 6px; }
+  .aid-bubble img { width: 38px; height: 38px; }
+  .aid-pill { font-size: .78rem; }
+  .aid-play { width: 34px; height: 34px; font-size: .85rem; padding-left: 3px; }
+  .aid-start-label { font-size: .62rem; padding: 4px 9px; bottom: 8px; }
+  .aid-status { font-size: .68rem; padding: 10px; }
+  .aid-timer, .aid-mic { font-size: .6rem; padding: 2px 7px; left: 6px; }
+  .aid-timer { top: 6px; }
+  .aid-mic { bottom: 6px; }
+  .aid-close { width: 22px; height: 22px; font-size: .85rem; right: 5px; top: 5px; }
+  .aid-foot { flex-direction: column; align-items: flex-start; gap: 4px; padding: 7px 9px; font-size: .6rem; }
 }
 
 /* ---------------- Footer ---------------- */
