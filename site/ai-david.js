@@ -2,7 +2,7 @@
 const SESSION_ENDPOINT = "https://ai-david.david-f5f.workers.dev/session";
 const MAX_SECONDS = 180; // matches Anam free-tier conversation cap
 
-const GREETING = "I know everything about David's career. Projects, experience, what each job was actually like, what he learned, and the story behind the story. Even random work stories, like when he was working at YogaGlo and a coworker's dog ate chocolate in the middle of the workday. It didn't turn out well. Ask me anything, we'll see what comes up.";
+const GREETING = "You can already see David's resume, so I'm not just here to read it back to you. I'm trained on what's underneath it: what he actually learned at each job, what the culture was really like, the stuff that never makes it onto paper. Like the time at YogaGlo when a coworker's dog got into chocolate and died right there on the office floor. Ask me anything, we'll see what comes up.";
 
 const bubble = document.getElementById("aidBubble");
 const card = document.getElementById("aidCard");
