@@ -219,6 +219,8 @@ img { max-width: 100%; display: block; }
 .detail-body p { font-size: 1.2rem; line-height: 1.68; color: #2c2924; }
 .detail-body p + p { margin-top: 18px; }
 .detail-body p.built-with { font-style: italic; }
+.detail-body p a { color: var(--primary); font-weight: 600; }
+.detail-body p a:hover { text-decoration: underline; }
 /* Default: creatives render at true email width, centered, not column-width. */
 .creatives { display: flex; flex-direction: column; gap: 24px; align-items: center; max-width: 600px; margin-inline: auto; }
 .creative { width: 100%; }
@@ -260,8 +262,21 @@ img { max-width: 100%; display: block; }
 .resume-section { margin-top: 44px; padding-top: 34px; border-top: 1px solid var(--border); }
 .resume-h2 { font-family: var(--serif); font-weight: 400; font-size: 1.9rem; margin-bottom: 20px; }
 .resume-section > p { color: #2c2924; font-size: 1.05rem; margin-bottom: 14px; max-width: 46em; }
-.resume-projects a { color: var(--primary); font-weight: 600; }
-.resume-projects a:hover { text-decoration: underline; }
+.resume-featured {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-sm);
+  padding: 24px 26px;
+}
+.resume-featured-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: 4px 16px; margin-bottom: 10px;
+}
+.resume-featured-head h3 { font-family: var(--serif); font-weight: 400; font-size: 1.28rem; }
+.resume-featured-sep { color: var(--primary); }
+.resume-featured-link { color: var(--primary); font-weight: 600; font-size: .92rem; white-space: nowrap; }
+.resume-featured-link:hover { text-decoration: underline; }
+.resume-featured p { color: #2c2924; font-size: .98rem; margin-bottom: 10px; }
+.resume-featured p:last-child { margin-bottom: 0; }
+.resume-featured-demo a { color: var(--primary); font-weight: 600; }
 .resume-job { margin-bottom: 30px; }
 .resume-job-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; margin-bottom: 8px; }
 .resume-job-head h3 { font-size: 1.08rem; font-weight: 600; }

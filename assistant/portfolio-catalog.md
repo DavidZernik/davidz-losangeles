@@ -1,4 +1,4 @@
-# Portfolio catalog (76 pieces on davidz-losangeles.com)
+# Portfolio catalog (77 pieces on davidz-losangeles.com)
 
 Every piece below is live on the site. When one comes up, mention it by name
 and say it is on the portfolio (for example, "the Toyota Mirai page on the
@@ -63,6 +63,7 @@ Design, Development & QA | brand: UnitedHealthcare | page: /unitedhealthcare-thi
 - American Express Financial Calculators - Home Loan | brand: American Express | page: /amex-credit-intel-home-equity-calculator | era: American Express years | American Express Credit Intel interactive home equity loan calculator estimating how much a user may be eligible to borrow.
 - PNC Bank Quarterly Newsletter | brand: PNC | page: /pnc-capital-advisors-q1-2021-fixed-income | PNC Capital Advisors institutional email sharing first quarter 2021 fixed income market perspectives and thought-leadership articles.
 - Emory Healthcare - KPI Dashboard | brand: Emory Healthcare | page: /emory-healthcare-email-kpi-dashboard | era: Emory Healthcare (current) | Interactive email marketing KPI dashboard for Emory Healthcare with filters and journey performance breakdowns.
+- Zoutcomes - AI Agent for Salesforce Marketing Cloud | brand: Emory Healthcare | page: /zoutcomes-sfmc-ai-agent | era: Emory Healthcare (current) | An AI agent that lets Emory Healthcare's non-technical marketing team build audiences, data extensions, and reports in Salesforce Marketing 
 - AT&TTV NOW/HBOMAX | brand: AT&T | page: /att-tv-now-hbo-max | era: the agency years (Omnicom) | AT&T TV NOW email offering three months of HBO Max included and steps to start streaming.
 - Blue Shield Medicare Informational email | brand: Blue Shield of California | page: /blue-shield-medicare-retirement-guide | era: his independent year | Blue Shield of California email offering a free Social Security retirement benefits guide for Medicare prospects.
 - Decathlon website - feature development | brand: Decathlon | page: /decathlon-inline-skates-product-page | Decathlon ecommerce product page for inline skates with an option selector and add-to-cart at $51.92.

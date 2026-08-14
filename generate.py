@@ -29,7 +29,7 @@ LOGOS = [
 HERO_PRODUCT = "emory-healthcare-email-calendar-tool"
 # Detail pages whose creative breaks out wide (big app screenshots only)
 WIDE_CREATIVES = {"emory-healthcare-email-calendar-tool"}
-FEATURED = ["emory-healthcare-email-kpi-dashboard", "patient-reengagement-audience-pipeline", "patient-reengagement-journey-map"]
+FEATURED = ["zoutcomes-sfmc-ai-agent", "emory-healthcare-email-kpi-dashboard", "patient-reengagement-audience-pipeline"]
 N_PIECES = len(items)
 N_BRANDS = len({it["brand"] for it in items if it["brand"]})
 
@@ -269,10 +269,14 @@ for idx, it in enumerate(items):
         f'        <figure class="creative"><img loading="lazy" src="{src}" alt="{esc(it["title"])} {i+1}" /></figure>'
         for i, src in enumerate(it["images"]))
     body = it.get("body", [])
-    body_html = "\n".join(
-        f'        <p class="built-with">{esc(p)}</p>' if p.strip().startswith("Built with:")
-        else f'        <p>{esc(p)}</p>'
-        for p in body)
+    def render_para(p):
+        text = esc(p)
+        demo_url = "memoryapp-emory-demo-web.onrender.com/try"
+        if demo_url in text:
+            text = text.replace(demo_url, f'<a href="https://{demo_url}" target="_blank" rel="noopener">{demo_url}</a>')
+        cls = ' class="built-with"' if p.strip().startswith("Built with:") else ""
+        return f'        <p{cls}>{text}</p>'
+    body_html = "\n".join(render_para(p) for p in body)
     body_block = f'      <div class="detail-body">\n{body_html}\n      </div>\n' if body else ""
     meta_desc = body[0] if body else it["title"]
     meta_desc = (meta_desc[:157] + "…") if len(meta_desc) > 158 else meta_desc

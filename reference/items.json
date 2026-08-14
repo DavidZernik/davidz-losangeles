@@ -826,6 +826,25 @@
     "desc": "Interactive email marketing KPI dashboard for Emory Healthcare with filters and journey performance breakdowns."
   },
   {
+    "slug": "zoutcomes-sfmc-ai-agent",
+    "title": "Zoutcomes - AI Agent for Salesforce Marketing Cloud",
+    "alt_title": "Emory Healthcare AI Agent for Salesforce Marketing Cloud",
+    "brand": "Emory Healthcare",
+    "body": [
+      "Built with: MCP, Anthropic Managed Agents, Next.js, Supabase, Salesforce Marketing Cloud APIs, Salesforce MCP.",
+      "Emory's marketing team knows what they want to build in Salesforce Marketing Cloud, they just are not SFMC developers. I built Zoutcomes, an AI agent that lets them ask for it in plain English, like building a new audience or a data extension, and have the agent actually go do it against the live SFMC APIs, not a mockup.",
+      "The agent carries real organizational memory. It calls a get_business_context tool before doing anything, pulling in facts, guardrails, and open questions specific to whatever project it is working on, and calls remember_fact to save new confirmed facts back to that memory once something is built, so the next conversation starts smarter than the last one.",
+      "It is genuinely wired into Marketing Cloud. I watched it write and run a live SQL Query Activity against real subscriber data to check engagement and appointment history across a quarter million contacts, reason about whether it had enough history to build on, then build a standalone persona data extension with real fields and a nightly refresh automation, entirely from a plain English request.",
+      "Because this runs against a regulated healthcare org, safety is not an afterthought. Any data extension named with Patient, Roster, or MRN is automatically treated as protected, new data extensions in the Health System business unit get auto-scanned and added to a PII register within 24 hours, and that scanning policy cannot be turned off by the agent itself. There is a review queue for anything that needs a human before it ships, role-based access, audit logging, and kill switches throughout.",
+      "There is a public demo anyone can try with fictional data: memoryapp-emory-demo-web.onrender.com/try"
+    ],
+    "images": [
+      "assets/work/zoutcomes-sfmc-ai-agent/1.png",
+      "assets/work/zoutcomes-sfmc-ai-agent/2.png"
+    ],
+    "desc": "An AI agent that lets Emory Healthcare's non-technical marketing team build audiences, data extensions, and reports in Salesforce Marketing Cloud using plain English, with guardrails for a regulated environment."
+  },
+  {
     "slug": "att-tv-now-hbo-max",
     "title": "AT&TTV NOW/HBOMAX",
     "alt_title": "AT&T TV NOW HBO Max Free Access",
