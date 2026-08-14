@@ -12,10 +12,22 @@ const timerEl = document.getElementById("aidTimer");
 const closeBtn = document.getElementById("aidClose");
 const startBtn = document.getElementById("aidStart");
 const micEl = document.getElementById("aidMic");
+const expandBtn = document.getElementById("aidExpand");
 
 let client = null;
 let timerId = null;
 let secondsLeft = MAX_SECONDS;
+let expanded = false;
+
+function setExpanded(v) {
+  expanded = v;
+  card.classList.toggle("expanded", v);
+  document.body.style.overflow = v ? "hidden" : "";
+  expandBtn.textContent = v ? "⤡" : "⤢";
+  expandBtn.setAttribute("aria-label", v ? "Exit full screen" : "Expand to full screen");
+}
+expandBtn.addEventListener("click", () => setExpanded(!expanded));
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && expanded) setExpanded(false); });
 
 function setStatus(msg) {
   statusEl.hidden = !msg;
@@ -146,6 +158,7 @@ function collapse() {
   micEl.textContent = "Intro playing…";
   micEl.classList.remove("live");
   setStatus("");
+  setExpanded(false);
 }
 
 function endSession(message) {

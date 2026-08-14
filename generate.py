@@ -89,6 +89,7 @@ WIDGET = """
       <div id="aidStatus" class="aid-status" hidden>Connecting to AI David&hellip;</div>
       <span id="aidTimer" class="aid-timer" hidden>3:00</span>
       <span id="aidMic" class="aid-mic" hidden>Intro playing&hellip;</span>
+      <button id="aidExpand" class="aid-expand" aria-label="Expand to full screen">&#10530;</button>
       <button id="aidClose" class="aid-close" aria-label="Close AI David">&times;</button>
     </div>
     <div class="aid-foot">

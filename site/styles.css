@@ -327,16 +327,36 @@ img { max-width: 100%; display: block; }
   font-size: .7rem; font-weight: 600; padding: 3px 10px; border-radius: 999px;
 }
 .aid-mic.live { background: var(--secondary); color: #16412a; }
-.aid-close {
-  position: absolute; right: 8px; top: 8px; width: 28px; height: 28px; border: none; cursor: pointer;
+.aid-close, .aid-expand {
+  position: absolute; top: 8px; width: 28px; height: 28px; border: none; cursor: pointer;
   border-radius: 50%; background: rgba(25,25,23,.7); color: #fff; font-size: 1.05rem; line-height: 1;
+  z-index: 3; display: flex; align-items: center; justify-content: center;
 }
-.aid-close:hover { background: var(--primary); }
+.aid-close { right: 8px; }
+.aid-expand { left: 8px; font-size: .95rem; }
+.aid-close:hover, .aid-expand:hover { background: var(--primary); }
 .aid-foot {
   display: flex; justify-content: space-between; align-items: center; gap: 10px;
   padding: 8px 12px; font-size: .68rem; color: var(--muted);
 }
 .aid-foot a { color: var(--primary); font-weight: 600; white-space: nowrap; }
+
+/* Full-screen expanded state: card fills the viewport, video takes the space instead of a fixed 3:4 box. */
+.aid-card.expanded {
+  position: fixed; inset: 0; width: 100vw; height: 100dvh; max-width: none;
+  border-radius: 0; z-index: 1000; display: flex; flex-direction: column;
+}
+.aid-card.expanded .aid-video-wrap { flex: 1 1 auto; aspect-ratio: unset; min-height: 0; }
+.aid-card.expanded .aid-foot { flex: 0 0 auto; font-size: .85rem; padding: 14px 20px; }
+.aid-card.expanded .aid-play { width: 84px; height: 84px; font-size: 2rem; padding-left: 6px; }
+.aid-card.expanded .aid-start-label { font-size: 1rem; padding: 10px 22px; bottom: 32px; }
+.aid-card.expanded .aid-status { font-size: 1.1rem; padding: 40px; }
+.aid-card.expanded .aid-timer, .aid-card.expanded .aid-mic { font-size: .9rem; padding: 6px 16px; left: 20px; }
+.aid-card.expanded .aid-timer { top: 20px; }
+.aid-card.expanded .aid-mic { bottom: 20px; }
+.aid-card.expanded .aid-close, .aid-card.expanded .aid-expand { width: 40px; height: 40px; font-size: 1.3rem; top: 20px; }
+.aid-card.expanded .aid-close { right: 20px; }
+.aid-card.expanded .aid-expand { left: 20px; font-size: 1.15rem; }
 /* Smaller and tucked in the corner on mobile, not hidden, just out of the way. */
 @media (max-width: 620px) {
   .aid { right: 10px; bottom: 10px; }
