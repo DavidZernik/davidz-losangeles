@@ -154,6 +154,7 @@ FOOT = """</main>
 
 # ==================== HOMEPAGE ====================
 hp = by[HERO_PRODUCT]
+zc = by["zoutcomes-sfmc-ai-agent"]
 home = head(
     "David Z. · MarTech Architect specializing in Salesforce Marketing Cloud",
     "David Z. is a MarTech architect in Los Angeles specializing in Salesforce Marketing Cloud. Building CloudPages, automations, SQL, journeys, and internal tools.",
@@ -175,14 +176,28 @@ home += f'''  <section class="hero">
             <a class="btn btn-ghost" href="mailto:david@blueinboxllc.com">Get in touch</a>
           </div>
         </div>
-        <div class="cell cell--mint reveal d3">
+        <div class="cell cell--spotlight reveal d3">
+          <a class="spotlight-shot" href="{zc['slug']}.html" aria-label="{esc(zc['title'])} case study">
+            <img src="{zc['images'][0]}" alt="" />
+          </a>
+          <div class="spotlight-copy">
+            <span class="hero-eyebrow">Featured project</span>
+            <h2 class="spotlight-title">Zoutcomes <span class="spotlight-sep">&middot;</span> AI Agent for Salesforce Marketing Cloud</h2>
+            <p class="spotlight-sub">{esc(zc['desc'])}</p>
+            <div class="spotlight-actions">
+              <a class="btn btn-primary" href="{zc['demo_url']}" target="_blank" rel="noopener">Try the live demo {ARW}</a>
+              <a class="btn btn-ghost" href="{zc['slug']}.html">Read the case study</a>
+            </div>
+          </div>
+        </div>
+        <div class="cell cell--mint reveal d4">
           <p class="cell-copy">Nine plus years in marketing technology, from a first email dev role in 2016 to SFMC architect work today. MarTech developer/architect.</p>
         </div>
-        <div class="cell cell--ink reveal d4">
+        <div class="cell cell--ink reveal d5">
           <div class="stat-num">{N_BRANDS}+</div>
           <div class="stat-label">brands across entertainment, finance, healthcare, sports &amp; tech</div>
         </div>
-        <div class="cell cell--photo reveal d5">
+        <div class="cell cell--photo reveal d6">
           <img src="assets/hero-desk.jpg" alt="David's workspace" />
         </div>
       </div>
