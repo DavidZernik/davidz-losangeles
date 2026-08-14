@@ -29,6 +29,8 @@ LOGOS = [
 HERO_PRODUCT = "emory-healthcare-email-calendar-tool"
 # Detail pages whose creative breaks out wide (big app screenshots only)
 WIDE_CREATIVES = {"emory-healthcare-email-calendar-tool"}
+# Detail pages where the screenshots lead, before the write-up
+IMAGES_FIRST = {"zoutcomes-sfmc-ai-agent"}
 FEATURED = ["zoutcomes-sfmc-ai-agent", "emory-healthcare-email-kpi-dashboard", "patient-reengagement-audience-pipeline"]
 N_PIECES = len(items)
 N_BRANDS = len({it["brand"] for it in items if it["brand"]})
@@ -269,14 +271,10 @@ for idx, it in enumerate(items):
         f'        <figure class="creative"><img loading="lazy" src="{src}" alt="{esc(it["title"])} {i+1}" /></figure>'
         for i, src in enumerate(it["images"]))
     body = it.get("body", [])
-    def render_para(p):
-        text = esc(p)
-        demo_url = "memoryapp-emory-demo-web.onrender.com/try"
-        if demo_url in text:
-            text = text.replace(demo_url, f'<a href="https://{demo_url}" target="_blank" rel="noopener">{demo_url}</a>')
-        cls = ' class="built-with"' if p.strip().startswith("Built with:") else ""
-        return f'        <p{cls}>{text}</p>'
-    body_html = "\n".join(render_para(p) for p in body)
+    body_html = "\n".join(
+        f'        <p class="built-with">{esc(p)}</p>' if p.strip().startswith("Built with:")
+        else f'        <p>{esc(p)}</p>'
+        for p in body)
     body_block = f'      <div class="detail-body">\n{body_html}\n      </div>\n' if body else ""
     meta_desc = body[0] if body else it["title"]
     meta_desc = (meta_desc[:157] + "…") if len(meta_desc) > 158 else meta_desc
@@ -291,6 +289,11 @@ for idx, it in enumerate(items):
 
     # Only the big SFMC calendar app screenshot breaks out wide; everything else stays normal.
     wide_cls = " creatives--wide" if it["slug"] in WIDE_CREATIVES else ""
+    demo_url = it.get("demo_url")
+    demo_cta = (f'\n        <a class="btn btn-primary" href="{demo_url}" target="_blank" rel="noopener">Try the live demo {ARW}</a>'
+                if demo_url else "")
+    creatives_block = f'      <div class="creatives{wide_cls}">\n{imgs}\n      </div>\n'
+    main_block = (creatives_block + body_block) if it["slug"] in IMAGES_FIRST else (body_block + creatives_block)
 
     page = head(f'{esc(it["title"])} · David Z.', esc(meta_desc), "index.html",
                 f'<meta property="og:image" content="{it["images"][0]}" />')
@@ -299,12 +302,9 @@ for idx, it in enumerate(items):
       <a class="back-link" href="index.html#work"><span class="arw">&larr;</span>&nbsp;All work</a>
       <header class="detail-head">
         {tag}
-        <h1 class="detail-title">{esc(it["title"])}</h1>
+        <h1 class="detail-title">{esc(it["title"])}</h1>{demo_cta}
       </header>
-{body_block}      <div class="creatives{wide_cls}">
-{imgs}
-      </div>
-      {pager}
+{main_block}      {pager}
     </div>
   </article>
 '''

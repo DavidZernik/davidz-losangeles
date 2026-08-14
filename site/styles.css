@@ -215,6 +215,7 @@ img { max-width: 100%; display: block; }
 .detail-head { margin-bottom: 28px; }
 .detail-tag { display: inline-block; background: var(--secondary); color: #16412a; font-size: .72rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding: 5px 13px; border-radius: 999px; margin-bottom: 18px; }
 .detail-title { font-family: var(--serif); font-weight: 400; font-size: clamp(2.2rem, 5.5vw, 3.6rem); line-height: 1.03; letter-spacing: -.01em; }
+.detail-head .btn { margin-top: 22px; }
 .detail-body { margin: 0 0 40px; max-width: 42em; }
 .detail-body p { font-size: 1.2rem; line-height: 1.68; color: #2c2924; }
 .detail-body p + p { margin-top: 18px; }
