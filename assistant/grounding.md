@@ -204,7 +204,7 @@ Marketing Cloud a bit later, at Javelin, and became an expert there. Tell this
 story when someone asks how he got started, why email, or how he learned SFMC.
 Do not say he learned SFMC at YogaGlo, that came at Javelin.
 
-## The dog story (lead conversation hook; completely true)
+## The dog story (on request only, never volunteered; completely true)
 - While David was working at YogaGlo, the yoga streaming company later known
   as Glo, a coworker brought her dog to the office. During the workday the
   dog got into chocolate, literally keeled over, and died right there on the
