@@ -230,12 +230,12 @@ img { max-width: 100%; display: block; }
 /* click-to-zoom lightbox for portfolio screenshots */
 .lightbox {
   position: fixed; inset: 0; z-index: 999; padding: 5vh 5vw;
-  display: flex; align-items: center; justify-content: center;
+  display: flex; overflow: auto; overscroll-behavior: contain;
   background: rgba(20, 18, 14, .92);
   opacity: 0; pointer-events: none; transition: opacity .18s ease;
 }
 .lightbox.open { opacity: 1; pointer-events: auto; }
-.lightbox img { max-width: 100%; max-height: 100%; border-radius: 8px; box-shadow: 0 24px 64px rgba(0,0,0,.5); cursor: zoom-out; }
+.lightbox img { margin: auto; flex-shrink: 0; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 24px 64px rgba(0,0,0,.5); }
 .lightbox-close {
   position: fixed; top: 20px; right: 24px; width: 44px; height: 44px; border-radius: 999px;
   border: none; background: rgba(255,255,255,.14); color: #fff; font-size: 1.6rem; line-height: 1;

@@ -134,6 +134,7 @@ FOOT = """</main>
     var boxImg = box.querySelector('img');
     function open(src, alt) {
       boxImg.src = src; boxImg.alt = alt || '';
+      box.scrollTop = 0;
       box.classList.add('open');
       document.body.style.overflow = 'hidden';
     }
@@ -144,7 +145,8 @@ FOOT = """</main>
     imgs.forEach(function (img) {
       img.addEventListener('click', function () { open(img.src, img.alt); });
     });
-    box.addEventListener('click', close);
+    box.addEventListener('click', function (e) { if (e.target !== boxImg) close(); });
+    box.querySelector('.lightbox-close').addEventListener('click', close);
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
   })();
 </script>
