@@ -843,7 +843,7 @@
       "assets/work/zoutcomes-sfmc-ai-agent/2.png"
     ],
     "desc": "An AI agent that lets Emory Healthcare's non-technical marketing team build audiences, data extensions, and reports in Salesforce Marketing Cloud using plain English, with guardrails for a regulated environment.",
-    "demo_url": "https://memoryapp-emory-demo-web.onrender.com/try"
+    "demo_url": "https://northgate.zoutcomes.com/"
   },
   {
     "slug": "att-tv-now-hbo-max",
