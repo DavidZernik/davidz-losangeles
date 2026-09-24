@@ -275,7 +275,8 @@ for idx, it in enumerate(items):
     # Only the big SFMC calendar app screenshot breaks out wide; everything else stays normal.
     wide_cls = " creatives--wide" if it["slug"] in WIDE_CREATIVES else ""
     demo_url = it.get("demo_url")
-    demo_cta = (f'\n        <a class="btn btn-primary" href="{demo_url}" target="_blank" rel="noopener">Try the live demo {ARW}</a>'
+    demo_label = it.get("demo_label", "Try the live demo")
+    demo_cta = (f'\n        <a class="btn btn-primary" href="{demo_url}" target="_blank" rel="noopener">{demo_label} {ARW}</a>'
                 if demo_url else "")
     creatives_block = f'      <div class="creatives{wide_cls}">\n{imgs}\n      </div>\n'
     main_block = (creatives_block + body_block) if it["slug"] in IMAGES_FIRST else (body_block + creatives_block)

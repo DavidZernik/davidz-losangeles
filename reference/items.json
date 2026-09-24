@@ -219,6 +219,8 @@
   },
   {
     "slug": "amex-creditintel-home-equity-calculator",
+    "demo_url": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/auto-loan-calculator/#calWrapper",
+    "demo_label": "Try the live calculator",
     "title": "American Express Financial Calculators - Auto Loan",
     "alt_title": "Amex Credit Intel Home Equity Loan Calculator",
     "brand": "American Express",
@@ -782,6 +784,8 @@
   },
   {
     "slug": "amex-credit-intel-home-equity-calculator",
+    "demo_url": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/how-to-calculate-home-equity/#home-eq-wrapper",
+    "demo_label": "Try the live calculator",
     "title": "American Express Financial Calculators - Home Loan",
     "alt_title": "Amex Credit Intel Home Equity Loan Calculator",
     "brand": "American Express",
@@ -932,6 +936,8 @@
   },
   {
     "slug": "amex-creditintel-debt-consolidation-calculator",
+    "demo_url": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/what-is-debt-consolidation/#debt-calc",
+    "demo_label": "Try the live calculator",
     "title": "American Express Financial Calculators - Debt Consolidation",
     "alt_title": "Amex Credit Intel Debt Consolidation Calculator",
     "brand": "American Express",
