@@ -62,7 +62,6 @@ def head(title, desc, home, og_image, css="styles.css", brand=True):
     {'<a class="brand" href="' + home + '">David Z.</a>' if brand else ''}
     <nav class="nav" aria-label="Primary">
       <a href="{home}#work">Work</a>
-      <a href="{home}#about">About</a>
       <a href="resume.html">Resume</a>
       <a href="{home}#brands">Brands</a>
       <a class="nav-cta" href="mailto:david@blueinboxllc.com">Contact&nbsp;<span class="arw">&rarr;</span></a>
@@ -169,18 +168,6 @@ home += f'''  <section class="hero">
         </div>
         <div class="cell cell--photo reveal d6">
           <img src="assets/hero-desk.jpg" alt="David's workspace" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section about" id="about">
-    <div class="wrap">
-      <div class="about-grid">
-        <p class="about-kicker">Data in,<br />polished sends out.</p>
-        <div class="about-body">
-          <p>I'm a MarTech architect specializing in <strong>Salesforce Marketing Cloud</strong>. After more than three years at <strong>American Express</strong> working on SFMC, web development, dynamic email, QA, and interactive tools, I'm now an SFMC Architect at <strong>Emory Healthcare</strong>.</p>
-          <p>I architect and build the full stack of a Marketing Cloud program: CloudPages, automations, SQL queries, AMPscript and SSJS, journeys, dashboards, and internal tools for large-scale healthcare marketing. The kind of platform work that makes every send faster, cleaner, and measurable.</p>
         </div>
       </div>
     </div>
