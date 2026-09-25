@@ -2,11 +2,45 @@
 """Generate the editorial bento site (Instrument Serif + Geist) into site/."""
 import json, html
 from pathlib import Path
+from PIL import Image
 
 ROOT = Path(__file__).parent
 SITE = ROOT / "site"
 items = json.loads((ROOT / "reference/items.json").read_text())
 by = {it["slug"]: it for it in items}
+
+
+def thumb(src: str, w: int, h: int) -> str:
+    """A small WebP of an image, cropped exactly the way its card shows it.
+
+    The grid used to load every project's full-size image (38 MB for the
+    homepage) and shrink it in the browser. Cards show the image with
+    object-fit: cover anchored top center, so the crop here is the same: fill
+    the box, keep the top, trim the sides evenly. Rebuilt only when the source
+    changes. Anything Pillow can't open (SVG) is used as is.
+    """
+    source = SITE / src
+    # Beside its source: every project folder has a 0.jpg, so a shared thumbs
+    # folder named by file would collide.
+    out = source.parent / "thumbs" / f"{source.stem}-{w}x{h}.webp"
+    if out.exists() and out.stat().st_mtime >= source.stat().st_mtime:
+        return str(out.relative_to(SITE))
+    try:
+        im = Image.open(source)
+        im.seek(0)
+        im = im.convert("RGBA")
+    except Exception:
+        return src
+    flat = Image.new("RGB", im.size, "white")
+    flat.paste(im, mask=im.getchannel("A"))
+    scale = max(w / flat.width, h / flat.height)
+    flat = flat.resize((max(w, round(flat.width * scale)),
+                        max(h, round(flat.height * scale))), Image.LANCZOS)
+    left = (flat.width - w) // 2
+    flat = flat.crop((left, 0, left + w, h))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    flat.save(out, "WEBP", quality=80, method=6)
+    return str(out.relative_to(SITE))
 
 # ---- brand logo wall ----
 LOGOS = [
@@ -41,6 +75,7 @@ def head(title, desc, home, og_image, css="styles.css", brand=True):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>document.documentElement.classList.add('js')</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
@@ -86,6 +121,13 @@ FOOT = """</main>
   </div>
 </footer>
 <script>
+  // Grid images fade in over a placeholder once they arrive; one already in
+  // the cache is shown at once.
+  document.querySelectorAll('.work-thumb img, .feat-shot img').forEach(function (img) {
+    var done = function () { img.parentNode.classList.add('loaded'); };
+    if (img.complete && img.naturalWidth) done();
+    else { img.addEventListener('load', done); img.addEventListener('error', done); }
+  });
   (function () {
     var h = document.getElementById('top');
     var onScroll = function () { h.classList.toggle('scrolled', window.scrollY > 10); };
@@ -161,7 +203,7 @@ for slug in FEATURED:
     brand = f'<span class="feat-brand">{esc(it["brand"])}</span>' if it["brand"] else ""
     desc = esc(it["desc"] or (it["body"][0] if it["body"] else ""))
     home += f'''        <a class="feat" href="{slug}.html">
-          <div class="feat-shot"><img loading="lazy" src="{it['images'][0]}" alt="{esc(it['title'])}" /></div>
+          <div class="feat-shot"><img loading="lazy" width="800" height="500" src="{thumb(it['images'][0], 800, 500)}" alt="{esc(it['title'])}" /></div>
           <div class="feat-body">{brand}<h3 class="feat-title">{esc(it['title'])}</h3><p class="feat-desc">{desc}</p></div>
         </a>
 '''
@@ -181,7 +223,7 @@ for it in items:
         continue
     tag = f'<span class="card-tag">{esc(it["brand"])}</span>' if it["brand"] else ""
     home += f'''        <a class="work-item" href="{it['slug']}.html">
-          <div class="work-thumb"><img loading="lazy" src="{it['images'][0]}" alt="{esc(it['title'])}" /></div>
+          <div class="work-thumb"><img loading="lazy" width="640" height="480" src="{thumb(it['images'][0], 640, 480)}" alt="{esc(it['title'])}" /></div>
           <div class="work-meta">{tag}<h3>{esc(it['title'])}</h3></div>
         </a>
 '''

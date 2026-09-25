@@ -186,6 +186,21 @@ img { max-width: 100%; display: block; }
 .work-thumb { aspect-ratio: 4 / 3; overflow: hidden; background: var(--background); border-bottom: 1px solid var(--border); }
 .work-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top center; transition: transform .4s; }
 .work-item:hover .work-thumb img { transform: scale(1.04); }
+
+/* Grid placeholders: a soft shimmer in the card's own color until the image
+   arrives, then the image fades in. Only with JS on, so nothing stays hidden. */
+.js .work-thumb, .js .feat-shot {
+  background: linear-gradient(100deg, var(--background) 30%, color-mix(in srgb, var(--background) 70%, #fff) 50%, var(--background) 70%) 0 0 / 250% 100%;
+  animation: thumb-shimmer 1.6s ease-in-out infinite;
+}
+.js .work-thumb.loaded, .js .feat-shot.loaded { animation: none; background: var(--background); }
+.js .work-thumb img, .js .feat-shot img { opacity: 0; transition: opacity .45s ease, transform .4s; }
+.js .work-thumb.loaded img, .js .feat-shot.loaded img { opacity: 1; }
+@keyframes thumb-shimmer { from { background-position: 100% 0; } to { background-position: -50% 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .js .work-thumb, .js .feat-shot { animation: none; }
+  .js .work-thumb img, .js .feat-shot img { transition: none; }
+}
 .work-meta { padding: 16px 18px 20px; }
 .card-tag { display: block; font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--primary); margin-bottom: 7px; }
 .work-meta h3 { font-family: var(--serif); font-weight: 400; font-size: 1.28rem; line-height: 1.12; letter-spacing: 0; }

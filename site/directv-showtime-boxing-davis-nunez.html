@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>document.documentElement.classList.add('js')</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DIRECTV and Showtime partnership email · David Z.</title>
@@ -61,6 +62,13 @@
   </div>
 </footer>
 <script>
+  // Grid images fade in over a placeholder once they arrive; one already in
+  // the cache is shown at once.
+  document.querySelectorAll('.work-thumb img, .feat-shot img').forEach(function (img) {
+    var done = function () { img.parentNode.classList.add('loaded'); };
+    if (img.complete && img.naturalWidth) done();
+    else { img.addEventListener('load', done); img.addEventListener('error', done); }
+  });
   (function () {
     var h = document.getElementById('top');
     var onScroll = function () { h.classList.toggle('scrolled', window.scrollY > 10); };
