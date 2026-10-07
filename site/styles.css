@@ -126,7 +126,7 @@ img { max-width: 100%; display: block; }
 }
 .hero-title {
   font-family: var(--serif); font-weight: 400;
-  font-size: clamp(1.6rem, 3.4vw, 2.75rem); line-height: 1.08; letter-spacing: -.01em;
+  font-size: clamp(1.4rem, 2.5vw, 2rem); line-height: 1.08; letter-spacing: -.01em;
 }
 .hero-title em { font-style: italic; color: var(--primary); }
 .hero-sub { margin-top: 24px; max-width: 30em; font-size: 1.12rem; color: #423e36; }
