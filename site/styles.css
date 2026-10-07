@@ -99,7 +99,7 @@ img { max-width: 100%; display: block; }
 @keyframes fade-up { to { opacity: 1; transform: none; } }
 
 /* ---------------- Hero bento ---------------- */
-.hero { padding: clamp(40px, 6vw, 72px) 0 clamp(48px, 7vw, 88px); }
+.hero { padding: clamp(16px, 2vw, 28px) 0 clamp(24px, 3vw, 40px); }
 .bento { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--gap); }
 
 .cell {
@@ -121,8 +121,8 @@ img { max-width: 100%; display: block; }
 }
 .hero-name {
   font-family: var(--serif); font-weight: 400;
-  font-size: clamp(2.75rem, 6vw, 4.5rem); line-height: .9; letter-spacing: -.02em;
-  margin-bottom: 18px;
+  font-size: clamp(2rem, 4vw, 3rem); line-height: .9; letter-spacing: -.02em;
+  margin-bottom: 14px;
 }
 .hero-title {
   font-family: var(--serif); font-weight: 400;
