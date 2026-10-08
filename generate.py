@@ -166,8 +166,8 @@ FOOT = """</main>
 # ==================== HOMEPAGE ====================
 hp = by[HERO_PRODUCT]
 home = head(
-    "David Z. · Forward Deployed Engineer · Full-Stack Engineer · MarTech Solutions Architect",
-    "David Z. builds custom software with enterprise teams: internal applications, email QA tools, campaign workflows, and Salesforce Marketing Cloud systems.",
+    "David Z. · MarTech Architect specializing in Salesforce Marketing Cloud",
+    "David Z. is a MarTech architect in Los Angeles specializing in Salesforce Marketing Cloud. Building CloudPages, automations, SQL, journeys, and internal tools.",
     "index.html",
     f'<meta property="og:image" content="{hp["images"][0]}" />',
     brand=False)
@@ -177,10 +177,10 @@ home += f'''  <section class="hero">
       <div class="bento">
         <div class="cell cell--headline reveal">
           <p class="hero-name">David Z.</p>
-          <span class="hero-eyebrow">Los Angeles &middot; Forward Deployed Engineer</span>
+          <span class="hero-eyebrow">Los Angeles &middot; MarTech Architect</span>
           <h1 class="hero-title">Marketing technology, <em>architected</em> end&#8209;to&#8209;end.</h1>
-          <p class="hero-sub">I'm David, a Forward Deployed Engineer, Full-Stack Engineer, and MarTech Solutions Architect. I work directly with enterprise teams to understand their day-to-day problems and build custom software to solve them.</p>
-          <p class="hero-sub">Since July 2026, I've worked with SiriusXM as a contract Forward Deployed Engineer, building applications for email QA, campaign requirements, and migration checks. My work also includes internal tools and Salesforce Marketing Cloud systems for Emory Healthcare.</p>
+          <p class="hero-sub">I'm David, a MarTech architect and email developer. I build and automate the systems, tools, and pipelines behind marketing at scale, with a specialty in Salesforce Marketing Cloud.</p>
+          <p class="hero-sub">Recently that's meant a real-time KPI dashboard for send performance at Emory, automated QA tooling at SiriusXM that tests every link in an email before it ships, and a Marketing Cloud calendar app that gives the team one view of every journey and campaign.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#work">See the work {ARW}</a>
             <a class="btn btn-primary" href="resume.html">See resume {ARW}</a>
@@ -194,7 +194,7 @@ home += f'''  <section class="hero">
     <div class="wrap">
       <div class="section-head">
         <h2 class="section-title">Built for the <em>platform</em></h2>
-        <p class="section-sub">Custom applications built with enterprise teams: email QA, campaign planning, migration checks, and marketing systems.</p>
+        <p class="section-sub">Internal SFMC tools and dashboards I designed and coded, not just emails, but the systems around them.</p>
       </div>
       <div class="featured-grid">
 '''
