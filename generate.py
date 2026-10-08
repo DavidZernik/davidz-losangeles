@@ -64,8 +64,8 @@ HERO_PRODUCT = "emory-healthcare-email-calendar-tool"
 # Detail pages whose creative breaks out wide (big app screenshots only)
 WIDE_CREATIVES = {"emory-healthcare-email-calendar-tool"}
 # Detail pages where the screenshots lead, before the write-up
-IMAGES_FIRST = {"zoutcomes-sfmc-ai-agent"}
-FEATURED = ["zoutcomes-sfmc-ai-agent", "emory-healthcare-email-kpi-dashboard", "patient-reengagement-audience-pipeline"]
+IMAGES_FIRST = {"zoutcomes-sfmc-ai-agent", "siriusxm-email-qa-automation", "siriusxm-campaign-requirements-generator", "siriusxm-email-migration-qa"}
+FEATURED = ["siriusxm-email-qa-automation", "siriusxm-campaign-requirements-generator", "siriusxm-email-migration-qa", "zoutcomes-sfmc-ai-agent", "emory-healthcare-email-kpi-dashboard", "patient-reengagement-audience-pipeline"]
 N_PIECES = len(items)
 
 ARW = '<span class="arw">&rarr;</span>'
@@ -166,8 +166,8 @@ FOOT = """</main>
 # ==================== HOMEPAGE ====================
 hp = by[HERO_PRODUCT]
 home = head(
-    "David Z. · MarTech Architect specializing in Salesforce Marketing Cloud",
-    "David Z. is a MarTech architect in Los Angeles specializing in Salesforce Marketing Cloud. Building CloudPages, automations, SQL, journeys, and internal tools.",
+    "David Z. · Forward Deployed Engineer · Full-Stack Engineer · MarTech Solutions Architect",
+    "David Z. builds custom software with enterprise teams: internal applications, email QA tools, campaign workflows, and Salesforce Marketing Cloud systems.",
     "index.html",
     f'<meta property="og:image" content="{hp["images"][0]}" />',
     brand=False)
@@ -177,10 +177,10 @@ home += f'''  <section class="hero">
       <div class="bento">
         <div class="cell cell--headline reveal">
           <p class="hero-name">David Z.</p>
-          <span class="hero-eyebrow">Los Angeles &middot; MarTech Architect</span>
+          <span class="hero-eyebrow">Los Angeles &middot; Forward Deployed Engineer</span>
           <h1 class="hero-title">Marketing technology, <em>architected</em> end&#8209;to&#8209;end.</h1>
-          <p class="hero-sub">I'm David, a MarTech architect and email developer. I build and automate the systems, tools, and pipelines behind marketing at scale, with a specialty in Salesforce Marketing Cloud.</p>
-          <p class="hero-sub">Recently that's meant a real-time KPI dashboard for send performance at Emory, automated QA tooling at SiriusXM that tests every link in an email before it ships, and a Marketing Cloud calendar app that gives the team one view of every journey and campaign.</p>
+          <p class="hero-sub">I'm David, a Forward Deployed Engineer, Full-Stack Engineer, and MarTech Solutions Architect. I work directly with enterprise teams to understand their day-to-day problems and build custom software to solve them.</p>
+          <p class="hero-sub">Since July 2026, I've worked with SiriusXM as a contract Forward Deployed Engineer, building applications for email QA, campaign requirements, and migration checks. My work also includes internal tools and Salesforce Marketing Cloud systems for Emory Healthcare.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#work">See the work {ARW}</a>
             <a class="btn btn-primary" href="resume.html">See resume {ARW}</a>
@@ -194,7 +194,7 @@ home += f'''  <section class="hero">
     <div class="wrap">
       <div class="section-head">
         <h2 class="section-title">Built for the <em>platform</em></h2>
-        <p class="section-sub">Internal SFMC tools and dashboards I designed and coded, not just emails, but the systems around them.</p>
+        <p class="section-sub">Custom applications built with enterprise teams: email QA, campaign planning, migration checks, and marketing systems.</p>
       </div>
       <div class="featured-grid">
 '''
@@ -213,7 +213,7 @@ home += f'''      </div>
 
       <div class="section-head" style="margin-top:64px">
         <h2 class="section-title">Selected <em>campaigns</em></h2>
-        <p class="section-sub">{N_PIECES} pieces: email, landing pages, and creative for brands across every industry.</p>
+        <p class="section-sub">{sum(it['slug'] not in set(FEATURED) | {HERO_PRODUCT} for it in items)} pieces: email, landing pages, and creative for brands across every industry.</p>
       </div>
       <div class="work-grid">
 '''
@@ -257,15 +257,20 @@ for idx, it in enumerate(items):
     prev_it = items[idx - 1] if idx > 0 else None
     next_it = items[idx + 1] if idx < len(items) - 1 else None
     imgs = "\n".join(
-        f'        <figure class="creative"><img loading="lazy" src="{src}" alt="{esc(it["title"])} {i+1}" /></figure>'
+        f'        <figure class="creative"><img loading="lazy" src="{src}" alt="{esc(it["title"])} {i+1}" />' + (f'<figcaption>{esc(it["image_caption"])}</figcaption>' if it.get("image_caption") else '') + '</figure>'
         for i, src in enumerate(it["images"]))
     body = it.get("body", [])
     body_html = "\n".join(
         f'        <p class="built-with">{esc(p)}</p>' if p.strip().startswith("Built with:")
         else f'        <p>{esc(p)}</p>'
         for p in body)
-    body_block = f'      <div class="detail-body">\n{body_html}\n      </div>\n' if body else ""
-    meta_desc = body[0] if body else it["title"]
+    for section in it.get("sections", []):
+        body_html += f'\n        <h2>{esc(section["heading"])}</h2>\n'
+        body_html += "\n".join(f'        <p>{esc(p)}</p>' for p in section.get("paragraphs", []))
+        if section.get("bullets"):
+            body_html += '\n        <ul>\n' + "\n".join(f'          <li>{esc(p)}</li>' for p in section["bullets"]) + '\n        </ul>'
+    body_block = f'      <div class="detail-body">\n{body_html}\n      </div>\n' if body_html else ""
+    meta_desc = it["desc"] if it.get("sections") else (body[0] if body else it["title"])
     meta_desc = (meta_desc[:157] + "…") if len(meta_desc) > 158 else meta_desc
     tag = f'<span class="detail-tag">{esc(it["brand"])}</span>' if it["brand"] else ""
 

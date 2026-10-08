@@ -1,5 +1,200 @@
 [
   {
+    "slug": "siriusxm-email-qa-automation",
+    "title": "Email QA Automation",
+    "alt_title": "SiriusXM — Email QA Automation",
+    "brand": "SiriusXM",
+    "body": [
+      "Contract Forward Deployed Engineer · SiriusXM · July 2026–present. I work directly with the marketing team to understand operational problems and build internal applications around their workflows."
+    ],
+    "images": [
+      "assets/work/siriusxm-email-qa-automation/screen-enhanced.png"
+    ],
+    "desc": "Compare email proofs against Excel campaign requirements and flag copy, link, and tracking discrepancies before launch.",
+    "sections": [
+      {
+        "heading": "The problem",
+        "paragraphs": [
+          "Marketing teams manually compare email proofs against campaign requirements, checking subject lines, preheaders, copy, CTA links, and tracking parameters. Line-by-line review is tedious and creates opportunities to miss mistakes."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "What I built",
+        "paragraphs": [
+          "I built an internal web application that compares email proofs with campaign requirements stored in Excel workbooks. It surfaces differences for marketers to review rather than deciding which version is correct."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "How it works",
+        "paragraphs": [],
+        "bullets": [
+          "Load a campaign requirements workbook and add proofs in .eml, .msg, or HTML format. Multiple versions can be reviewed in one session.",
+          "Compare subject lines, preheaders, body copy, CTA links, and tracking parameters.",
+          "Choose a link-validation mode: Base validates and follows links; COI checks whether links are present without validating the URLs themselves.",
+          "Review flagged discrepancies and use the change-log workflow to track the review."
+        ]
+      },
+      {
+        "heading": "Formats and integrations",
+        "paragraphs": [
+          "Excel campaign requirement workbooks (.xlsx), HTML email proofs, and email files in .eml and .msg format."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Technologies used",
+        "paragraphs": [],
+        "bullets": [
+          "Front end: TypeScript, SolidJS, TanStack Router, Vite, and Tailwind CSS.",
+          "Back end: Node.js and TypeScript APIs on AWS Lambda behind an Application Load Balancer.",
+          "Data and AI infrastructure: DynamoDB and an OpenAI-compatible LiteLLM gateway.",
+          "Development and delivery: Vite/Warp, a local DynamoDB mock, and GitHub Actions deployments through SiriusXM Builder/AWS.",
+          "Outlook file parsing: @kenjiuno/msgreader for .msg proofs."
+        ]
+      },
+      {
+        "heading": "Value to the team",
+        "paragraphs": [
+          "The application reduces manual line-by-line comparison and helps marketers identify potential errors before a campaign launches. Human reviewers retain the decision about which differences need correction."
+        ],
+        "bullets": []
+      }
+    ],
+    "image_caption": "Screen photo, enhanced for clarity."
+  },
+  {
+    "slug": "siriusxm-campaign-requirements-generator",
+    "title": "Campaign Requirements Generator",
+    "alt_title": "SiriusXM — Campaign Requirements Generator",
+    "brand": "SiriusXM",
+    "body": [
+      "Contract Forward Deployed Engineer · SiriusXM · July 2026–present. I work directly with the marketing team to understand operational problems and build internal applications around their workflows."
+    ],
+    "images": [
+      "assets/work/siriusxm-campaign-requirements-generator/screen-enhanced.png"
+    ],
+    "desc": "Turn HTML email exports or Figma design frames into structured campaign documentation, with reusable modules and human review.",
+    "sections": [
+      {
+        "heading": "The problem",
+        "paragraphs": [
+          "Creating campaign requirements from email designs means manually documenting creative assets, modules, and campaign details. Teams repeat that work even when a campaign uses content they have already built."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "What I built",
+        "paragraphs": [
+          "I built an internal application that helps the marketing team generate structured campaign requirements from existing creative assets. The workflow connects the source design to reusable modules, clarification, and a final review."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "How it works",
+        "paragraphs": [],
+        "bullets": [
+          "Start with an HTML email export and its image assets, or Figma design frames.",
+          "Add multiple emails within a campaign and map their content to reusable email modules.",
+          "Use campaign and module libraries to organize work and reuse existing content.",
+          "Clarify missing details, then generate and review the structured campaign documentation."
+        ]
+      },
+      {
+        "heading": "Formats and integrations",
+        "paragraphs": [
+          "HTML email exports, local image assets, and Figma design frames, organized through campaign and module libraries."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Technologies used",
+        "paragraphs": [],
+        "bullets": [
+          "Front end: TypeScript, SolidJS, TanStack Router, Vite, and Tailwind CSS.",
+          "Back end: Node.js and TypeScript APIs on AWS Lambda behind an Application Load Balancer.",
+          "Data and AI infrastructure: DynamoDB and an OpenAI-compatible LiteLLM gateway.",
+          "Development and delivery: Vite/Warp, a local DynamoDB mock, and GitHub Actions deployments through SiriusXM Builder/AWS.",
+          "Workbook and creative exports: ExcelJS and html2canvas.",
+          "Figma integration: read-only access through a Google Apps Script OAuth bridge. Campaigns, reusable modules, and activity data are stored in DynamoDB."
+        ]
+      },
+      {
+        "heading": "Value to the team",
+        "paragraphs": [
+          "The application makes campaign planning and documentation more consistent, reduces repetitive documentation work, and helps the team reuse existing content. The clarification and review steps keep people involved before requirements are finalized."
+        ],
+        "bullets": []
+      }
+    ],
+    "image_caption": "Screen photo, enhanced for clarity."
+  },
+  {
+    "slug": "siriusxm-email-migration-qa",
+    "title": "Email Migration QA",
+    "alt_title": "SiriusXM — Email Migration QA",
+    "brand": "SiriusXM",
+    "body": [
+      "Contract Forward Deployed Engineer · SiriusXM · July 2026–present. I work directly with the marketing team to understand operational problems and build internal applications around their workflows."
+    ],
+    "images": [
+      "assets/work/siriusxm-email-migration-qa/screen-enhanced.png"
+    ],
+    "desc": "Compare Adobe and Salesforce Marketing Cloud confirmation emails side by side, with local browser processing and configurable exclusions.",
+    "sections": [
+      {
+        "heading": "The problem",
+        "paragraphs": [
+          "During the migration from Adobe to Salesforce Marketing Cloud, confirmation emails need to preserve their content across platforms. Checking each pair manually makes differences in subject lines, preview text, and body copy easy to miss."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "What I built",
+        "paragraphs": [
+          "I developed an internal application that compares the Adobe and Salesforce versions of confirmation emails and highlights differences for human review. It supports multiple pairs in a single session."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "How it works",
+        "paragraphs": [],
+        "bullets": [
+          "Add the Adobe and Salesforce versions of each confirmation email as paired .eml or .msg files. Label pairs to keep them organized.",
+          "Compare subject lines, preview text, and body copy, then review the highlighted discrepancies.",
+          "Ignore expected differences, including standardized footers or capitalization, to focus on changes that matter.",
+          "Read and process the comparison files locally in the browser. The interface states that the files are not uploaded."
+        ]
+      },
+      {
+        "heading": "Formats and integrations",
+        "paragraphs": [
+          "Adobe and Salesforce Marketing Cloud confirmation emails in .eml and .msg format, with local browser-based file processing."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Technologies used",
+        "paragraphs": [],
+        "bullets": [
+          "Front end: TypeScript, SolidJS, TanStack Router, Vite, and Tailwind CSS.",
+          "Back end: Node.js and TypeScript APIs on AWS Lambda behind an Application Load Balancer.",
+          "Data and AI infrastructure: DynamoDB and an OpenAI-compatible LiteLLM gateway.",
+          "Development and delivery: Vite/Warp, a local DynamoDB mock, and GitHub Actions deployments through SiriusXM Builder/AWS."
+        ]
+      },
+      {
+        "heading": "Value to the team",
+        "paragraphs": [
+          "The tool helps the team check content consistency during migration without comparing every email line by line. Reviewers can separate expected platform differences from changes that need attention."
+        ],
+        "bullets": []
+      }
+    ],
+    "image_caption": "Screen photo, enhanced for clarity."
+  },
+  {
     "slug": "att-fiber-hbo-max-bundle",
     "title": "AT&T Fiber, HBO Max Upsell",
     "alt_title": "AT&T Fiber with HBO Max Included",
@@ -576,8 +771,8 @@
     "brand": "AT&T",
     "body": [
       "This project focused on building a fully dynamic, production ready marketing email for AT&T announcing the return of CBS Sports and Smithsonian content. I handled the full lifecycle, from layout and responsive behavior to data driven personalization and performance tuning.",
-      "The template supported dynamic body copy, mobile image swaps, and solid fallbacks across major email clients, with accessibility covered through proper alt text and clear content hierarchy while staying aligned to AT&T\u2019s brand.",
-      "On the technical side, the email was optimized for fast load times and reliable inbox placement by managing image size, compression, and image to text balance. It was tested across major clients and devices and structured to plug cleanly into AT&T\u2019s dynamic content pipeline, resulting in a flexible, reusable template that balanced performance, accessibility, and deliverability."
+      "The template supported dynamic body copy, mobile image swaps, and solid fallbacks across major email clients, with accessibility covered through proper alt text and clear content hierarchy while staying aligned to AT&T’s brand.",
+      "On the technical side, the email was optimized for fast load times and reliable inbox placement by managing image size, compression, and image to text balance. It was tested across major clients and devices and structured to plug cleanly into AT&T’s dynamic content pipeline, resulting in a flexible, reusable template that balanced performance, accessibility, and deliverability."
     ],
     "images": [
       "assets/work/att-uverse-cbs-restored-notice/0.jpg"
@@ -603,7 +798,7 @@
     "alt_title": "T-Mobile 5G Home Internet Signup",
     "brand": "T-Mobile",
     "body": [
-      "I was a campaign manager for T-Mobile\u2019s 5G Home Internet offering - a coordinated six-touch sequence across email and SMS. The campaign was sent to over a million recipients nationwide and was designed to move prospects through awareness, eligibility confirmation, and activation messaging over several weeks.",
+      "I was a campaign manager for T-Mobile’s 5G Home Internet offering - a coordinated six-touch sequence across email and SMS. The campaign was sent to over a million recipients nationwide and was designed to move prospects through awareness, eligibility confirmation, and activation messaging over several weeks.",
       "I acted as the liaison between business stakeholders, marketing, and technical teams, helping translate business requirements into executable campaign logic and keeping timelines, dependencies, and scope aligned across groups.",
       "Beyond coordination, I was closely involved in shaping the overall flow of the program, including message sequencing, timing between touches, and how different channels were orchestrated together.",
       "Email Journeys and Cadence:",
@@ -648,7 +843,7 @@
     "alt_title": "Blue Shield of California 2024 Medicare Coverage Email",
     "brand": "Blue Shield of California",
     "body": [
-      "This project was part of Blue Shield of California\u2019s 2023 Medicare Educational Series, built in Salesforce Marketing Cloud to guide members through coverage options and enrollment timing. I developed the template using SFMC content blocks and reusable components, making it easy for the team to swap in different educational assets like booklets and videos while keeping layout and branding consistent. Because this was a regulated healthcare campaign, the build was designed to remain fully CAN-SPAM and HIPAA compliant while still feeling clear and approachable for a broad audience.",
+      "This project was part of Blue Shield of California’s 2023 Medicare Educational Series, built in Salesforce Marketing Cloud to guide members through coverage options and enrollment timing. I developed the template using SFMC content blocks and reusable components, making it easy for the team to swap in different educational assets like booklets and videos while keeping layout and branding consistent. Because this was a regulated healthcare campaign, the build was designed to remain fully CAN-SPAM and HIPAA compliant while still feeling clear and approachable for a broad audience.",
       "On the technical side, I focused on accessibility and reliability, including proper alt text, email-safe layouts, and defensive HTML and CSS for inconsistent client rendering. The template was tested across major clients using Litmus and Email on Acid to catch spacing, typography, and stacking issues before launch. The result was a compliant, reusable framework the team could rely on for ongoing educational sends."
     ],
     "images": [
@@ -718,7 +913,7 @@
     "brand": "Save Khaki",
     "body": [
       "This project was part of the Save Khaki e-commerce site, where I worked on a team maintaining and evolving the storefront. I personally built the Supima collection page to showcase a premium product line with a strong emphasis on photography, merchandising, and clear navigation. The site ran on Shopify, and my role was to translate design and merchandising requirements into a responsive, production-ready page that worked across the browsers and devices common at the time.",
-      "From a technical standpoint, the work focused on Shopify\u2019s theming system, Liquid templates, and front end HTML and CSS. I implemented the collection layout, handled responsive behavior, and tested the page to ensure consistent rendering and performance. The result was a polished, maintainable collection page that fit cleanly into the existing e-commerce experience.",
+      "From a technical standpoint, the work focused on Shopify’s theming system, Liquid templates, and front end HTML and CSS. I implemented the collection layout, handled responsive behavior, and tested the page to ensure consistent rendering and performance. The result was a polished, maintainable collection page that fit cleanly into the existing e-commerce experience.",
       "Live site:",
       "www.savekhaki.com"
     ],
@@ -733,7 +928,7 @@
     "alt_title": "Glo Find a Class Help & Recommendations",
     "brand": "Glo",
     "body": [
-      "This project focused on building a personalized \u201cfind a class\u201d email for YogaGlo, designed to help users quickly discover content that matched their interests and experience level. I worked with a machine learning engineer who owned the recommendation logic, and my role was to integrate those results into a dynamic email template that could render different class cards per user. The front end was built with responsive, email-safe HTML and CSS to keep the layout clean and scannable across devices.",
+      "This project focused on building a personalized “find a class” email for YogaGlo, designed to help users quickly discover content that matched their interests and experience level. I worked with a machine learning engineer who owned the recommendation logic, and my role was to integrate those results into a dynamic email template that could render different class cards per user. The front end was built with responsive, email-safe HTML and CSS to keep the layout clean and scannable across devices.",
       "On the implementation side, the template pulled recommendations from an internal endpoint and mapped them into reusable content blocks. I tested the build across major email clients to make sure images, spacing, and stacking behavior held up. The result was a scalable, personalized email that turned raw recommendation data into a usable product experience inside the inbox."
     ],
     "images": [
@@ -1050,7 +1245,7 @@
   },
   {
     "slug": "directv-oxygen-murder-for-hire-premiere-b",
-    "title": "DIRECTV True Crime Network\u00a0Up-sell",
+    "title": "DIRECTV True Crime Network Up-sell",
     "alt_title": "DirecTV Oxygen Murder For Hire Premiere",
     "brand": "DirecTV",
     "body": [

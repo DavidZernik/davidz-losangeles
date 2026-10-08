@@ -4,12 +4,12 @@
   <script>document.documentElement.classList.add('js')</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AT&amp;T Fiber, HBO Max Upsell · David Z.</title>
-  <meta name="description" content="Developed responsive HTML email template for AT&amp;T Fiber&#x27;s HBO Max bundle campaign promoting entertainment-grade internet with included streaming benefits. Bu…" />
-  <meta property="og:title" content="AT&amp;T Fiber, HBO Max Upsell · David Z." />
-  <meta property="og:description" content="Developed responsive HTML email template for AT&amp;T Fiber&#x27;s HBO Max bundle campaign promoting entertainment-grade internet with included streaming benefits. Bu…" />
+  <title>Email QA Automation · David Z.</title>
+  <meta name="description" content="Compare email proofs against Excel campaign requirements and flag copy, link, and tracking discrepancies before launch." />
+  <meta property="og:title" content="Email QA Automation · David Z." />
+  <meta property="og:description" content="Compare email proofs against Excel campaign requirements and flag copy, link, and tracking discrepancies before launch." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/work/att-fiber-hbo-max-bundle/0.png" />
+  <meta property="og:image" content="assets/work/siriusxm-email-qa-automation/screen-enhanced.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
@@ -33,17 +33,41 @@
     <div class="wrap wrap-narrow">
       <a class="back-link" href="index.html#work"><span class="arw">&larr;</span>&nbsp;All work</a>
       <header class="detail-head">
-        <span class="detail-tag">AT&amp;T</span>
-        <h1 class="detail-title">AT&amp;T Fiber, HBO Max Upsell</h1>
+        <span class="detail-tag">SiriusXM</span>
+        <h1 class="detail-title">Email QA Automation</h1>
       </header>
-      <div class="detail-body">
-        <p>Developed responsive HTML email template for AT&amp;T Fiber&#x27;s HBO Max bundle campaign promoting entertainment-grade internet with included streaming benefits. Built promotional email featuring animated GIF hero image with visual motion effects showcasing AT&amp;T Fiber and HBO Max co-branding.</p>
-        <p>Implemented multi-section informational layout highlighting 1 GIG internet speeds starting at $39.99/month, 1000Mbps connection capabilities, and unlimited data ($30 value) bundled with HBO Max access. Coded detailed service comparison messaging emphasizing bandwidth advantages over cable providers (Xfinity, Spectrum, Cox) with supporting footnotes and disclaimers. Developed mobile-responsive design with optimized image performance, gradient CTAs, and featured content grid showcasing Westworld and Friends programming to drive fiber upgrade conversions.</p>
-      </div>
       <div class="creatives">
-        <figure class="creative"><img loading="lazy" src="assets/work/att-fiber-hbo-max-bundle/0.png" alt="AT&amp;T Fiber, HBO Max Upsell 1" /></figure>
+        <figure class="creative"><img loading="lazy" src="assets/work/siriusxm-email-qa-automation/screen-enhanced.png" alt="Email QA Automation 1" /><figcaption>Screen photo, enhanced for clarity.</figcaption></figure>
       </div>
-      <div class="pager"><a class="pager-link prev" href="siriusxm-email-migration-qa.html"><span class="arw">&larr;</span>&nbsp;Email Migration QA</a><a class="pager-link next" href="palforzia-treatment-inspiration-video.html">Aimmune Palforzia Patient Journey Email&nbsp;<span class="arw">&rarr;</span></a></div>
+      <div class="detail-body">
+        <p>Contract Forward Deployed Engineer · SiriusXM · July 2026–present. I work directly with the marketing team to understand operational problems and build internal applications around their workflows.</p>
+        <h2>The problem</h2>
+        <p>Marketing teams manually compare email proofs against campaign requirements, checking subject lines, preheaders, copy, CTA links, and tracking parameters. Line-by-line review is tedious and creates opportunities to miss mistakes.</p>
+        <h2>What I built</h2>
+        <p>I built an internal web application that compares email proofs with campaign requirements stored in Excel workbooks. It surfaces differences for marketers to review rather than deciding which version is correct.</p>
+        <h2>How it works</h2>
+
+        <ul>
+          <li>Load a campaign requirements workbook and add proofs in .eml, .msg, or HTML format. Multiple versions can be reviewed in one session.</li>
+          <li>Compare subject lines, preheaders, body copy, CTA links, and tracking parameters.</li>
+          <li>Choose a link-validation mode: Base validates and follows links; COI checks whether links are present without validating the URLs themselves.</li>
+          <li>Review flagged discrepancies and use the change-log workflow to track the review.</li>
+        </ul>
+        <h2>Formats and integrations</h2>
+        <p>Excel campaign requirement workbooks (.xlsx), HTML email proofs, and email files in .eml and .msg format.</p>
+        <h2>Technologies used</h2>
+
+        <ul>
+          <li>Front end: TypeScript, SolidJS, TanStack Router, Vite, and Tailwind CSS.</li>
+          <li>Back end: Node.js and TypeScript APIs on AWS Lambda behind an Application Load Balancer.</li>
+          <li>Data and AI infrastructure: DynamoDB and an OpenAI-compatible LiteLLM gateway.</li>
+          <li>Development and delivery: Vite/Warp, a local DynamoDB mock, and GitHub Actions deployments through SiriusXM Builder/AWS.</li>
+          <li>Outlook file parsing: @kenjiuno/msgreader for .msg proofs.</li>
+        </ul>
+        <h2>Value to the team</h2>
+        <p>The application reduces manual line-by-line comparison and helps marketers identify potential errors before a campaign launches. Human reviewers retain the decision about which differences need correction.</p>
+      </div>
+      <div class="pager"><span></span><a class="pager-link next" href="siriusxm-campaign-requirements-generator.html">Campaign Requirements Generator&nbsp;<span class="arw">&rarr;</span></a></div>
     </div>
   </article>
 </main>
