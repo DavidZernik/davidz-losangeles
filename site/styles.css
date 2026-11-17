@@ -290,6 +290,9 @@ img { max-width: 100%; display: block; }
 .resume-portfolio strong { color: var(--text); }
 .resume-feature { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-sm); padding: 22px 24px; }
 .resume-feature h3 { font-size: 1.08rem; font-weight: 600; margin-bottom: 8px; }
+.resume .resume-feature h3 a { color: var(--text); text-decoration: none; }
+.resume .resume-feature h3 a::after { content: " \2197"; color: var(--primary); font-size: .8em; }
+.resume .resume-feature h3 a:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
 .resume-feature p { margin-bottom: 10px; color: #2c2924; font-size: .99rem; max-width: 46em; }
 .resume-feature p:last-child { margin-bottom: 0; }
 .resume-stack { font-size: .9rem !important; color: var(--muted) !important; }
