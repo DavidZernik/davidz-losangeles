@@ -182,8 +182,8 @@ home += f'''  <section class="hero">
           <p class="hero-sub">I'm David, a MarTech architect and email developer. I build and automate the systems, tools, and pipelines behind marketing at scale, with a specialty in Salesforce Marketing Cloud.</p>
           <p class="hero-sub">Recently that's meant a real-time KPI dashboard for send performance at Emory, automated QA tooling at SiriusXM that tests every link in an email before it ships, and a Marketing Cloud calendar app that gives the team one view of every journey and campaign.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#work">See the work {ARW}</a>
-            <a class="btn btn-primary" href="resume.html">See resume {ARW}</a>
+            <a class="btn btn-primary" href="#work">See my work {ARW}</a>
+            <a class="btn btn-primary" href="resume.html">See my resume {ARW}</a>
           </div>
         </div>
       </div>
