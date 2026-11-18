@@ -676,16 +676,16 @@
   {
     "slug": "wm-bagster-20-off-spring-cleaning-a",
     "title": "Waste Management - Hurricane Season",
-    "alt_title": "WM Bagster 20% Off Spring Cleaning",
+    "alt_title": "WM Hurricane Season Preparedness",
     "brand": "Waste Management",
     "body": [
-      "Designed and developed time-sensitive hurricane preparedness email campaign for Waste Management, educating residential customers on emergency waste disposal services and storm debris management protocols. Collaborated with marketing and operations teams to create urgent, actionable messaging that balanced promotional content with public safety information for customers in hurricane-prone regions.",
-      "Led creative strategy and UI/UX design including copy development, visual layout architecture, and mobile-responsive template build using drag-and-drop email builder. Architected information hierarchy to prioritize service awareness and preparedness guidance while incorporating promotional discount messaging, ensuring clear communication of special collection services and customer support resources during severe weather events."
+      "Wrote the copy and designed the time-sensitive hurricane preparedness email for Waste Management, educating residential customers on emergency waste disposal services and storm debris management protocols. Worked with marketing and operations to make the message urgent and actionable, balancing promotional content with public safety information for customers in hurricane-prone regions.",
+      "Owned the creative end to end: the copy, the visual layout and the information architecture, then the mobile-responsive template build using a drag-and-drop email builder. Structured the hierarchy so service awareness and preparedness guidance came first, with the promotional discount and support resources clearly placed around it for severe-weather sends."
     ],
     "images": [
       "assets/work/wm-bagster-20-off-spring-cleaning-a/0.png"
     ],
-    "desc": "WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code."
+    "desc": "WM hurricane-season email David wrote and designed: emergency pickup and storm debris guidance, with service details and an offer."
   },
   {
     "slug": "palforzia-peanut-allergy-hcp",
@@ -702,23 +702,6 @@
     "desc": "Aimmune Therapeutics healthcare-provider email introducing Palforzia oral immunotherapy for pediatric peanut allergy."
   },
   {
-    "slug": "patient-reengagement-journey-map",
-    "title": "Emory Healthcare - Patient Reengagement Campaign",
-    "alt_title": "Patient Reengagement Email Journey Map",
-    "brand": "",
-    "body": [
-      "Built with: Salesforce Marketing Cloud, SQL (Query Activities), Journey Builder, SSJS, AMPscript, custom Cloud Pages, and the SFMC REST and SOAP APIs.",
-      "I built an automated campaign to win back lapsed patients, people who had engaged with Emory before but had gone quiet. The goal was to reach them again with something relevant to their care, not just a generic blast.",
-      "The core is a data pipeline I designed in SQL: it looks at engagement history, identifies who has lapsed, and rebuilds a fresh audience on a schedule. Each patient is then routed by service line based on the care area of their last interaction, so someone who last saw orthopedics gets different messaging than someone who saw cardiology. From there they flow into a Journey Builder journey with A/B tested emails, so we could actually learn what brings people back rather than guess.",
-      "I built the whole thing with a full test harness too: every production piece (the audience, the journey, the emails) has a parallel test version, and the entire flow runs end to end in test before anything reaches a real patient. The screenshot is a data flow page I built to map every step of the pipeline and its status on one screen, so the team can see the whole system at a glance."
-    ],
-    "images": [
-      "assets/work/patient-reengagement-journey-map/0.png",
-      "assets/work/patient-reengagement-journey-map/1.png"
-    ],
-    "desc": "A multi-track lifecycle flowchart mapping the trigger logic and send cadence of a patient reengagement email campaign."
-  },
-  {
     "slug": "patient-reengagement-audience-pipeline",
     "title": "Emory Healthcare - Reengagement Audience & Routing Engine",
     "alt_title": "Patient Reengagement Data Flow & Test Harness",
@@ -726,13 +709,14 @@
     "body": [
       "Built with: Salesforce Marketing Cloud, SQL Query Activities, Journey Builder, AMPscript, Einstein Send Time Optimization, and a custom CloudPage.",
       "Emory has a large pool of opted in patients who have quietly stopped opening emails. I designed and built the engine that wins them back: a daily SQL pipeline that flags lapsed patients, resolves each one to a single health track, and feeds them into a three email Journey Builder series that stops the moment someone reopens.",
-      "Routing runs on two Salesforce signals: what topic a patient has shown interest in, and whether they had a recent appointment in that same area. I built the logic that resolves those two signals down to one of four tracks, Heart & Vascular, MSK, Women's, or General, including matching messy real world department names like CLIFTON B1 UROLOGY back to a clean topic.",
+      "Routing runs on two Salesforce signals: what topic a patient has shown interest in, and whether they had a recent appointment in that same area. I built the logic that resolves those two signals down to one of four tracks, Heart & Vascular, MSK, Women's, or General, including matching messy real world department names like a facility code followed by the department back to a clean topic.",
       "Every patient gets an A/B tested email sent at their own best time of day, and opening any email in the series exits them right away, since the open itself is the win. I also built a full parallel test track with its own seeded patients, including deliberate edge cases like a minor and a deceased patient, so the whole pipeline could be proven safe before a real patient ever received an email.",
-      "The screenshot is a CloudPage I built that documents the entire system end to end, so the team can see how a patient moves from lapsed, to routed, to sent, on one screen."
+      "The screenshot is a CloudPage I built that documents the entire system end to end, so the team can see how a patient moves from lapsed, to routed, to sent, on one screen. Click it to see it full size."
     ],
     "images": [
       "assets/work/patient-reengagement-audience-pipeline/0.png"
     ],
+    "card_image": "assets/work/patient-reengagement-audience-pipeline/cover.jpg",
     "desc": "A CloudPage mapping the SQL audience pipeline, service line routing logic, and A/B tested email journey that wins back lapsed Emory Healthcare patients."
   },
   {
@@ -870,13 +854,13 @@
     "alt_title": "WM Bagster 20% Off Spring Cleaning",
     "brand": "Waste Management",
     "body": [
-      "Designed promotional email campaign for Waste Management's Bagster product, a portable dumpster bag solution for home cleanout projects with scheduled curbside pickup. Collaborated with marketing teams to develop campaign copy, seasonal discount messaging, and visual design targeting residential DIY and spring cleaning customers.",
-      "Led creative execution including UI/UX design, color palette selection, and mobile-responsive layout development using drag-and-drop email builder. Implemented dynamic coupon code and expiration date variables for personalized offer distribution, while optimizing conversion-focused elements like prominent CTAs and clear value proposition to drive product purchases."
+      "Wrote the copy and designed the promotional email for Waste Management's Bagster product, a portable dumpster bag solution for home cleanout projects with scheduled curbside pickup. Worked with marketing on the seasonal discount message and the visual design aimed at residential DIY and spring-cleaning customers.",
+      "Owned the copy, layout, color palette and imagery, then the mobile-responsive template build using a drag-and-drop email builder. Built the dynamic coupon code and expiration date variables so each recipient got a personalised offer, and kept the layout focused on a single prominent CTA and a clear value proposition to drive purchases."
     ],
     "images": [
       "assets/work/wm-bagster-20-off-spring-cleaning-b/0.png"
     ],
-    "desc": "WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code."
+    "desc": "WM Bagster promo email David wrote and designed: spring-cleaning discount with a dynamic coupon code and expiration date per recipient."
   },
   {
     "slug": "directv-starz-free-preview",

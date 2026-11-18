@@ -1,4 +1,4 @@
-# Portfolio catalog (77 pieces on davidz-losangeles.com)
+# Portfolio catalog (79 pieces on davidz-losangeles.com)
 
 Every piece below is live on the site. When one comes up, mention it by name
 and say it is on the portfolio (for example, "the Toyota Mirai page on the
@@ -7,6 +7,9 @@ human color from the matching job in the "what each job was actually like"
 notes. If a piece has no era tag, just describe the work itself and do not
 guess where or when it was made.
 
+- Email QA Automation | brand: SiriusXM | page: /siriusxm-email-qa-automation | Compare email proofs against Excel campaign requirements and flag copy, link, and tracking discrepancies before launch.
+- Campaign Requirements Generator | brand: SiriusXM | page: /siriusxm-campaign-requirements-generator | Turn HTML email exports or Figma design frames into structured campaign documentation, with reusable modules and human review.
+- Email Migration QA | brand: SiriusXM | page: /siriusxm-email-migration-qa | Compare Adobe and Salesforce Marketing Cloud confirmation emails side by side, with local browser processing and configurable exclusions.
 - AT&T Fiber, HBO Max Upsell | brand: AT&T | page: /att-fiber-hbo-max-bundle | era: the agency years (Omnicom) | Promotional email for AT&T Fiber gigabit internet now bundled with HBO Max at $39.99/mo.
 - Aimmune Palforzia Patient Journey Email | brand: Aimmune | page: /palforzia-treatment-inspiration-video | Aimmune Therapeutics email encouraging Palforzia peanut allergy patients to keep going, with a patient family testimonial video.
 - DIRECTV and NBC partnership | brand: DirecTV | page: /directv-bluff-city-law-nbc | era: the agency years (Omnicom) | DirecTV email promoting the premiere of NBC's legal drama Bluff City Law starring Jimmy Smits and Caitlin McGee, airing Mondays.
@@ -40,9 +43,8 @@ guess where or when it was made.
 - DirecTV Win-Back Offer with $100 Reward Card | brand: DirecTV | page: /directv-winback-reward-card-bonus | era: the agency years (Omnicom) | DirecTV win-back email offering 155+ channels, a $39.99 Select package, HBO Max and a $100 Visa reward card.
 - AT&T direct marketing email | brand: DirecTV | page: /directv-premium-channels-upgrade | era: the agency years (Omnicom) | DirecTV email inviting subscribers to upgrade to premium channels like HBO, Cinemax, Showtime, and Starz.
 - AmEx Shop Small Campaign - Email 2 | brand: American Express | page: /amex-shop-small-social-accelerator | era: American Express years | American Express merchant email promoting the Shop Small Accelerator with social media strategy tips and free marketing materials.
-- Waste Management - Hurricane Season | brand: Waste Management | page: /wm-bagster-20-off-spring-cleaning-a | WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code.
+- Waste Management - Hurricane Season | brand: Waste Management | page: /wm-bagster-20-off-spring-cleaning-a | WM hurricane-season email David wrote and designed: emergency pickup and storm debris guidance, with service details and an offer.
 - Aimmune Palforzia Healthcare Provider Email | brand: Aimmune | page: /palforzia-peanut-allergy-hcp | Aimmune Therapeutics healthcare-provider email introducing Palforzia oral immunotherapy for pediatric peanut allergy.
-- Emory Healthcare - Patient Reengagement Campaign | brand: n/a | page: /patient-reengagement-journey-map | era: Emory Healthcare (current) | A multi-track lifecycle flowchart mapping the trigger logic and send cadence of a patient reengagement email campaign.
 - Emory Healthcare - Reengagement Audience & Routing Engine | brand: n/a | page: /patient-reengagement-audience-pipeline | era: Emory Healthcare (current) | A CloudPage mapping the SQL audience pipeline, service line routing logic, and A/B tested email journey that wins back lapsed Emory Healthca
 - United Health Care
 Design, Development & QA | brand: UnitedHealthcare | page: /unitedhealthcare-this-is-news-newsletter | era: his independent year | UnitedHealthcare Insurance Solutions internal newsletter celebrating Service Heroes and Medicare Supplement business wins, shown alongside i
@@ -52,7 +54,7 @@ Design, Development & QA | brand: UnitedHealthcare | page: /unitedhealthcare-thi
 - AT&T Unlimited Data & Live TV (Spanish) | brand: AT&T | page: /att-unlimited-data-live-tv-spanish | era: the agency years (Omnicom) | Spanish-language AT&T email promoting unlimited data plus 30+ live TV channels via WatchTV.
 - Blue Shield of California | brand: Blue Shield of California | page: /blue-shield-2024-medicare-coverage-booklet | era: his independent year | Blue Shield of California email offering a free Medicare booklet and enlightenment video ahead of the Annual Enrollment Period.
 - AT&T Internet HBO Max Included Activation | brand: AT&T | page: /att-internet-hbo-max-included | era: the agency years (Omnicom) | AT&T Internet 1000 email announcing HBO Max is now included, with step-by-step activation instructions for the benefit.
-- Waste Management - Bagster | brand: Waste Management | page: /wm-bagster-20-off-spring-cleaning-b | WM email offering 20% off Bagster bag collection for spring cleaning with a coupon code.
+- Waste Management - Bagster | brand: Waste Management | page: /wm-bagster-20-off-spring-cleaning-b | WM Bagster promo email David wrote and designed: spring-cleaning discount with a dynamic coupon code and expiration date per recipient.
 - Starz and DIRECTV | brand: DirecTV | page: /directv-starz-free-preview | era: the agency years (Omnicom) | DirecTV email promoting a free Starz preview weekend featuring American Gods, Now Apocalypse, and Toy Story 3.
 - Service message email | brand: AT&T | page: /att-installation-appointment-reminder | era: the agency years (Omnicom) | Transactional AT&T email confirming an upcoming service installation with prep tips and reschedule link.
 - Save Khaki website - collection page | brand: Save Khaki | page: /save-khaki-supima-cotton-collection | Save Khaki United web page promoting its Supima cotton tees as America's best cotton with a product grid.

@@ -62,7 +62,22 @@ LOGOS = [
 # hero product screenshot + featured tooling pieces
 HERO_PRODUCT = "emory-healthcare-email-calendar-tool"
 # Detail pages whose creative breaks out wide (big app screenshots only)
-WIDE_CREATIVES = {"emory-healthcare-email-calendar-tool"}
+WIDE_CREATIVES = {"emory-healthcare-email-calendar-tool",
+                  "patient-reengagement-audience-pipeline"}
+# Pages whose screenshots are captured at 2x: each is shown no wider than half
+# its pixel width, so its text sits at the size it had on screen, sharp,
+# instead of being stretched to the full wide column.
+RETINA_CREATIVES = {"patient-reengagement-audience-pipeline"}
+
+
+def png_width(src):
+    """Pixel width of a PNG from its header, or 0 when it isn't one."""
+    try:
+        with open(SITE / src, "rb") as f:
+            head = f.read(24)
+        return int.from_bytes(head[16:20], "big") if head[:8] == b"\x89PNG\r\n\x1a\n" else 0
+    except OSError:
+        return 0
 # Detail pages where the screenshots lead, before the write-up
 IMAGES_FIRST = {"zoutcomes-sfmc-ai-agent", "siriusxm-email-qa-automation", "siriusxm-campaign-requirements-generator", "siriusxm-email-migration-qa"}
 FEATURED = ["siriusxm-email-qa-automation", "siriusxm-campaign-requirements-generator", "siriusxm-email-migration-qa", "zoutcomes-sfmc-ai-agent", "emory-healthcare-email-kpi-dashboard", "patient-reengagement-audience-pipeline"]
@@ -204,7 +219,7 @@ for slug in FEATURED:
     brand = f'<span class="feat-brand">{esc(it["brand"])}</span>' if it["brand"] else ""
     desc = esc(it["desc"] or (it["body"][0] if it["body"] else ""))
     home += f'''        <a class="feat" href="{slug}.html">
-          <div class="feat-shot"><img loading="lazy" width="800" height="500" src="{thumb(it['images'][0], 800, 500)}" alt="{esc(it['title'])}" /></div>
+          <div class="feat-shot"><img loading="lazy" width="800" height="500" src="{thumb(it.get('card_image') or it['images'][0], 800, 500)}" alt="{esc(it['title'])}" /></div>
           <div class="feat-body">{brand}<h3 class="feat-title">{esc(it['title'])}</h3><p class="feat-desc">{desc}</p></div>
         </a>
 '''
@@ -256,8 +271,16 @@ home += FOOT
 for idx, it in enumerate(items):
     prev_it = items[idx - 1] if idx > 0 else None
     next_it = items[idx + 1] if idx < len(items) - 1 else None
+    # One caption for the set (image_caption), or one per image (image_captions).
+    captions = it.get("image_captions") or []
+    def caption(i):
+        text = (captions[i] if i < len(captions) else "") if captions else it.get("image_caption")
+        return f'<figcaption>{esc(text)}</figcaption>' if text else ''
+    def fig_style(src):
+        w = png_width(src) // 2 if it["slug"] in RETINA_CREATIVES else 0
+        return f' style="max-width:{w}px"' if w else ''
     imgs = "\n".join(
-        f'        <figure class="creative"><img loading="lazy" src="{src}" alt="{esc(it["title"])} {i+1}" />' + (f'<figcaption>{esc(it["image_caption"])}</figcaption>' if it.get("image_caption") else '') + '</figure>'
+        f'        <figure class="creative"{fig_style(src)}><img loading="lazy" src="{src}" alt="{esc(it["title"])} {i+1}" />' + caption(i) + '</figure>'
         for i, src in enumerate(it["images"]))
     body = it.get("body", [])
     body_html = "\n".join(

@@ -246,7 +246,7 @@
   },
   {
     "old_slug": "patient-reengagement-campaign",
-    "new_slug": "patient-reengagement-journey-map",
+    "new_slug": "patient-reengagement-audience-pipeline",
     "brand": "",
     "title": "Patient Reengagement Email Journey Map",
     "desc": "A multi-track lifecycle flowchart mapping the trigger logic and send cadence of a patient reengagement email campaign."
