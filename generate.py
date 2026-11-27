@@ -239,7 +239,7 @@ for it in items:
         continue
     tag = f'<span class="card-tag">{esc(it["brand"])}</span>' if it["brand"] else ""
     home += f'''        <a class="work-item" href="{it['slug']}.html">
-          <div class="work-thumb"><img loading="lazy" width="640" height="480" src="{thumb(it['images'][0], 640, 480)}" alt="{esc(it['title'])}" /></div>
+          <div class="work-thumb"><img loading="lazy" width="640" height="480" src="{thumb(it.get('card_image') or it['images'][0], 640, 480)}" alt="{esc(it['title'])}" /></div>
           <div class="work-meta">{tag}<h3>{esc(it['title'])}</h3></div>
         </a>
 '''
@@ -292,6 +292,13 @@ for idx, it in enumerate(items):
         body_html += "\n".join(f'        <p>{esc(p)}</p>' for p in section.get("paragraphs", []))
         if section.get("bullets"):
             body_html += '\n        <ul>\n' + "\n".join(f'          <li>{esc(p)}</li>' for p in section["bullets"]) + '\n        </ul>'
+    links = it.get("links", [])
+    if links:
+        body_html += '\n        <h2>Links</h2>\n        <ul class="detail-links">\n'
+        body_html += "\n".join(
+            f'          <li><a href="{esc(link["url"])}" target="_blank" rel="noopener">{esc(link["label"])}</a></li>'
+            for link in links)
+        body_html += '\n        </ul>'
     body_block = f'      <div class="detail-body">\n{body_html}\n      </div>\n' if body_html else ""
     meta_desc = it["desc"] if it.get("sections") else (body[0] if body else it["title"])
     meta_desc = (meta_desc[:157] + "…") if len(meta_desc) > 158 else meta_desc

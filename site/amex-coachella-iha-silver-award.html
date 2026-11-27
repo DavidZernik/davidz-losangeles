@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.classList.add('js')</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AmEx + Coachella Landing Page — IHA Silver Award · David Z.</title>
+  <meta name="description" content="Silver Award for Digital Marketing, B2C Websites at the 2026 IHA Creativity Awards for the AmEx + Coachella landing page." />
+  <meta property="og:title" content="AmEx + Coachella Landing Page — IHA Silver Award · David Z." />
+  <meta property="og:description" content="Silver Award for Digital Marketing, B2C Websites at the 2026 IHA Creativity Awards for the AmEx + Coachella landing page." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/work/amex-coachella-iha-silver-award/linkedin-rachel-levine.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">David Z.</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#work">Work</a>
+      <a href="resume.html">Resume</a>
+      <a href="index.html#brands">Brands</a>
+      <a class="nav-cta" href="mailto:david@blueinboxllc.com">Contact&nbsp;<span class="arw">&rarr;</span></a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <article class="detail">
+    <div class="wrap wrap-narrow">
+      <a class="back-link" href="index.html#work"><span class="arw">&larr;</span>&nbsp;All work</a>
+      <header class="detail-head">
+        <span class="detail-tag">American Express</span>
+        <h1 class="detail-title">AmEx + Coachella Landing Page — IHA Silver Award</h1>
+      </header>
+      <div class="detail-body">
+        <p>The AmEx + Coachella landing page won a Silver Award for Digital Marketing, B2C Websites at the 2026 IHA Creativity Awards. I was part of the team recognized for the work.</p>
+        <p>The work was part of a series of event-led member benefit experiences for American Express, built as time-bound landing pages around live events.</p>
+        <h2>The work</h2>
+        <p>The AmEx + Coachella landing page was one of a series of event-led member benefit experiences built for American Express. The pages helped members understand and access benefits around live events.</p>
+        <p>The broader body of work included landing page experiences for events such as NBA All Star Weekend, Formula 1 races, Austin City Limits, and Stagecoach Music Festival.</p>
+        <h2>Recognition</h2>
+        <p>The 2026 IHA Creativity Awards listing names the Amex® + Coachella Cardmember Experience Landing Page under Websites, B2C, within Digital Marketing. The award recognizes the landing page experience created for the campaign.</p>
+        <h2>Links</h2>
+        <ul class="detail-links">
+          <li><a href="https://www.ihaforum.org/creativity-award/2026/" target="_blank" rel="noopener">IHA Creativity Award 2026</a></li>
+          <li><a href="https://web.archive.org/web/20250731183744/https://www.americanexpress.com/en-us/benefits/membership/experiences/coachella/" target="_blank" rel="noopener">Archived AmEx Coachella landing page</a></li>
+        </ul>
+      </div>
+      <div class="creatives">
+        <figure class="creative"><img loading="lazy" src="assets/work/amex-coachella-iha-silver-award/linkedin-rachel-levine.jpg" alt="AmEx + Coachella Landing Page — IHA Silver Award 1" /><figcaption>LinkedIn post from Rachel Levine announcing the 2026 IHA Creativity Award Silver win for the AmEx + Coachella landing page.</figcaption></figure>
+      </div>
+      <div class="pager"><a class="pager-link prev" href="amex-hilton-honors-card-redesign.html"><span class="arw">&larr;</span>&nbsp;American Express Partnership Landing Page</a><a class="pager-link next" href="code-lab-lessons-reminder.html">Email for coding school&nbsp;<span class="arw">&rarr;</span></a></div>
+    </div>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <p class="footer-lead">Let's build something that <em>sends</em>.</p>
+      <div>
+        <a class="footer-mail" href="mailto:david@blueinboxllc.com">david@blueinboxllc.com&nbsp;<span class="arw">&rarr;</span></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 David Z. &middot; Los Angeles</span>
+      <span>Salesforce Marketing Cloud &middot; Email &middot; MarTech</span>
+    </div>
+  </div>
+</footer>
+<script>
+  // Grid images fade in over a placeholder once they arrive; one already in
+  // the cache is shown at once.
+  document.querySelectorAll('.work-thumb img, .feat-shot img').forEach(function (img) {
+    var done = function () { img.parentNode.classList.add('loaded'); };
+    if (img.complete && img.naturalWidth) done();
+    else { img.addEventListener('load', done); img.addEventListener('error', done); }
+  });
+  (function () {
+    var h = document.getElementById('top');
+    var onScroll = function () { h.classList.toggle('scrolled', window.scrollY > 10); };
+    onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+  })();
+  (function () {
+    var imgs = document.querySelectorAll('.creative img');
+    if (!imgs.length) return;
+    var box = document.createElement('div');
+    box.className = 'lightbox';
+    box.innerHTML = '<button class="lightbox-close" aria-label="Close image">&times;</button><img alt="" />';
+    document.body.appendChild(box);
+    var boxImg = box.querySelector('img');
+    function open(src, alt) {
+      boxImg.src = src; boxImg.alt = alt || '';
+      box.scrollTop = 0;
+      box.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function close() {
+      box.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    imgs.forEach(function (img) {
+      img.addEventListener('click', function () { open(img.src, img.alt); });
+    });
+    box.addEventListener('click', function (e) { if (e.target !== boxImg) close(); });
+    box.querySelector('.lightbox-close').addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  })();
+</script>
+</body>
+</html>

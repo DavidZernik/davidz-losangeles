@@ -473,6 +473,49 @@
     "desc": "American Express landing page announcing the redesigned Hilton Honors Card and its ongoing benefits."
   },
   {
+    "slug": "amex-coachella-iha-silver-award",
+    "title": "AmEx + Coachella Landing Page — IHA Silver Award",
+    "alt_title": "American Express Coachella Member Benefits Landing Page",
+    "brand": "American Express",
+    "body": [
+      "The AmEx + Coachella landing page won a Silver Award for Digital Marketing, B2C Websites at the 2026 IHA Creativity Awards. I was part of the team recognized for the work.",
+      "The work was part of a series of event-led member benefit experiences for American Express, built as time-bound landing pages around live events."
+    ],
+    "images": [
+      "assets/work/amex-coachella-iha-silver-award/linkedin-rachel-levine.jpg"
+    ],
+    "card_image": "assets/work/amex-coachella-iha-silver-award/card.png",
+    "desc": "Silver Award for Digital Marketing, B2C Websites at the 2026 IHA Creativity Awards for the AmEx + Coachella landing page.",
+    "sections": [
+      {
+        "heading": "The work",
+        "paragraphs": [
+          "The AmEx + Coachella landing page was one of a series of event-led member benefit experiences built for American Express. The pages helped members understand and access benefits around live events.",
+          "The broader body of work included landing page experiences for events such as NBA All Star Weekend, Formula 1 races, Austin City Limits, and Stagecoach Music Festival."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Recognition",
+        "paragraphs": [
+          "The 2026 IHA Creativity Awards listing names the Amex® + Coachella Cardmember Experience Landing Page under Websites, B2C, within Digital Marketing. The award recognizes the landing page experience created for the campaign."
+        ],
+        "bullets": []
+      }
+    ],
+    "links": [
+      {
+        "label": "IHA Creativity Award 2026",
+        "url": "https://www.ihaforum.org/creativity-award/2026/"
+      },
+      {
+        "label": "Archived AmEx Coachella landing page",
+        "url": "https://web.archive.org/web/20250731183744/https://www.americanexpress.com/en-us/benefits/membership/experiences/coachella/"
+      }
+    ],
+    "image_caption": "LinkedIn post from Rachel Levine announcing the 2026 IHA Creativity Award Silver win for the AmEx + Coachella landing page."
+  },
+  {
     "slug": "code-lab-lessons-reminder",
     "title": "Email for coding school",
     "alt_title": "Code Lab Coding Lessons Reminder",

@@ -1,4 +1,4 @@
-# Portfolio catalog (79 pieces on davidz-losangeles.com)
+# Portfolio catalog (80 pieces on davidz-losangeles.com)
 
 Every piece below is live on the site. When one comes up, mention it by name
 and say it is on the portfolio (for example, "the Toyota Mirai page on the
@@ -29,6 +29,7 @@ guess where or when it was made.
 - PNC Bank Employee Refinancing Email | brand: PNC | page: /pnc-first-time-homebuyer-guide | PNC Bank email promoting a downloadable First-Time Homebuyer's Guide plus an employee mortgage rate discount.
 - DirecTV UFC 232 Jones vs Gustafsson Pay-Per-View | brand: DirecTV | page: /directv-ufc-232-jones-gustafsson-ppv | era: the agency years (Omnicom) | DirecTV pay-per-view order email for UFC 232 (Jones vs. Gustafsson 2, Cyborg vs. Nunes) plus new movie releases.
 - American Express Partnership Landing Page | brand: American Express | page: /amex-hilton-honors-card-redesign | era: American Express years | American Express landing page announcing the redesigned Hilton Honors Card and its ongoing benefits.
+- AmEx + Coachella Landing Page — IHA Silver Award | brand: American Express | page: /amex-coachella-iha-silver-award | era: American Express years | Silver Award for Digital Marketing, B2C Websites at the 2026 IHA Creativity Awards for the AmEx + Coachella landing page.
 - Email for coding school | brand: Code Lab | page: /code-lab-lessons-reminder | Code Lab email reminding a student of upcoming coding lessons to complete before earning certification.
 - Petite-n-Pretty | brand: Petite 'n Pretty | page: /petite-n-pretty-gen-glitter-beauty | Petite 'n Pretty kids' cosmetics page featuring Gen Glitter, 10K Shine Lip Gloss and 9021-GLOW! palette.
 - Email up-selling features | brand: Glo | page: /glo-yoga-app-features-devices | era: YogaGlo, his first job | YogaGlo email showcasing app features like offline classes, personalized recommendations, and Apple Watch support.

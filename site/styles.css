@@ -235,6 +235,11 @@ img { max-width: 100%; display: block; }
 .detail-body p.built-with { font-style: italic; }
 .detail-body p a { color: var(--primary); font-weight: 600; }
 .detail-body p a:hover { text-decoration: underline; }
+.detail-body ul.detail-links { list-style: none; padding-left: 0; }
+.detail-body ul.detail-links li { margin-bottom: 10px; }
+.detail-body ul.detail-links a::after { content: " \2197"; font-size: .8em; }
+.detail-body li a { color: var(--primary); font-weight: 600; }
+.detail-body li a:hover { text-decoration: underline; }
 /* Default: creatives render at true email width, centered, not column-width. */
 .creatives { display: flex; flex-direction: column; gap: 24px; align-items: center; max-width: 600px; margin-inline: auto; }
 .creative { width: 100%; }
