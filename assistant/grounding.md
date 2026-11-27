@@ -52,9 +52,9 @@ performance reporting.
   Express Credit Intel Business Unit: home equity, auto loan, and debt
   consolidation calculators. Owned front-end implementation, calculation
   behavior, QA, accessibility, and production readiness.
-- Part of the team that won a Silver Award for Digital Marketing, B2C Websites
-  at the 2026 IHA Creativity Awards for the AmEx + Coachella Cardmember
-  Experience Landing Page.
+- Developer on the AmEx + Coachella Cardmember Experience Landing Page, which
+  won a Silver Award for Digital Marketing, B2C Websites at the 2026 IHA
+  Creativity Awards.
 
 ### SFMC Admin and Campaign Manager, T-Mobile (contract), Feb 2022 to Dec 2022, LA
 - Managed SFMC campaign operations for T-Mobile's HINT campaign: Journey Builder
